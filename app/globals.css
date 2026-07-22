@@ -1,20 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #09090b;
+  --background: #000000;
   --foreground: #fafafa;
-  --zinc-950: #09090b;
-  --zinc-900: #18181b;
-  --zinc-800: #27272a;
-  --zinc-700: #3f3f46;
-  --zinc-600: #52525b;
-  --zinc-500: #71717a;
-  --zinc-400: #a1a1aa;
-  --zinc-300: #d4d4d8;
+  --zinc-950: #000000;
+  --zinc-900: #09090b;
+  --zinc-800: #18181b;
+  --zinc-700: #27272a;
+  --zinc-600: #3f3f46;
+  --zinc-500: #52525b;
+  --zinc-400: #71717a;
+  --zinc-300: #a1a1aa;
   --orange-500: #f97316;
   --orange-600: #ea580c;
-  --amber-500: #f59e0b;
-  --amber-400: #fbbf24;
+  --orange-400: #fb923c;
 }
 
 @theme inline {
@@ -32,17 +31,16 @@ body {
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--zinc-950);
+  background: #000000;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--zinc-700);
-  border-radius: 3px;
+  background: #27272a;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--zinc-600);
+  background: #3f3f46;
 }
 
 /* Animations */
@@ -68,17 +66,20 @@ body {
   }
 }
 
-@keyframes pulseGlow {
+@keyframes fusePulse {
   0%, 100% {
-    box-shadow: 0 0 20px rgba(249, 115, 22, 0.1);
+    opacity: 0.6;
+    filter: drop-shadow(0 0 6px rgba(249, 115, 22, 0.4));
   }
   50% {
-    box-shadow: 0 0 40px rgba(249, 115, 22, 0.2);
+    opacity: 1;
+    filter: drop-shadow(0 0 14px rgba(249, 115, 22, 0.8));
   }
 }
 
-@keyframes progressPulse {
-  0% { width: 0%; }
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
 }
 
 .animate-fade-in-up {
@@ -89,6 +90,11 @@ body {
   animation: slideUp 0.5s ease-out forwards;
 }
 
-.animate-pulse-glow {
-  animation: pulseGlow 3s ease-in-out infinite;
+.animate-fuse-pulse {
+  animation: fusePulse 2.5s ease-in-out infinite;
+}
+
+/* Tactical selection flash */
+.selection-flash {
+  transition: none !important;
 }
