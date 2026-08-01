@@ -14,6 +14,9 @@
   --orange-500: #f97316;
   --orange-600: #ea580c;
   --orange-400: #fb923c;
+  --font-display: "Segoe UI", "Arial", sans-serif;
+  --font-body: "Inter", "Segoe UI", "Arial", sans-serif;
+  --font-geist-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 @theme inline {

@@ -20,11 +20,11 @@ CREATE INDEX IF NOT EXISTS idx_questions_module_name ON public.questions (module
 -- Enable Row-Level Security but allow public read access for authenticated users
 ALTER TABLE public.questions ENABLE ROW LEVEL SECURITY;
 
--- Allow anyone (including anonymous) to read questions
-CREATE POLICY "Questions are publicly readable"
+-- Allow only authenticated users to read questions
+CREATE POLICY "Questions are visible to authenticated users"
     ON public.questions
     FOR SELECT
-    USING (true);
+    USING (auth.role() = 'authenticated');
 
 -- Only the service role (admin) can insert/update/delete
 -- (supabase-js with service_role_key bypasses RLS entirely)
