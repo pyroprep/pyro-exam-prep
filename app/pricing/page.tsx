@@ -76,20 +76,20 @@ export default function PricingPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-black px-4">
+    <main className="flex min-h-screen items-center justify-center bg-black px-4">
       <div className="w-full max-w-4xl">
         {/* Header */}
         <div className="mb-10 text-center">
           <Link href="/dashboard" className="inline-flex items-center gap-2 mb-4">
             <span className="w-3 h-3 rounded-full bg-orange-500" />
             <span className="text-xl font-bold text-zinc-100 tracking-tight">
-              PyroPrep
+              Pyro Prep Academy
             </span>
           </Link>
           <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 tracking-tight mt-4">
             Unlock Premium Tracks
           </h1>
-          <p className="text-zinc-500 mt-2 text-sm font-mono uppercase tracking-wider">
+          <p className="text-zinc-400 mt-2 text-sm font-mono uppercase tracking-wider">
             Choose the plan that fits your exam prep needs.
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function PricingPage() {
               }`}
             >
               {plan.highlighted && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-orange-600 text-[10px] font-mono uppercase tracking-wider text-white">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-orange-700 text-[10px] font-mono uppercase tracking-wider text-white">
                   Recommended
                 </span>
               )}
@@ -120,12 +120,12 @@ export default function PricingPage() {
                     {plan.price}
                   </span>
                   {plan.period && (
-                    <span className="text-xs text-zinc-500 font-mono uppercase tracking-wider">
+                    <span className="text-xs text-zinc-400 font-mono uppercase tracking-wider">
                       / {plan.period}
                     </span>
                   )}
                 </div>
-                <p className="mt-2 text-xs text-zinc-500 leading-relaxed">
+                <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
                   {plan.description}
                 </p>
               </div>
@@ -141,6 +141,8 @@ export default function PricingPage() {
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
+                      aria-hidden="true"
+                      focusable="false"
                     >
                       <path
                         strokeLinecap="round"
@@ -198,12 +200,12 @@ export default function PricingPage() {
         <p className="mt-10 text-center">
           <Link
             href="/dashboard"
-            className="text-xs text-zinc-600 hover:text-zinc-400 font-mono uppercase tracking-wider transition-colors"
+            className="text-xs text-zinc-400 hover:text-zinc-200 underline underline-offset-2 font-mono uppercase tracking-wider transition-colors"
           >
             ← Back to Dashboard
           </Link>
         </p>
       </div>
-    </div>
+    </main>
   );
 }

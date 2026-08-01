@@ -1,0 +1,502 @@
+[
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main reason to inspect the site after the last firing?",
+    "option_a": "To confirm the area is safe before release or cleanup completion",
+    "option_b": "To choose the next soundtrack",
+    "option_c": "To change the permit type",
+    "option_d": "To reduce the shell count",
+    "correct_answer": "A",
+    "explanation": "Final inspection confirms site safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if a live item is found during a cleanup sweep?",
+    "option_a": "Pause cleanup and follow the safe handling process",
+    "option_b": "Leave it for the crowd",
+    "option_c": "Throw it into the nearest fire pit",
+    "option_d": "Move it to the parking lot",
+    "correct_answer": "A",
+    "explanation": "Live items require controlled handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a second sweep often recommended after a display?",
+    "option_a": "Because a second pass can catch overlooked residue or devices",
+    "option_b": "Because the crew always wants more work",
+    "option_c": "Because the permit will expire",
+    "option_d": "Because the crowd will return",
+    "correct_answer": "A",
+    "explanation": "Repeated sweeps improve thoroughness."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a post-display log entry?",
+    "option_a": "To record the outcome and any notable hazards or actions",
+    "option_b": "To cancel the permit",
+    "option_c": "To replace the weather report",
+    "option_d": "To change the shell size",
+    "correct_answer": "A",
+    "explanation": "Logs capture operational facts."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is crew communication important during emergency response and cleanup?",
+    "option_a": "Because coordinated actions reduce mistakes and improve safety",
+    "option_b": "Because it avoids the need for PPE",
+    "option_c": "Because it shortens the site map",
+    "option_d": "Because it changes the laws",
+    "correct_answer": "A",
+    "explanation": "Communication supports safe coordination."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Which type of firework storage structure is typically intended for secure long-term storage?",
+    "option_a": "A magazine",
+    "option_b": "A vehicle trailer",
+    "option_c": "A spectator fence",
+    "option_d": "A portable cooler",
+    "correct_answer": "A",
+    "explanation": "Magazines are intended for secure storage of fireworks."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a magazine inventory log?",
+    "option_a": "To document what is stored and what has been removed",
+    "option_b": "To change the shell color",
+    "option_c": "To replace the permit",
+    "option_d": "To increase the crew size",
+    "correct_answer": "A",
+    "explanation": "Inventory logs support accountability."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is vehicle placard information important during transport?",
+    "option_a": "It alerts responders to the regulated cargo",
+    "option_b": "It makes the route shorter",
+    "option_c": "It improves weather conditions",
+    "option_d": "It increases the shell count",
+    "correct_answer": "A",
+    "explanation": "Placards communicate hazard information."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a shipping paper in fireworks transport?",
+    "option_a": "To document the cargo and handling requirements",
+    "option_b": "To replace the operator license",
+    "option_c": "To shorten the display",
+    "option_d": "To avoid the AHJ review",
+    "correct_answer": "A",
+    "explanation": "Shipping papers support documentation and control."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main reason minimum distances are set around a display?",
+    "option_a": "To reduce the chance of injury from fallout or debris",
+    "option_b": "To make the show last longer",
+    "option_c": "To improve shell color",
+    "option_d": "To reduce the number of required logs",
+    "correct_answer": "A",
+    "explanation": "Distances are a critical safety control."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should a display plan include a fallout zone assessment?",
+    "option_a": "To identify areas that must remain clear of people",
+    "option_b": "To reduce the need for a site map",
+    "option_c": "To allow spectators closer",
+    "option_d": "To increase the shell load",
+    "correct_answer": "A",
+    "explanation": "Fallout zones help define hazard areas."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is a basic function of a local operational permit?",
+    "option_a": "To authorize the display under local conditions",
+    "option_b": "To replace all state records",
+    "option_c": "To remove the need for training",
+    "option_d": "To increase the number of shells",
+    "correct_answer": "A",
+    "explanation": "Permits authorize operations under local requirements."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should the crew keep the site map and permit documents together?",
+    "option_a": "So the approved layout and approvals are easy to reference",
+    "option_b": "So the show is louder",
+    "option_c": "So the shell size can change",
+    "option_d": "So the crowd can enter freely",
+    "correct_answer": "A",
+    "explanation": "Good organization supports compliance."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a display report after the event?",
+    "option_a": "To record operational details and observations",
+    "option_b": "To change the shell composition",
+    "option_c": "To reduce the need for cleanup",
+    "option_d": "To replace the inventory log",
+    "correct_answer": "A",
+    "explanation": "Reports document the event."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a fire watch?",
+    "option_a": "To watch for fire or hazardous conditions during operations",
+    "option_b": "To launch the shells",
+    "option_c": "To approve the site map",
+    "option_d": "To transport the product",
+    "correct_answer": "A",
+    "explanation": "Fire watch is a monitoring role."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why do some fireworks compositions use a binder?",
+    "option_a": "To help the composition hold its form and handle better",
+    "option_b": "To increase shell size only",
+    "option_c": "To eliminate the burst charge",
+    "option_d": "To prevent all ignition",
+    "correct_answer": "A",
+    "explanation": "Binders improve structure and handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is a common role of a delay fuse in a shell?",
+    "option_a": "To time the effect after lift-off",
+    "option_b": "To replace the burst charge",
+    "option_c": "To reduce the need for a safety line",
+    "option_d": "To make the shell heavier",
+    "correct_answer": "A",
+    "explanation": "Delay fuses time the event."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a lift charge important?",
+    "option_a": "It gives the shell its initial upward motion",
+    "option_b": "It changes the color of the burst",
+    "option_c": "It reduces the need for a fuse",
+    "option_d": "It replaces the shell casing",
+    "correct_answer": "A",
+    "explanation": "Lift charge provides thrust."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What does a burst charge do in an aerial shell?",
+    "option_a": "It opens the shell at the intended point in flight",
+    "option_b": "It makes the shell lighter",
+    "option_c": "It removes the fuse",
+    "option_d": "It changes the permit status",
+    "correct_answer": "A",
+    "explanation": "Burst charge causes the shell to open."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main difference between a star and a salute?",
+    "option_a": "Stars create visible effects while salutes create report effects",
+    "option_b": "Stars are always metal-free",
+    "option_c": "Salutes are only for handheld devices",
+    "option_d": "Stars never use an oxidizer",
+    "correct_answer": "A",
+    "explanation": "Stars and salutes have different performance goals."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main role of an oxidizer in a pyrotechnic reaction?",
+    "option_a": "To supply oxygen for combustion",
+    "option_b": "To cool the product",
+    "option_c": "To replace the fuel",
+    "option_d": "To lower the shell height",
+    "correct_answer": "A",
+    "explanation": "Oxidizers support combustion."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a prime layer used in some devices?",
+    "option_a": "To help the composition ignite more reliably",
+    "option_b": "To replace the burst charge",
+    "option_c": "To reduce the need for a delay fuse",
+    "option_d": "To make the shell louder",
+    "correct_answer": "A",
+    "explanation": "Prime improves ignition."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is moisture a concern in pyrotechnic compositions?",
+    "option_a": "It can reduce reliability and increase hazard",
+    "option_b": "It always improves color",
+    "option_c": "It always speeds burn rate",
+    "option_d": "It prevents all reactions",
+    "correct_answer": "A",
+    "explanation": "Moisture harms stability."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of continuity testing in an electronic firing system?",
+    "option_a": "To verify the circuit path before the show",
+    "option_b": "To reduce the number of shells",
+    "option_c": "To choose the shell sizes",
+    "option_d": "To change the module name",
+    "correct_answer": "A",
+    "explanation": "Continuity verifies the firing path."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main hazard of poor continuity in an electronic firing circuit?",
+    "option_a": "The device may fail to fire or fire inconsistently",
+    "option_b": "The shell will be brighter",
+    "option_c": "The permit will be easier to renew",
+    "option_d": "The display will be shorter",
+    "correct_answer": "A",
+    "explanation": "Poor continuity can cause firing failures."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a firing system checklist useful?",
+    "option_a": "It helps prevent omissions and missed steps",
+    "option_b": "It eliminates the need for a fire watch",
+    "option_c": "It makes the show louder",
+    "option_d": "It changes the shell color",
+    "correct_answer": "A",
+    "explanation": "Checklists reduce mistakes."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a firing leader during hand-firing?",
+    "option_a": "To coordinate and control the operation",
+    "option_b": "To replace the permits",
+    "option_c": "To increase the shell count",
+    "option_d": "To adjust the weather",
+    "correct_answer": "A",
+    "explanation": "A leader coordinates safe operations."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is crew spacing important during hand-firing?",
+    "option_a": "It reduces the chance of accidental ignition or injury",
+    "option_b": "It improves the shell color",
+    "option_c": "It makes the crowd larger",
+    "option_d": "It reduces the need for PPE",
+    "correct_answer": "A",
+    "explanation": "Spacing improves safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a safety cap on a mortar tube during transport?",
+    "option_a": "To protect the opening and avoid accidental contact",
+    "option_b": "To increase the shell size",
+    "option_c": "To improve the burst pattern",
+    "option_d": "To reduce the need for logs",
+    "correct_answer": "A",
+    "explanation": "Safety caps protect the opening."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should a mortar tube be inspected after being moved between displays?",
+    "option_a": "Because handling can cause damage or misalignment",
+    "option_b": "Because the shell color changes",
+    "option_c": "Because the permit is always expired",
+    "option_d": "Because the operator needs a break",
+    "correct_answer": "A",
+    "explanation": "Reused equipment must be rechecked."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is a common hazard of a mortar tube with an uneven base?",
+    "option_a": "The tube may shift or misalign under firing stress",
+    "option_b": "The shell will always fire perfectly",
+    "option_c": "The shell will become lighter",
+    "option_d": "The permit will auto-renew",
+    "correct_answer": "A",
+    "explanation": "Base alignment affects stability."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a pre-event trajectory check useful?",
+    "option_a": "It helps confirm the intended flight path is clear",
+    "option_b": "It changes the shell composition",
+    "option_c": "It eliminates the need for a fire watch",
+    "option_d": "It increases the number of spectators",
+    "correct_answer": "A",
+    "explanation": "Trajectory checks support safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a post-display sweep?",
+    "option_a": "To identify and recover any remaining hazardous items",
+    "option_b": "To make the show louder",
+    "option_c": "To increase the crew size",
+    "option_d": "To shorten the site map",
+    "correct_answer": "A",
+    "explanation": "Sweeps support hazard removal."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is it important to separate hazardous debris from ordinary trash after a display?",
+    "option_a": "To reduce the chance of accidental exposure or ignition",
+    "option_b": "To speed up the crowd exit",
+    "option_c": "To improve the lighting",
+    "option_d": "To shorten the permit review",
+    "correct_answer": "A",
+    "explanation": "Separation reduces risk."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if a live item is found during cleanup?",
+    "option_a": "Pause cleanup and follow the safe handling procedure",
+    "option_b": "Throw it into a regular trash bin",
+    "option_c": "Leave it for the crowd",
+    "option_d": "Move it to the nearest road",
+    "correct_answer": "A",
+    "explanation": "Live items need controlled handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is crew communication important during cleanup?",
+    "option_a": "It helps everyone respond safely and consistently",
+    "option_b": "It makes the crowd leave faster",
+    "option_c": "It allows the show to start earlier",
+    "option_d": "It replaces the need for documentation",
+    "correct_answer": "A",
+    "explanation": "Communication supports safe coordination."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main reason to stop a display in gusting wind?",
+    "option_a": "Wind changes can make the flight path unpredictable",
+    "option_b": "It makes the shells brighter",
+    "option_c": "It shortens the setup time",
+    "option_d": "It increases the shell count",
+    "correct_answer": "A",
+    "explanation": "Wind is a significant safety factor."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a fire extinguisher near the firing line?",
+    "option_a": "To allow rapid response to small fires",
+    "option_b": "To launch the fireworks",
+    "option_c": "To replace the fire watch",
+    "option_d": "To accelerate the transport route",
+    "correct_answer": "A",
+    "explanation": "Extinguishers support emergency response."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if a hazardous residue is found after cleanup?",
+    "option_a": "Report it to the responsible supervisor or authority",
+    "option_b": "Ignore it if it is small",
+    "option_c": "Throw it into a regular trash bin",
+    "option_d": "Give it to spectators",
+    "correct_answer": "A",
+    "explanation": "Hazard findings should be reported."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is it important to keep the approved display area documented?",
+    "option_a": "So all operations remain within the authorized footprint",
+    "option_b": "So the show becomes louder",
+    "option_c": "So the shell count increases",
+    "option_d": "So the permit can be skipped",
+    "correct_answer": "A",
+    "explanation": "Documentation helps maintain control."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a local operational permit important even if a state license exists?",
+    "option_a": "Because local authorities can impose separate site conditions",
+    "option_b": "Because the state license covers all storage",
+    "option_c": "Because transport placards become unnecessary",
+    "option_d": "Because inventory logs are no longer needed",
+    "correct_answer": "A",
+    "explanation": "Local requirements can be independent of state licensing."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a display site inspection conducted before loading?",
+    "option_a": "To identify hazards before the public or crew are exposed",
+    "option_b": "To increase the shell count",
+    "option_c": "To shorten the event",
+    "option_d": "To make the permit irrelevant",
+    "correct_answer": "A",
+    "explanation": "Pre-loading inspection helps find site hazards early."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a site map in display planning?",
+    "option_a": "To show safe boundaries, firing positions, and access routes",
+    "option_b": "To replace the permit",
+    "option_c": "To increase weather risk",
+    "option_d": "To lower the shell count",
+    "correct_answer": "A",
+    "explanation": "A site map supports planning and control."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should a crew do if a display area is found to be too crowded for safe operations?",
+    "option_a": "Reconfigure the layout or postpone the event",
+    "option_b": "Proceed if the show is short",
+    "option_c": "Move the crowd closer",
+    "option_d": "Increase the shell count",
+    "correct_answer": "A",
+    "explanation": "Crowded layouts require adjustment or postponement."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a safety review important before public arrival?",
+    "option_a": "It helps ensure the site is ready and the hazards are controlled",
+    "option_b": "It guarantees a perfect show",
+    "option_c": "It removes the need for logs",
+    "option_d": "It changes the weather",
+    "correct_answer": "A",
+    "explanation": "A review helps catch issues before exposure."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of keeping a controlled perimeter after firing?",
+    "option_a": "To keep people away until the site is declared safe",
+    "option_b": "To allow spectators to retrieve debris",
+    "option_c": "To make the show louder",
+    "option_d": "To reduce the permit paperwork",
+    "correct_answer": "A",
+    "explanation": "Controlled access supports safety."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which of the following is most closely associated with a fireworks storage compliance record?",
+    "option_a": "An inventory log",
+    "option_b": "A weather forecast",
+    "option_c": "A traffic ticket",
+    "option_d": "A catering receipt",
+    "correct_answer": "A",
+    "explanation": "Inventory logs are a common compliance record for fireworks storage."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which substance is commonly used as an oxidizer in pyrotechnic compositions?",
+    "option_a": "Potassium nitrate",
+    "option_b": "Sugar",
+    "option_c": "Water",
+    "option_d": "Sand",
+    "correct_answer": "A",
+    "explanation": "Potassium nitrate is a common oxidizer used in fireworks compositions."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is it important to inspect mortar tubes before each use?",
+    "option_a": "To identify damage or obstructions that could affect safe operation",
+    "option_b": "To change the shell color",
+    "option_c": "To reduce the permit fee",
+    "option_d": "To increase the number of spectators",
+    "correct_answer": "A",
+    "explanation": "Inspection helps ensure the mortar tube is safe and suitable for use."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the primary reason to keep a fire watch during setup and cleanup?",
+    "option_a": "To observe for fire hazards before and after the display",
+    "option_b": "To select the shell colors",
+    "option_c": "To shorten the permit application",
+    "option_d": "To replace the inspection log",
+    "correct_answer": "A",
+    "explanation": "A fire watch monitors for fire hazards during periods of elevated risk."
+  }
+]

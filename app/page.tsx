@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pyro Operator Prep — California Pyrotechnic License Study Guide",
+  title: "Pyro Prep Academy — California Pyrotechnic License Study Guide",
   description:
     "Practice questions, detailed explanations, and study tools built directly from CA Title 19 regulations.",
 };
@@ -68,7 +68,7 @@ const PRICING = [
       "2 mock final exams",
       "Email support",
     ],
-    cta: "Start self-study",
+    cta: "Enroll self-study",
     highlighted: false,
   },
   {
@@ -83,7 +83,7 @@ const PRICING = [
       "1:1 readiness review",
       "Lifetime course updates",
     ],
-    cta: "Join Live Class",
+    cta: "Enroll live class",
     highlighted: true,
   },
   {
@@ -98,7 +98,7 @@ const PRICING = [
       "Dedicated account manager",
       "On-site option available",
     ],
-    cta: "Contact sales",
+    cta: "Enroll team",
     highlighted: false,
   },
 ];
@@ -114,6 +114,7 @@ function CheckIcon({ className = "h-4 w-4" }: { className?: string }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
+      focusable="false"
     >
       <path d="M4 10.5l3.5 3.5L16 6" />
     </svg>
@@ -131,6 +132,7 @@ function ArrowRightIcon({ className = "h-4 w-4" }: { className?: string }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
+      focusable="false"
     >
       <path d="M5 12h14M13 6l6 6-6 6" />
     </svg>
@@ -148,6 +150,7 @@ function DownloadIcon({ className = "h-5 w-5" }: { className?: string }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
+      focusable="false"
     >
       <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
       <path d="M7 10l5 5 5-5" />
@@ -167,6 +170,7 @@ function MediaLayoutIcon({ className = "h-5 w-5" }: { className?: string }) {
       strokeLinecap="round"
       strokeLinejoin="round"
       aria-hidden="true"
+      focusable="false"
     >
       <rect x="3" y="3" width="18" height="14" rx="2" />
       <path d="M3 10h18" />
@@ -178,7 +182,7 @@ function MediaLayoutIcon({ className = "h-5 w-5" }: { className?: string }) {
 
 function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-md border-b border-zinc-900">
+    <header className="sticky top-0 z-50 bg-black/85 backdrop-blur-md border-b border-zinc-800 shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between gap-4">
           <div className="flex items-center gap-3 min-w-0">
@@ -187,7 +191,7 @@ function Header() {
                 P
               </span>
               <span className="truncate text-sm sm:text-base font-semibold text-white tracking-tight">
-                Pyro Operator Prep
+                Pyro Prep Academy
               </span>
             </a>
             <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
@@ -197,21 +201,21 @@ function Header() {
           </div>
           <div className="flex items-center gap-6">
             <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-400">
-              <a href="#syllabus" className="hover:text-white transition-colors uppercase tracking-wider font-semibold">
+              <a href="#syllabus" className="hover:text-white transition-colors font-semibold">
                 Syllabus
               </a>
-              <a href="#features" className="hover:text-white transition-colors uppercase tracking-wider font-semibold">
+              <a href="#features" className="hover:text-white transition-colors font-semibold">
                 Features
               </a>
-              <a href="#pricing" className="hover:text-white transition-colors uppercase tracking-wider font-semibold">
+              <a href="#pricing" className="hover:text-white transition-colors font-semibold">
                 Pricing
               </a>
             </nav>
             <a
               href="#pricing"
-              className="inline-flex items-center gap-1.5 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white text-xs sm:text-sm font-semibold uppercase tracking-wider px-3.5 sm:px-4 py-2 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
+              className="inline-flex items-center gap-1.5 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white text-xs sm:text-sm font-semibold tracking-wide px-3.5 sm:px-4 py-2 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
             >
-              Enroll
+              Enroll now
               <ArrowRightIcon className="h-3.5 w-3.5" />
             </a>
           </div>
@@ -229,7 +233,7 @@ function Hero() {
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(234,88,12,0.10),transparent_55%)]"
       />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-24 sm:pt-20 sm:pb-32 lg:pt-24 lg:pb-40">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-24 sm:pt-20 sm:pb-28 lg:pt-24 lg:pb-32">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
           <div className="lg:col-span-7">
             <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
@@ -237,11 +241,15 @@ function Hero() {
               Next live class opens March 14
             </span>
 
-            <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white">
-              Earn your <span className="text-amber-400">CA</span> Pyrotechnic Operator license.
+            <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white uppercase">
+              Earn your{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
+                CA Pyrotechnic
+              </span>{" "}
+              Operator license.
             </h1>
 
-            <p className="mt-6 max-w-2xl text-base sm:text-lg text-zinc-400 leading-relaxed">
+            <p className="body-strong mt-6 max-w-xl text-base sm:text-lg leading-relaxed">
               Practice questions, detailed explanations, and study tools built directly
               from CA Title 19 regulations. Live classes are taught by a licensed
               California operator with 15 years on display crews.
@@ -252,18 +260,18 @@ function Hero() {
                 href="#pricing"
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all shadow-[0_0_24px_rgba(234,88,12,0.30)]"
               >
-                Join Live Class
+                Enroll now
                 <ArrowRightIcon className="h-4 w-4" />
               </a>
               <a
                 href="#syllabus"
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-800 bg-zinc-900/40 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all"
               >
-                View the syllabus
+                See syllabus
               </a>
             </div>
 
-            <dl className="mt-12 pb-16 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 border-t border-zinc-900 pt-8">
+            <dl className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 border-t border-zinc-900 pt-8">
               {METRICS.map((m, i) => (
                 <div
                   key={m.label}
@@ -283,7 +291,7 @@ function Hero() {
           </div>
 
           <div className="lg:col-span-5">
-            <div className="relative rounded-2xl border border-zinc-800 bg-zinc-900/40 p-6 sm:p-8">
+            <div className="surface-card relative rounded-2xl p-6 sm:p-8">
               <div className="flex items-center justify-between border-b border-zinc-800 pb-5 gap-3 flex-wrap">
                 <div className="flex items-center gap-2">
                   <span className="h-2 w-2 rounded-full bg-red-500" />
@@ -314,7 +322,7 @@ function Hero() {
                 <div className="grid grid-cols-3 gap-3 pt-2">
                   {[
                     { k: "Issued", v: "OSFM" },
-                    { k: "Term", v: "3 yr" },
+                    { k: "Term", v: "Annual" },
                     { k: "Exam", v: "Pearson VUE" },
                   ].map((row) => (
                     <div
@@ -333,10 +341,10 @@ function Hero() {
 
                 <div className="space-y-2.5 pt-2">
                   {[
-                    "Live Class (8 weeks)",
+                    "Self-Paced Course",
                     "Module workbooks",
                     "500+ practice questions",
-                    "Mock final exam",
+                    "Live Class (Coming Soon!)",
                   ].map((line, idx) => (
                     <div key={line} className="flex items-center gap-3 text-sm">
                       <span className="font-mono text-[10px] text-zinc-600 w-5">
@@ -379,12 +387,12 @@ function Hero() {
 function Syllabus() {
   return (
     <section id="syllabus" className="bg-black">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
             The curriculum
           </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-wider text-white tracking-tight">
+          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Four modules. One license.{" "}
             <span className="text-zinc-400">Built around CA Title 19.</span>
           </h2>
@@ -398,14 +406,14 @@ function Syllabus() {
           {TRACKS.map((track) => (
             <article
               key={track.number}
-              className="group relative rounded-xl border border-zinc-800 bg-zinc-900/40 p-7 sm:p-8 hover:border-amber-400/30 transition-colors"
+              className="surface-card group relative rounded-xl p-7 sm:p-8 hover:border-amber-400/30 transition-colors"
             >
               <div className="flex items-start gap-5">
                 <span className="shrink-0 text-5xl sm:text-6xl font-extrabold leading-none text-amber-400/30 group-hover:text-amber-400/60 transition-colors tabular-nums">
                   {track.number}
                 </span>
                 <div className="min-w-0 flex-1">
-                  <h3 className="text-xl sm:text-2xl font-bold uppercase tracking-wider text-white tracking-tight">
+                  <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
                     {track.title}
                   </h3>
                   <ul className="mt-5 space-y-2.5">
@@ -434,12 +442,12 @@ function Syllabus() {
 function Bento() {
   return (
     <section id="features" className="bg-zinc-950/50 border-y border-zinc-900">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
             What's in the course
           </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-wider text-white tracking-tight">
+          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Study materials for the whole exam.
           </h2>
           <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
@@ -451,15 +459,15 @@ function Bento() {
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
           {/* Large 2/3 card — 500+ Question Practice Bank */}
           <div className="md:col-span-2 md:row-span-2 p-[1px] bg-gradient-to-br from-red-600 via-orange-500 to-transparent rounded-xl">
-            <article className="relative overflow-hidden rounded-xl bg-zinc-900/40 p-8 sm:p-10 flex flex-col justify-between min-h-[320px] h-full">
+            <article className="surface-card relative overflow-hidden rounded-xl p-8 sm:p-10 flex flex-col justify-between min-h-[320px] h-full">
               <div>
                 <div className="relative">
                   <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
                     <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
                     Practice bank
                   </span>
-                  <h3 className="mt-5 text-2xl sm:text-3xl lg:text-4xl font-extrabold uppercase tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
-                    500+ QUESTION PRACTICE BANK
+                  <h3 className="mt-5 text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
+                    500+ question practice bank
                   </h3>
                   <ul className="mt-4 space-y-3">
                     <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-300">
@@ -501,7 +509,7 @@ function Bento() {
           </div>
 
           {/* Top right card — Module Workbooks (PDF) */}
-          <article className="relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/40 p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
+          <article className="surface-card relative overflow-hidden rounded-xl p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -bottom-16 -right-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
@@ -510,7 +518,7 @@ function Bento() {
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-amber-400/10 text-amber-400">
                 <DownloadIcon className="h-5 w-5" />
               </span>
-              <h3 className="mt-5 text-xl sm:text-2xl font-bold uppercase tracking-wider text-white">
+              <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
                 Module workbooks (PDF)
               </h3>
               <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
@@ -523,7 +531,7 @@ function Bento() {
           </article>
 
           {/* Bottom right card — 60+ HD Walkthrough Videos */}
-          <article className="relative overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/40 p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
+          <article className="surface-card relative overflow-hidden rounded-xl p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
@@ -532,7 +540,7 @@ function Bento() {
               <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-amber-400/10 text-amber-400">
                 <MediaLayoutIcon className="h-5 w-5" />
               </span>
-              <h3 className="mt-5 text-xl sm:text-2xl font-bold uppercase tracking-wider text-white">
+              <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
                 60+ HD walkthrough videos
               </h3>
               <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
@@ -552,12 +560,12 @@ function Bento() {
 function Pricing() {
   return (
     <section id="pricing" className="bg-black">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24">
+      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
             Pricing
           </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold uppercase tracking-wider text-white tracking-tight">
+          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Three ways to take the course.
           </h2>
           <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
@@ -578,14 +586,14 @@ function Pricing() {
                     : "bg-zinc-800"
                 }`}
               >
-                <div className="h-full w-full rounded-[11px] bg-zinc-900/40 p-7 sm:p-8 flex flex-col">
+                <div className={`h-full w-full rounded-[11px] p-7 sm:p-8 flex flex-col ${isHighlighted ? "surface-card-accent" : "surface-card"}`}>
                   {isHighlighted && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-red-600 to-orange-500 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-[0_0_18px_rgba(234,88,12,0.4)]">
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-orange-600 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-[0_0_18px_rgba(234,88,12,0.4)]">
                       Most popular
                     </span>
                   )}
                   <div>
-                    <h3 className="text-lg font-semibold uppercase tracking-wider text-white tracking-tight">
+                    <h3 className="text-lg font-semibold text-white tracking-tight">
                       {tier.name}
                     </h3>
                     <div className="mt-5 flex items-baseline gap-2">
@@ -594,7 +602,7 @@ function Pricing() {
                       </span>
                       <span className="text-sm text-zinc-500 uppercase tracking-wider font-semibold">{tier.cadence}</span>
                     </div>
-                    <p className="mt-4 text-sm text-zinc-400 leading-relaxed uppercase tracking-wider font-semibold">
+                    <p className="mt-4 text-sm text-zinc-300 leading-relaxed">
                       {tier.description}
                     </p>
                   </div>
@@ -643,10 +651,10 @@ function Footer() {
             P
           </span>
           <span className="text-sm font-semibold text-white tracking-tight">
-            Pyro Operator Prep
+            Pyro Prep Academy
           </span>
         </div>
-        <p className="text-[11px] font-mono font-semibold uppercase tracking-wider text-zinc-600 text-center sm:text-right">
+        <p className="text-[11px] font-mono font-semibold uppercase tracking-wider text-zinc-300 text-center sm:text-right">
           Not affiliated with OSFM or Pearson VUE · For training purposes only
         </p>
       </div>

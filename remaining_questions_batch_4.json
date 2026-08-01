@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "An operator is setting up a display that includes 4-inch titanium salutes. Why is it strictly prohibited by NFPA 1123 to fire these aerial salutes from steel mortars?",
+    "option_a": "Steel mortars absorb the concussive sound, making the salute too quiet",
+    "option_b": "If an in-tube detonation occurs, a salute will shatter the steel mortar into high-velocity, lethal shrapnel, whereas HDPE or paper will tear and split",
+    "option_c": "The titanium in the salute chemically reacts with the steel, causing rust",
+    "option_d": "Steel mortars generate static electricity that attracts the salute",
+    "correct_answer": "B",
+    "explanation": "Salutes contain highly brisant flash powder. If a salute detonates inside the tube, steel will fragment like a pipe bomb. Operators must use HDPE, fiberglass, or paper mortars for salutes because they tend to tear or shred rather than fragment into heavy shrapnel."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "When sourcing steel pipe for use as pyrotechnic mortars, why is seamless carbon steel piping strongly preferred over seamed (welded) pipe?",
+    "option_a": "Seamless pipe is significantly lighter to carry",
+    "option_b": "Seamless pipe is immune to rusting",
+    "option_c": "Seamless pipe has uniform wall strength and no internal weld ridges, eliminating pinch points and weak spots where a blowout is most likely to occur",
+    "option_d": "Welded pipe is illegal to manufacture in California",
+    "correct_answer": "C",
+    "explanation": "Welded seams represent a potential structural weak point and often leave an internal ridge. Seamless steel pipe offers perfectly uniform hoop strength and a smooth interior bore, drastically reducing the risk of a shell jamming."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "During pre-show inspection, an operator finds a 2-inch vertical crack at the very top (muzzle) of an HDPE mortar tube. What is the correct protocol?",
+    "option_a": "Wrap the top of the tube with duct tape to reinforce it",
+    "option_b": "Cut the top 2 inches off the tube with a saw and use it normally",
+    "option_c": "Remove the mortar from service immediately, as any cracking indicates a loss of structural hoop strength that could propagate downward during firing",
+    "option_d": "Use it only for small 2-inch shells",
+    "correct_answer": "C",
+    "explanation": "Any visible crack in an HDPE tube means the molecular structure is failing. The violent pressure spike of a lift charge will seek the weakest point, easily causing the crack to zip down the length of the tube and result in a blowout."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "A crew member is loading a 5-inch display shell into a fiberglass mortar, but it becomes tightly wedged halfway down the tube. What is the safest immediate action?",
+    "option_a": "Push it down firmly with a wooden rammer",
+    "option_b": "Do not use force; isolate the mortar, flood the tube with water to safely desensitize the lift charge and shell, and remove the tube from the show",
+    "option_c": "Pull the shell back out by its quick match leader fuse",
+    "option_d": "Spray WD-40 down the sides to lubricate it",
+    "correct_answer": "B",
+    "explanation": "Forcing a jammed shell creates extreme friction, which can ignite the lift charge. Pulling it by the fuse can tear the lift cup. The only safe protocol is to flood it with water to ruin the powder, rendering it safe for later disposal."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "A 4-inch shell detonates inside a fiberglass mortar (a flower pot). The blast blows the rack apart, but the fiberglass tube itself appears to be in one piece with only minor white discoloration. Can this tube be reused?",
+    "option_a": "Yes, if it holds water without leaking",
+    "option_b": "Yes, fiberglass is designed to withstand infinite flower pots",
+    "option_c": "No, the white discoloration indicates micro-fractures and delamination of the epoxy resin matrix; the tube is structurally compromised and must be destroyed",
+    "option_d": "Yes, if painted black to protect it from UV rays",
+    "correct_answer": "C",
+    "explanation": "An in-tube detonation exerts massive overpressure. Even if a fiberglass mortar doesn't shatter, the internal epoxy matrix stretches and micro-fractures (appearing as white stress marks). It has lost its burst strength and will fail if used again."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "An operator notices a deep, 1/8-inch outer gouge on the side of an SDR-11 HDPE mortar tube caused by scraping against a truck tailgate. What is the hazard?",
+    "option_a": "The gouge makes the tube un-stackable",
+    "option_b": "The gouge physically reduces the wall thickness at that point, creating a critical weak spot where the tube is highly susceptible to bursting under pressure",
+    "option_c": "The gouge will cause the shell to spin erratically",
+    "option_d": "The gouge creates a static electricity hazard",
+    "correct_answer": "B",
+    "explanation": "The safety of HDPE relies entirely on its calculated wall thickness (SDR). A deep gouge removes plastic, fundamentally altering the SDR at that spot and creating a rupture point. The tube must be retired."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "During a manually fired display, an operator suspects a glowing ember is left inside a paper mortar after a shot. What is the approved method for clearing it before reloading?",
+    "option_a": "Blowing into the tube to extinguish it",
+    "option_b": "Swabbing the interior of the tube with a damp sponge attached to a non-sparking wooden or plastic pole",
+    "option_c": "Flushing the tube with a high-pressure fire hose",
+    "option_d": "Dropping a handful of sand into the tube",
+    "correct_answer": "B",
+    "explanation": "To safely neutralize glowing embers (especially common in paper mortars), operators should use a damp sponge on a non-sparking pole to extinguish the ember and cool the tube without leaving excess standing water that would ruin the next shell."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "A pyrotechnic company wants to extend the life of their paper mortars by inserting a thin aluminum sleeve inside the tube to act as a heat shield. Is this allowed?",
+    "option_a": "Yes, this is an industry standard practice",
+    "option_b": "Yes, provided the sleeve is glued in place",
+    "option_c": "No, inserting metal sleeves into paper mortars creates an extreme shrapnel hazard and illegally modifies the mortar's structural design",
+    "option_d": "Only for shells 2 inches or smaller",
+    "correct_answer": "C",
+    "explanation": "Modifying mortars by combining materials (like lining paper with metal) is highly dangerous. If the mortar fails, the metal liner becomes razor-sharp shrapnel. Mortars must be uniform and constructed only of approved materials."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "While inspecting a wooden mortar rack, the operator notices a large, loose wood knot in the 2x6 base plate, located directly beneath one of the mortar tubes. What is the risk?",
+    "option_a": "The knot will catch fire easily",
+    "option_b": "The knot will cause the mortar to sit crooked",
+    "option_c": "The knot creates a severe structural weakness; the downward recoil of the mortar firing could punch the knot completely out of the board, causing a base blowout and low break",
+    "option_d": "The knot will scratch the bottom of the mortar",
+    "correct_answer": "C",
+    "explanation": "The base plate must absorb hundreds of pounds of downward kinetic energy. A loose knot has no structural integrity and acts like a pre-cut hole. The recoil will punch through it, causing the mortar to drop and the shell to fail."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "An operator drops a steel mortar, causing the open end of the tube to become slightly out-of-round (oval-shaped). Why must this mortar be immediately rejected?",
+    "option_a": "It will not fit into the rack properly",
+    "option_b": "The oval shape creates a physical pinch point that will snag the spherical shell as it exits at high velocity, resulting in a devastating muzzle break",
+    "option_c": "It will cause the shell to fly in a curved trajectory",
+    "option_d": "It alters the sound of the lift charge",
+    "correct_answer": "B",
+    "explanation": "Mortars must be perfectly cylindrical. Any ovality (out-of-roundness) means the internal diameter is restricted. A shell hitting this restriction at 200 mph will shatter, resulting in a muzzle break or in-tube detonation."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "When manufacturing base plugs for HDPE or fiberglass mortars, why must the wood grain be oriented 'cross-grain' (or made of marine plywood) rather than 'end-grain'?",
+    "option_a": "End-grain wood is too heavy",
+    "option_b": "End-grain wood splits easily along the vertical fibers under high pressure, which would cause the plug to fail and vent the lift gases downward",
+    "option_c": "Cross-grain wood is naturally fireproof",
+    "option_d": "End-grain wood shrinks when exposed to black powder",
+    "correct_answer": "B",
+    "explanation": "Wood is weakest when split along the grain (like chopping firewood). If a plug is cut so the grain runs vertically (end-grain), the explosive pressure of the lift charge will easily split the plug in half, ruining the mortar's seal."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "A sudden downpour occurs during setup, and a rack of paper (cardboard) mortars becomes completely saturated with water. The rain stops, and the sponsor wants the show to proceed. What is the operator's responsibility?",
+    "option_a": "Wait 30 minutes for them to dry in the sun",
+    "option_b": "Refuse to use the paper mortars; water dissolves the adhesives and destroys the tensile hoop strength of cardboard, virtually guaranteeing catastrophic tube failures",
+    "option_c": "Wrap them in plastic wrap and fire them",
+    "option_d": "Only load them with half-sized shells",
+    "correct_answer": "B",
+    "explanation": "Paper mortars rely entirely on the glue holding the convolute layers together to maintain hoop strength. Water turns the glue back to mush and softens the paper. Firing saturated paper mortars is incredibly dangerous."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "An operator is shooting a rapid-fire sequence of shells from the same HDPE mortar. What specific thermal hazard applies to HDPE plastic that does not apply to steel or fiberglass?",
+    "option_a": "HDPE will spontaneously catch fire and burn with an invisible flame",
+    "option_b": "HDPE is a thermoplastic; extreme, rapid heat buildup can cause the plastic to soften, melt, and lose its burst strength, leading to a blowout",
+    "option_c": "HDPE absorbs smoke and becomes toxic to touch",
+    "option_d": "HDPE shrinks when heated, crushing the shell",
+    "correct_answer": "B",
+    "explanation": "High-Density Polyethylene is a thermoplastic, meaning it softens and melts when exposed to high heat. Rapid, continuous firing without cooling periods can soften the tube walls to the point of catastrophic failure."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "When burying large (e.g., 10-inch) open-ended steel mortars in a sand trough, what is required to be placed beneath the mortar to act as a base plug?",
+    "option_a": "A layer of packed wet sand",
+    "option_b": "A 1-inch thick piece of rubber",
+    "option_c": "A solid, heavy timber block or concrete footing specifically designed to distribute the massive recoil force and seal the bottom of the tube",
+    "option_d": "A sheet of aluminum foil",
+    "correct_answer": "C",
+    "explanation": "Open-ended mortars must be placed on a solid, unyielding surface. A heavy wooden timber block or concrete footing prevents the mortar from burying itself deeper into the sand upon firing and seals the bottom to prevent gas leakage."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "After a display, an operator approaches a fiberglass mortar that contains a dud shell. What is the safest way to initially handle the mortar tube itself?",
+    "option_a": "Tip the mortar upside down and shake it to dislodge the shell",
+    "option_b": "Do not tip or jar the mortar; carefully flood it with water from a safe distance or use a specialized tool to safely remove the shell without striking the tube",
+    "option_c": "Tap the side of the mortar with a hammer to loosen the powder",
+    "option_d": "Carry the mortar to the trash bin while holding it sideways",
+    "correct_answer": "B",
+    "explanation": "A dud shell is highly unstable and the lift cup may be compromised, exposing raw black powder. Tipping, dropping, or jarring the mortar can cause friction that ignites the powder. The tube must remain upright and be flooded with water."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the practical definition of 'proper windage' for a display shell loaded into a mortar?",
+    "option_a": "The shell requires a hammer to be tapped into place",
+    "option_b": "The shell slides smoothly to the bottom of the tube under its own weight, but has minimal excess clearance (typically 1/8 to 1/4 inch) to prevent massive lift gas blow-by",
+    "option_c": "The shell has at least 1 inch of clearance on all sides",
+    "option_d": "The shell gets stuck halfway and requires a push rod",
+    "correct_answer": "B",
+    "explanation": "Proper windage allows the shell to drop easily to the bottom without friction (preventing jams), while keeping the gap small enough that the expanding gases push the shell rather than escaping past it."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "When assembling HDPE mortars with wooden base plugs, why is relying solely on construction adhesive or epoxy strictly prohibited?",
+    "option_a": "Adhesive melts the HDPE",
+    "option_b": "Epoxy creates toxic fumes when heated",
+    "option_c": "Plastics like HDPE expand and contract dynamically and resist chemical bonding; base plugs must be mechanically fastened with screws or pins to prevent blowout",
+    "option_d": "Adhesive makes the plug too heavy",
+    "correct_answer": "C",
+    "explanation": "HDPE has a very low surface energy, meaning adhesives and epoxies do not bond to it securely. Under explosive shock, glued plugs will instantly blow out. They must be mechanically fastened using heavy-duty screws or pins."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "To maximize the lifespan and safety of fiberglass mortars, what is the best practice for storing them during the off-season?",
+    "option_a": "Store them outside in direct sunlight to keep them dry",
+    "option_b": "Store them indoors or under opaque covers to prevent severe structural degradation caused by Ultraviolet (UV) radiation from the sun",
+    "option_c": "Store them submerged in water",
+    "option_d": "Store them filled with sand",
+    "correct_answer": "B",
+    "explanation": "Ultraviolet light aggressively breaks down the epoxy resins used in fiberglass. Prolonged exposure to sunlight causes chalking, fraying, and a massive loss of burst strength. They must be stored away from UV light."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why do pyrotechnic guidelines generally recommend limiting the number of times a paper mortar is reloaded and fired during a single display?",
+    "option_a": "Because the paper changes color",
+    "option_b": "Because paper acts as a thermal insulator; repeated firings cause extreme heat buildup that can smolder within the paper layers, causing premature ignition of the next shell",
+    "option_c": "Because paper mortars shrink after 3 uses",
+    "option_d": "Because the paper absorbs too much smoke",
+    "correct_answer": "B",
+    "explanation": "Unlike steel or HDPE, cardboard cannot dissipate heat efficiently. After multiple rapid shots, the interior layers can become superheated or harbor glowing embers. Loading a shell into a superheated paper tube is a severe premature ignition hazard."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "In wooden mortar rack construction, what is the primary structural purpose of the horizontal side-rails?",
+    "option_a": "To provide a handle for carrying the rack",
+    "option_b": "To keep the mortar tubes standing perfectly vertical and to help contain the lateral energy and shrapnel in the event of an in-tube failure",
+    "option_c": "To mount the electrical firing panel",
+    "option_d": "To elevate the rack off the mud",
+    "correct_answer": "B",
+    "explanation": "Side-rails lock the mortars securely in place to maintain exact trajectories. In a blowout, sturdy side-rails help absorb the lateral shockwave, preventing the entire rack from disintegrating and protecting adjacent racks."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "An operator is manually loading a shell. The quick match leader is overly long and bunches up at the bottom of the mortar, and the shell rests directly on top of the folded fuse. What is the hazard?",
+    "option_a": "The fuse will burn slower",
+    "option_b": "The shell is not seated properly on the base plug; the bunched fuse can alter the internal ballistics, potentially tearing the fuse or causing a low break",
+    "option_c": "The fuse will change the color of the lift flame",
+    "option_d": "There is no hazard; this is the proper loading method",
+    "correct_answer": "B",
+    "explanation": "A shell must sit flat and flush against the base plug for the lift cup to seal properly. If it sits on a wad of fuse, it can pinch and sever the fuse during ignition, or vent gases around the shell, resulting in a low break."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "According to NFPA guidelines regarding steel mortars, how does the requirement for the tube's wall thickness change as the diameter of the display shell increases?",
+    "option_a": "Wall thickness must remain exactly 1/4 inch regardless of shell size",
+    "option_b": "The required minimum wall thickness increases proportionally as the shell diameter increases to safely contain the exponentially higher lift pressures",
+    "option_c": "Wall thickness decreases for larger shells to make them easier to carry",
+    "option_d": "Wall thickness is irrelevant as long as it is made of steel",
+    "correct_answer": "B",
+    "explanation": "Larger shells require massive amounts of lift powder, generating immensely higher internal pressures. NFPA 1123 dictates that as mortar diameter increases (e.g., from 3 inches to 12 inches), the required minimum wall thickness of the steel must also increase."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "If a Pyrotechnic Operator is examining a fiberglass mortar and notices the tube flexes or easily squeezes out of round under hand pressure, what is the likely issue?",
+    "option_a": "The tube is brand new and breaking in",
+    "option_b": "The tube was designed for underwater firing",
+    "option_c": "The epoxy resin matrix has severely degraded or the wall is too thin, resulting in a complete loss of structural hoop strength; it must be retired",
+    "option_d": "The fiberglass needs to be watered",
+    "correct_answer": "C",
+    "explanation": "Fiberglass mortars rely on a rigid resin matrix to bind the glass threads. If the tube flexes easily by hand, the matrix is broken down or defective. The tube will instantly shred under the pressure of a lift charge."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "A display is set up in a location experiencing extreme heat (over 105°F). What unique hazard do steel mortars present to the operator during manual loading in these conditions?",
+    "option_a": "Steel expands so much the shell falls out the bottom",
+    "option_b": "Steel absorbs and retains solar radiation aggressively; the tubes can become hot enough to burn the operator's hands or dangerously heat the black powder lift charge",
+    "option_c": "Steel turns into a liquid at 105°F",
+    "option_d": "Steel generates a magnetic field in extreme heat",
+    "correct_answer": "B",
+    "explanation": "Steel is highly thermally conductive. Left in the blazing sun, black or dark steel mortars act like ovens. They can become physically dangerous to touch and can pre-heat the shell's lift charge to unsafe temperatures."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which document is most commonly required before a public display can proceed in California?",
+    "option_a": "A local operational permit",
+    "option_b": "A state sales receipt",
+    "option_c": "A private insurance card",
+    "option_d": "A vehicle registration",
+    "correct_answer": "A",
+    "explanation": "A display generally requires the appropriate local operational approval before public firing."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main purpose of a display site plan review?",
+    "option_a": "To confirm the planned layout and safety controls",
+    "option_b": "To approve the fireworks brand",
+    "option_c": "To list the price of the product",
+    "option_d": "To schedule a delivery truck",
+    "correct_answer": "A",
+    "explanation": "Site plan review helps ensure the chosen display area meets safety and compliance expectations."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is an inventory log important for fireworks storage?",
+    "option_a": "It tracks what is present and what is used",
+    "option_b": "It replaces the need for security",
+    "option_c": "It avoids inspection by the AHJ",
+    "option_d": "It eliminates the need for permits",
+    "correct_answer": "A",
+    "explanation": "Inventory records help document custody, usage, and accountability for stored fireworks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main concern when fireworks are stored near incompatible materials?",
+    "option_a": "Fire and chemical compatibility hazards",
+    "option_b": "Increased color brightness",
+    "option_c": "Faster ignition",
+    "option_d": "Lower shipping cost",
+    "correct_answer": "A",
+    "explanation": "Incompatible storage can create unnecessary safety and fire risks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which item is typically used to show that fireworks are being transported under regulated conditions?",
+    "option_a": "A transport placard or shipping paper",
+    "option_b": "A store receipt",
+    "option_c": "A purchase order",
+    "option_d": "A delivery map",
+    "correct_answer": "A",
+    "explanation": "Transport documents and placards are used to communicate regulated handling requirements."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is the legal minimum distance important in display planning?",
+    "option_a": "It helps protect spectators and nearby property",
+    "option_b": "It lowers the cost of the show",
+    "option_c": "It shortens cleanup time",
+    "option_d": "It increases shell size",
+    "correct_answer": "A",
+    "explanation": "Minimum distances are a basic safety control for public displays."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What should a crew do if a display permit is close to expiration?",
+    "option_a": "Confirm renewal or extension before firing",
+    "option_b": "Ignore it if the show is small",
+    "option_c": "Use it only after the show",
+    "option_d": "Discard the permit",
+    "correct_answer": "A",
+    "explanation": "A permit should be current and valid before display operations begin."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the primary reason to keep licensing records current?",
+    "option_a": "To show continued compliance and readiness",
+    "option_b": "To avoid using a checklist",
+    "option_c": "To speed up transport only",
+    "option_d": "To reduce the number of crew members",
+    "correct_answer": "A",
+    "explanation": "Current licensing records support compliance and demonstrate readiness for oversight."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is local AHJ approval often required before firing?",
+    "option_a": "Because local authorities may impose site-specific conditions",
+    "option_b": "Because state law never applies",
+    "option_c": "Because shipping companies always decide",
+    "option_d": "Because inventory logs are enough",
+    "correct_answer": "A",
+    "explanation": "Local approval may be required to address site-specific conditions and jurisdictional control."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the purpose of a display report after an event?",
+    "option_a": "To document what happened and what was observed",
+    "option_b": "To replace the permit",
+    "option_c": "To increase shell load",
+    "option_d": "To cancel the inventory log",
+    "correct_answer": "A",
+    "explanation": "A display report preserves operational details and any notable conditions."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which record is most useful for proving who was responsible for a display permit?",
+    "option_a": "A personnel assignment or permit log",
+    "option_b": "A weather app screenshot",
+    "option_c": "A snack receipt",
+    "option_d": "A social media post",
+    "correct_answer": "A",
+    "explanation": "Good records show who handled or oversaw the permit process."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main purpose of a magazine inspection?",
+    "option_a": "To confirm the storage area remains secure and compliant",
+    "option_b": "To reduce the number of shells",
+    "option_c": "To improve the color of effects",
+    "option_d": "To speed up transport",
+    "correct_answer": "A",
+    "explanation": "Magazines should be inspected to confirm they remain safe and compliant."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is it important to separate different classes of fireworks in storage?",
+    "option_a": "To reduce confusion and incompatible handling risks",
+    "option_b": "To avoid needing inventory logs",
+    "option_c": "To increase the chance of ignition",
+    "option_d": "To lower the permit cost",
+    "correct_answer": "A",
+    "explanation": "Segregation improves control and reduces mixing or handling errors."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main concern with fireworks storage near public access points?",
+    "option_a": "It increases exposure to unauthorized persons",
+    "option_b": "It improves inventory accuracy",
+    "option_c": "It reduces the need for placards",
+    "option_d": "It creates better site maps",
+    "correct_answer": "A",
+    "explanation": "Public access near fireworks storage increases safety and security concerns."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is a common purpose of a transportation manifest?",
+    "option_a": "To identify the cargo and its handling requirements",
+    "option_b": "To replace the license",
+    "option_c": "To describe weather only",
+    "option_d": "To advertise the show",
+    "correct_answer": "A",
+    "explanation": "A manifest helps document the cargo and its regulated handling."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main reason a display plan should include a spectator boundary?",
+    "option_a": "To keep the public separated from the firing line",
+    "option_b": "To reduce the need for a checklist",
+    "option_c": "To shorten transport time",
+    "option_d": "To increase the shell count",
+    "correct_answer": "A",
+    "explanation": "A spectator boundary is part of site safety planning."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main risk of placing the firing line too close to spectators?",
+    "option_a": "It increases the chance of injury from fallout or misfires",
+    "option_b": "It improves visual clarity",
+    "option_c": "It improves permit timing",
+    "option_d": "It lowers the need for logs",
+    "correct_answer": "A",
+    "explanation": "Proximity to spectators creates unnecessary risk."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why should the crew document the approved display area?",
+    "option_a": "So the event stays within the authorized site boundaries",
+    "option_b": "So the show can be longer",
+    "option_c": "So the permit can be skipped",
+    "option_d": "So the crowd can enter freely",
+    "correct_answer": "A",
+    "explanation": "Documenting the authorized area helps limit operations to approved space."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the purpose of a safety line around the firing area?",
+    "option_a": "To define the controlled exclusion zone",
+    "option_b": "To mark the nearest parking space",
+    "option_c": "To identify a storage shelf",
+    "option_d": "To label the truck route",
+    "correct_answer": "A",
+    "explanation": "A safety line helps define the area that should remain clear."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is a pre-event safety review important?",
+    "option_a": "It gives the crew a chance to catch site issues before firing",
+    "option_b": "It guarantees a perfect show",
+    "option_c": "It removes the need for a fire watch",
+    "option_d": "It speeds up product delivery",
+    "correct_answer": "A",
+    "explanation": "A pre-event review is a preventive control."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the major concern with a display that lacks a documented site map?",
+    "option_a": "The crew may not know where the safe boundaries are",
+    "option_b": "The show will be more colorful",
+    "option_c": "The permit will be easier to renew",
+    "option_d": "The inventory log will be shorter",
+    "correct_answer": "A",
+    "explanation": "A site map supports clear placement and safe operations."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the purpose of a compliance audit of fireworks records?",
+    "option_a": "To verify that required documentation is present and current",
+    "option_b": "To replace the need for training",
+    "option_c": "To delete old permit files",
+    "option_d": "To create new product",
+    "correct_answer": "A",
+    "explanation": "Compliance audits look for documentation quality and completeness."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why should storage and transport records be preserved?",
+    "option_a": "They may be needed for inspections or investigations",
+    "option_b": "They replace the display report",
+    "option_c": "They lower the weather risk",
+    "option_d": "They improve shell color",
+    "correct_answer": "A",
+    "explanation": "Records are important for oversight and accountability."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main purpose of a fallout zone assessment?",
+    "option_a": "To identify areas that should remain clear of people",
+    "option_b": "To shorten the show duration",
+    "option_c": "To reduce the need for PPE",
+    "option_d": "To accelerate shell loading",
+    "correct_answer": "A",
+    "explanation": "A fallout zone assessment identifies where debris or fallout could present a hazard."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is it important to keep the local fire department informed before a display?",
+    "option_a": "Because they may need to prepare or respond if necessary",
+    "option_b": "Because they approve product color",
+    "option_c": "Because they set shell prices",
+    "option_d": "Because they issue the inventory logs",
+    "correct_answer": "A",
+    "explanation": "Notification helps coordination and emergency readiness."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What should a post-display incident report usually include?",
+    "option_a": "The event summary, location, and what happened",
+    "option_b": "The delivery truck license plate only",
+    "option_c": "The crew lunch schedule",
+    "option_d": "The shell price list",
+    "correct_answer": "A",
+    "explanation": "Incident reporting should describe what occurred and where."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main reason to keep a display authority letter on file?",
+    "option_a": "To show that the event was authorized by the proper person or body",
+    "option_b": "To replace the permit application",
+    "option_c": "To satisfy the transport company only",
+    "option_d": "To eliminate the need for a site plan",
+    "correct_answer": "A",
+    "explanation": "An authority letter supports the chain of authorization."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why are vehicle placards important during transport?",
+    "option_a": "They communicate regulated hazards to responders and inspectors",
+    "option_b": "They improve fuel economy",
+    "option_c": "They shorten the route",
+    "option_d": "They reduce the need for a log",
+    "correct_answer": "A",
+    "explanation": "Placards communicate important hazard information."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main concern with transporting fireworks in an unapproved vehicle?",
+    "option_a": "It may not meet the required handling or security standards",
+    "option_b": "It makes the show more colorful",
+    "option_c": "It reduces inventory work",
+    "option_d": "It shortens the inspection time",
+    "correct_answer": "A",
+    "explanation": "Transport conditions must meet required standards."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is route planning relevant to fireworks transport?",
+    "option_a": "To reduce exposure and avoid unnecessary risk during the journey",
+    "option_b": "To improve shell bursting",
+    "option_c": "To avoid the need for PPE",
+    "option_d": "To reduce the number of crew members",
+    "correct_answer": "A",
+    "explanation": "Careful routing supports safer transport."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the purpose of a transport inspection before departure?",
+    "option_a": "To catch issues before the vehicle leaves",
+    "option_b": "To choose the show soundtrack",
+    "option_c": "To select the firing angle",
+    "option_d": "To identify the nearest spectators",
+    "correct_answer": "A",
+    "explanation": "Pre-departure inspection is a preventive control."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why should transport documentation stay with the vehicle?",
+    "option_a": "So it is available if an inspector or responder asks for it",
+    "option_b": "So the route can be changed",
+    "option_c": "So the inventory can be skipped",
+    "option_d": "So the show can start early",
+    "correct_answer": "A",
+    "explanation": "On-hand documentation supports inspection and response."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is a local operational permit important even when a state license is held?",
+    "option_a": "Because local authority can impose separate site conditions",
+    "option_b": "Because the state license covers all storage",
+    "option_c": "Because transport placards are no longer needed",
+    "option_d": "Because inventory is not required",
+    "correct_answer": "A",
+    "explanation": "Local requirements may be separate from state licensing."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main purpose of a site plan review by the AHJ?",
+    "option_a": "To evaluate whether the site can be used safely",
+    "option_b": "To improve the shell color",
+    "option_c": "To determine the size of the crew lunch",
+    "option_d": "To reduce the permit fee",
+    "correct_answer": "A",
+    "explanation": "AHJ review evaluates site safety and suitability."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is a renewal application important for a fireworks license?",
+    "option_a": "It keeps the license active and current",
+    "option_b": "It replaces the need for training",
+    "option_c": "It eliminates storage logs",
+    "option_d": "It changes the shell composition",
+    "correct_answer": "A",
+    "explanation": "Renewal keeps licensure current and valid."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is a background check part of licensing?",
+    "option_a": "It supports fit and suitability for regulated fireworks work",
+    "option_b": "It improves transport fuel mileage",
+    "option_c": "It changes the color effect",
+    "option_d": "It reduces spectator distance",
+    "correct_answer": "A",
+    "explanation": "Background screening supports regulatory suitability."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the purpose of a licensing fingerprint requirement?",
+    "option_a": "To verify identity as part of the application process",
+    "option_b": "To reduce the need for inventory",
+    "option_c": "To improve shell burn rate",
+    "option_d": "To shorten the display",
+    "correct_answer": "A",
+    "explanation": "Fingerprinting supports identity verification."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is age eligibility relevant to licensing?",
+    "option_a": "Because many regulated roles require minimum age standards",
+    "option_b": "Because older operators are never allowed",
+    "option_c": "Because extra age improves chemistry",
+    "option_d": "Because permits are based on weather",
+    "correct_answer": "A",
+    "explanation": "Age standards may apply to regulated licensing."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main difference between a display operator and a display assistant?",
+    "option_a": "The operator has direct responsibility for the display and associated controls",
+    "option_b": "They are always in different locations",
+    "option_c": "They use different shell sizes only",
+    "option_d": "They never work near the firing line",
+    "correct_answer": "A",
+    "explanation": "Operator responsibility is broader and more direct."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is training documentation important in fireworks operations?",
+    "option_a": "It helps show that personnel were prepared for the work",
+    "option_b": "It cancels the need for a permit",
+    "option_c": "It removes the need for logs",
+    "option_d": "It ends the inspection process",
+    "correct_answer": "A",
+    "explanation": "Training records support preparedness and compliance."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is a safety line important in relation to the public?",
+    "option_a": "It helps prevent unauthorized access to the firing area",
+    "option_b": "It attracts spectators",
+    "option_c": "It changes the permit type",
+    "option_d": "It reduces the need for PPE",
+    "correct_answer": "A",
+    "explanation": "A safety line is part of access control."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is spectator separation important in a fireworks site layout?",
+    "option_a": "It reduces the chance of injury from debris, heat, or misfires",
+    "option_b": "It improves color output",
+    "option_c": "It increases shell size",
+    "option_d": "It shortens cleanup",
+    "correct_answer": "A",
+    "explanation": "Separation protects spectators and crew."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the role of a site map in display planning?",
+    "option_a": "It helps the crew locate safety boundaries and firing positions",
+    "option_b": "It replaces the permit",
+    "option_c": "It increases the weather risk",
+    "option_d": "It changes the law",
+    "correct_answer": "A",
+    "explanation": "A site map supports safe layout and communication."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is it important to document approved display areas?",
+    "option_a": "So operations remain inside the authorized footprint",
+    "option_b": "So the show can be longer",
+    "option_c": "So the crew can ignore the AHJ",
+    "option_d": "So the product can be stored near spectators",
+    "correct_answer": "A",
+    "explanation": "Documentation supports controlled execution."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the main risk of beginning a display without local approval?",
+    "option_a": "The event may be noncompliant or shut down",
+    "option_b": "The show will burn brighter",
+    "option_c": "The crew will need fewer logs",
+    "option_d": "The weather will improve",
+    "correct_answer": "A",
+    "explanation": "Operating without approval creates compliance and safety risk."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is permit expiration important to monitor?",
+    "option_a": "An expired permit can invalidate the event or its approvals",
+    "option_b": "It shortens the transport route",
+    "option_c": "It changes the shell color",
+    "option_d": "It improves inventory tracking",
+    "correct_answer": "A",
+    "explanation": "Expired approvals may undermine the legality of the display."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Why is it important to keep licensing records current?",
+    "option_a": "Because oversight may require proof of valid status",
+    "option_b": "Because weather conditions improve with age",
+    "option_c": "Because crew size is based on licensing",
+    "option_d": "Because permits are issued by color",
+    "correct_answer": "A",
+    "explanation": "Current records support proof of valid status."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What should a crew do if they discover a missing permit document?",
+    "option_a": "Locate or replace it before the event proceeds",
+    "option_b": "Use the show anyway",
+    "option_c": "Ask spectators to sign it",
+    "option_d": "Ignore it until after cleanup",
+    "correct_answer": "A",
+    "explanation": "Missing paperwork should be resolved before operations proceeds."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of charcoal in black powder?",
+    "option_a": "To serve as a fuel component",
+    "option_b": "To act as an oxidizer",
+    "option_c": "To increase water content",
+    "option_d": "To reduce burn rate",
+    "correct_answer": "A",
+    "explanation": "Charcoal contributes fuel to the black powder composition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of sulfur in black powder?",
+    "option_a": "To help lower ignition temperature and promote burning",
+    "option_b": "To absorb moisture only",
+    "option_c": "To create a color effect",
+    "option_d": "To stop combustion",
+    "correct_answer": "A",
+    "explanation": "Sulfur helps the mixture ignite and burn more readily."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why does black powder burn faster when particle size is finer?",
+    "option_a": "Because the mixture exposes more surface area",
+    "option_b": "Because it becomes wetter",
+    "option_c": "Because it stops reacting",
+    "option_d": "Because it creates more smoke only",
+    "correct_answer": "A",
+    "explanation": "Finer particles increase reaction surface area."
+  }
+]

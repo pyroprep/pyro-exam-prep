@@ -85,7 +85,7 @@ export async function POST(request: Request) {
               currency_code: "USD",
               value: "19.99",
             },
-            description: "PyroPrep Premium Unlock — Lifetime Access",
+            description: "Pyro Prep Academy Premium Unlock — Lifetime Access",
           },
         ],
       }),

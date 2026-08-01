@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main effect of increasing the potassium nitrate content?",
+    "option_a": "It generally increases oxidizing power",
+    "option_b": "It decreases ignition",
+    "option_c": "It creates a slower fuse only",
+    "option_d": "It makes the mixture inert",
+    "correct_answer": "A",
+    "explanation": "Potassium nitrate is the oxidizer in black powder."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does black powder composition differ from a simple oxidizer-fuel mix?",
+    "option_a": "It combines fuel, oxidizer, and sensitizing components in a balanced system",
+    "option_b": "It has no fuel component",
+    "option_c": "It uses only one chemical",
+    "option_d": "It is always non-combustible",
+    "correct_answer": "A",
+    "explanation": "Black powder is a balanced reactive mixture."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a binder in a pyrotechnic composition?",
+    "option_a": "To hold the mixture together during handling and loading",
+    "option_b": "To absorb all heat",
+    "option_c": "To stop all chemical reaction",
+    "option_d": "To replace the fuse",
+    "correct_answer": "A",
+    "explanation": "Binders improve cohesion and handling."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a delay fuse?",
+    "option_a": "To control the timing between ignition and effect",
+    "option_b": "To increase the shell size",
+    "option_c": "To stop the display",
+    "option_d": "To replace the oxidizer",
+    "correct_answer": "A",
+    "explanation": "Delay fuses control timing."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is lift charge timing important in a shell?",
+    "option_a": "It affects the shell’s rise and burst sequence",
+    "option_b": "It only changes the color",
+    "option_c": "It makes the shell heavier",
+    "option_d": "It shortens the storage life",
+    "correct_answer": "A",
+    "explanation": "Lift timing influences the shell’s performance."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main role of a lift charge?",
+    "option_a": "To propel the shell upward",
+    "option_b": "To slow the burn rate",
+    "option_c": "To create a color only",
+    "option_d": "To reduce the shell size",
+    "correct_answer": "A",
+    "explanation": "The lift charge provides initial thrust."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why does a delay fuse matter in a multi-stage effect?",
+    "option_a": "It allows one stage to occur after another in sequence",
+    "option_b": "It removes the need for a burst charge",
+    "option_c": "It makes the device smaller",
+    "option_d": "It prevents all reactions",
+    "correct_answer": "A",
+    "explanation": "Delays coordinate staged effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a star in a fireworks composition?",
+    "option_a": "To create a visible burning particle effect",
+    "option_b": "To replace the shell casing",
+    "option_c": "To hold the fuse only",
+    "option_d": "To increase shelf life only",
+    "correct_answer": "A",
+    "explanation": "Stars create the visible luminous effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does star size affect burn performance?",
+    "option_a": "It can change burn duration and visual intensity",
+    "option_b": "It changes legal distance only",
+    "option_c": "It removes the need for an oxidizer",
+    "option_d": "It always makes the star safe",
+    "correct_answer": "A",
+    "explanation": "Star size influences burn behavior."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of shape in a star effect?",
+    "option_a": "To influence the visible pattern of the burst",
+    "option_b": "To increase pressure only",
+    "option_c": "To reduce color",
+    "option_d": "To prevent ignition",
+    "correct_answer": "A",
+    "explanation": "Shape influences the visible pattern."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main difference between a star and a salute composition?",
+    "option_a": "A salute is designed to produce a loud report rather than just a visual effect",
+    "option_b": "A salute uses no oxidizer",
+    "option_c": "A star never contains metal",
+    "option_d": "A star is always a delay fuse",
+    "correct_answer": "A",
+    "explanation": "Salutes are designed for report effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do some compositions produce colored flames?",
+    "option_a": "Because the chemical ingredients emit characteristic wavelengths",
+    "option_b": "Because the shell is larger",
+    "option_c": "Because the fuse is longer",
+    "option_d": "Because the casing is metal",
+    "correct_answer": "A",
+    "explanation": "Color comes from chemical emission."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are barium compounds associated with green colors?",
+    "option_a": "Because they produce green flame emissions under combustion",
+    "option_b": "Because they create a loud report",
+    "option_c": "Because they reduce oxygen",
+    "option_d": "Because they always act as a binder",
+    "correct_answer": "A",
+    "explanation": "Barium is commonly associated with green flame coloration."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are strontium compounds associated with red colors?",
+    "option_a": "Because they emit red flame characteristics when heated",
+    "option_b": "Because they make a shell heavier",
+    "option_c": "Because they shorten the delay",
+    "option_d": "Because they reduce the burst charge",
+    "correct_answer": "A",
+    "explanation": "Strontium is commonly associated with red flame coloration."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are color-producing chemicals often paired with an oxidizer?",
+    "option_a": "To support combustion and sustain the colored flame reaction",
+    "option_b": "To stop heat transfer",
+    "option_c": "To lower the shell height",
+    "option_d": "To eliminate the burst charge",
+    "correct_answer": "A",
+    "explanation": "Oxidizers sustain the reaction."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main role of an oxidizer in a pyrotechnic mixture?",
+    "option_a": "To supply oxygen for combustion",
+    "option_b": "To cool the mixture",
+    "option_c": "To reduce the flame",
+    "option_d": "To replace the fuel",
+    "correct_answer": "A",
+    "explanation": "Oxidizers provide oxygen."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main role of a fuel in a pyrotechnic mixture?",
+    "option_a": "To burn and release energy",
+    "option_b": "To absorb oxygen",
+    "option_c": "To stop the reaction",
+    "option_d": "To protect the casing",
+    "correct_answer": "A",
+    "explanation": "Fuel provides the substance that burns."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What happens if an oxidizer and fuel are not properly balanced?",
+    "option_a": "Performance may be inconsistent or unsafe",
+    "option_b": "The shell will always fire perfectly",
+    "option_c": "The color becomes brighter only",
+    "option_d": "The burst charge disappears",
+    "correct_answer": "A",
+    "explanation": "Balance matters for safe performance."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do some mixtures burn faster than others?",
+    "option_a": "Because composition, particle size, and confinement differ",
+    "option_b": "Because the casing is always the same",
+    "option_c": "Because the fuse color changes",
+    "option_d": "Because the shell is always larger",
+    "correct_answer": "A",
+    "explanation": "Burn rate depends on composition and physical factors."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the role of moisture in pyrotechnic composition stability?",
+    "option_a": "Moisture can degrade performance and increase hazards",
+    "option_b": "Moisture always improves color",
+    "option_c": "Moisture always speeds ignition",
+    "option_d": "Moisture makes a fuse longer",
+    "correct_answer": "A",
+    "explanation": "Moisture can harm stability and safety."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is controlling particle size important?",
+    "option_a": "It affects burn rate, packing, and consistency",
+    "option_b": "It changes the permit type",
+    "option_c": "It replaces the need for a fuse",
+    "option_d": "It always lowers the temperature",
+    "correct_answer": "A",
+    "explanation": "Particle size strongly affects performance."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a prime layer?",
+    "option_a": "To help the main composition ignite reliably",
+    "option_b": "To make the shell heavier",
+    "option_c": "To stop the shell from bursting",
+    "option_d": "To reduce the delay fuse",
+    "correct_answer": "A",
+    "explanation": "Prime improves ignition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does a binder affect handling of a composition?",
+    "option_a": "It improves cohesion and reduces dusting",
+    "option_b": "It removes the need for a shell",
+    "option_c": "It makes the product wet",
+    "option_d": "It always speeds the burn",
+    "correct_answer": "A",
+    "explanation": "Binders make compositions easier to handle."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the purpose of a delay element in a shell burst sequence?",
+    "option_a": "To separate the lift and the burst in time",
+    "option_b": "To eliminate the burst charge",
+    "option_c": "To reduce the shell diameter",
+    "option_d": "To create a louder report only",
+    "correct_answer": "A",
+    "explanation": "A delay controls sequence."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main difference between a delay fuse and a quick fuse?",
+    "option_a": "A delay fuse is timed to wait, while a quick fuse acts rapidly",
+    "option_b": "They are chemically identical",
+    "option_c": "A quick fuse is always longer",
+    "option_d": "A delay fuse cannot be used in shells",
+    "correct_answer": "A",
+    "explanation": "The main difference is timing."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a lifting charge in a shell launch?",
+    "option_a": "To move the shell upward with controlled force",
+    "option_b": "To replace the burst charge",
+    "option_c": "To create a visual color only",
+    "option_d": "To reduce the shell’s weight",
+    "correct_answer": "A",
+    "explanation": "The lift charge provides the launch force."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why does a firework shell need a burst charge?",
+    "option_a": "To spread the stars or effects outward",
+    "option_b": "To make the shell lighter",
+    "option_c": "To shorten the fuse",
+    "option_d": "To prevent ignition",
+    "correct_answer": "A",
+    "explanation": "Burst charge causes the shell to open."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a salute composition?",
+    "option_a": "To create a loud report",
+    "option_b": "To create a long color trail",
+    "option_c": "To reduce the shell diameter",
+    "option_d": "To replace the lift charge",
+    "correct_answer": "A",
+    "explanation": "Salutes are designed for report effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does a salute composition differ from a color-producing star?",
+    "option_a": "It is built to generate a sharp report rather than a long colored burn",
+    "option_b": "It contains no fuel",
+    "option_c": "It creates no heat",
+    "option_d": "It is always a binder-only mix",
+    "correct_answer": "A",
+    "explanation": "Salute mixes are aimed at report effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason a specific metal may be used in a salute mixture?",
+    "option_a": "To increase the intensity of the report",
+    "option_b": "To lower the shell height",
+    "option_c": "To stop the burst",
+    "option_d": "To reduce the fuse length",
+    "correct_answer": "A",
+    "explanation": "Metals can intensify the report."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are some compositions more sensitive to friction?",
+    "option_a": "Because their physical and chemical properties make them easier to initiate",
+    "option_b": "Because they are always wet",
+    "option_c": "Because they contain no oxidizer",
+    "option_d": "Because the fuse is longer",
+    "correct_answer": "A",
+    "explanation": "Sensitivity varies by composition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of reducing particle size in a composition?",
+    "option_a": "To improve reactivity and mixing",
+    "option_b": "To increase the amount of packaging",
+    "option_c": "To reduce the need for a fuse",
+    "option_d": "To shorten the safety distance",
+    "correct_answer": "A",
+    "explanation": "Smaller particles can improve reactivity."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are chemical reactions in fireworks often described as rapid oxidation?",
+    "option_a": "Because oxygen is supplied quickly as the mixture burns",
+    "option_b": "Because water is the main reactant",
+    "option_c": "Because the reaction always cools instantly",
+    "option_d": "Because the color is never affected",
+    "correct_answer": "A",
+    "explanation": "Fireworks burn through rapid oxidation."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason some mixtures are more stable than others?",
+    "option_a": "Because their chemical and physical properties are more controlled",
+    "option_b": "Because they will always be brighter",
+    "option_c": "Because they use no fuel",
+    "option_d": "Because they are always larger",
+    "correct_answer": "A",
+    "explanation": "Stability depends on formulation and environment."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main role of a fuel in supporting a combustion reaction?",
+    "option_a": "To provide the substance that burns and releases energy",
+    "option_b": "To absorb all oxygen",
+    "option_c": "To remove the need for a fuse",
+    "option_d": "To cool the product",
+    "correct_answer": "A",
+    "explanation": "Fuel is the combustible component."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason a mixture may fail to ignite properly?",
+    "option_a": "Because the ignition path or composition balance is poor",
+    "option_b": "Because the shell is too small",
+    "option_c": "Because the fuse is already in place",
+    "option_d": "Because the color is too bright",
+    "correct_answer": "A",
+    "explanation": "Poor composition balance or ignition path can cause failures."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a pyrotechnic binder in a pressed composition?",
+    "option_a": "To hold the granules together and preserve shape",
+    "option_b": "To remove the need for a lift charge",
+    "option_c": "To stop the burst",
+    "option_d": "To replace the fuse",
+    "correct_answer": "A",
+    "explanation": "Binders help maintain physical integrity."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is the correct sequence of layers important in a shell?",
+    "option_a": "Because each layer is designed to perform at a specific time",
+    "option_b": "Because the layers are all identical",
+    "option_c": "Because the shell can only be loaded once",
+    "option_d": "Because the casing only matters at the end",
+    "correct_answer": "A",
+    "explanation": "Layer sequence controls timing."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the purpose of a delay between lift and burst?",
+    "option_a": "To allow the shell to travel before opening",
+    "option_b": "To create a longer fuse only",
+    "option_c": "To reduce lift power",
+    "option_d": "To shorten cleanup",
+    "correct_answer": "A",
+    "explanation": "The delay allows aerial travel."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason star shape affects the visible effect?",
+    "option_a": "It changes the burning pattern and spread of the effect",
+    "option_b": "It only affects legal distance",
+    "option_c": "It changes the shell size only",
+    "option_d": "It always reduces the report",
+    "correct_answer": "A",
+    "explanation": "Shape affects pattern and appearance."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does star construction affect the duration of the display?",
+    "option_a": "It can influence how long each particle burns",
+    "option_b": "It cancels the burst charge",
+    "option_c": "It makes the shell heavier only",
+    "option_d": "It always prevents ignition",
+    "correct_answer": "A",
+    "explanation": "Construction affects burn duration."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a burst charge in an aerial shell?",
+    "option_a": "To break the shell open at the right time",
+    "option_b": "To increase the shell’s weight",
+    "option_c": "To lower the color temperature",
+    "option_d": "To eliminate the lift charge",
+    "correct_answer": "A",
+    "explanation": "Burst charge opens the shell."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why does a shell need a defined internal timing sequence?",
+    "option_a": "To coordinate lift, delay, and burst in a safe order",
+    "option_b": "To guarantee the shell is red",
+    "option_c": "To reduce the charge size only",
+    "option_d": "To avoid using a fuse",
+    "correct_answer": "A",
+    "explanation": "Timing sequence controls operation."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a color-producing composition in a shell?",
+    "option_a": "To create the desired visible color effect",
+    "option_b": "To replace the burst charge",
+    "option_c": "To reduce the need for a fuse",
+    "option_d": "To make the shell heavier",
+    "correct_answer": "A",
+    "explanation": "Color-producing compositions generate visual effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is chemical compatibility important in a pyrotechnic mixture?",
+    "option_a": "Because incompatible ingredients can react unpredictably",
+    "option_b": "Because all chemicals are safe together",
+    "option_c": "Because color always improves together",
+    "option_d": "Because packaging must be metal only",
+    "correct_answer": "A",
+    "explanation": "Compatibility lowers the chance of hazardous reactions."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a pyrotechnic fuse in a device?",
+    "option_a": "To provide ignition at a controlled time",
+    "option_b": "To change the shell size",
+    "option_c": "To replace the casing",
+    "option_d": "To stop the effect",
+    "correct_answer": "A",
+    "explanation": "A fuse provides ignition timing."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are fuses tested before use?",
+    "option_a": "To confirm they will perform as expected",
+    "option_b": "To change the color of the device",
+    "option_c": "To reduce the shell count",
+    "option_d": "To eliminate the need for a delay",
+    "correct_answer": "A",
+    "explanation": "Testing confirms reliability."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does composition density affect burn behavior?",
+    "option_a": "It can influence how quickly heat and gas move through the composition",
+    "option_b": "It only changes the permit fee",
+    "option_c": "It lowers the shell height",
+    "option_d": "It prevents color effects",
+    "correct_answer": "A",
+    "explanation": "Density affects burn behavior."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main role of a pyrotechnic delay in a multi-effect device?",
+    "option_a": "To coordinate the appearance of separate effects",
+    "option_b": "To replace the burst charge",
+    "option_c": "To reduce the fire risk",
+    "option_d": "To shorten the transport route",
+    "correct_answer": "A",
+    "explanation": "Delays time the effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is it important to understand the difference between fuel and oxidizer?",
+    "option_a": "Because each plays a different role in the reaction",
+    "option_b": "Because one always prevents ignition",
+    "option_c": "Because one is only used for colors",
+    "option_d": "Because one is always a metal",
+    "correct_answer": "A",
+    "explanation": "Fuel and oxidizer have distinct roles."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason a star composition may produce a different color than expected?",
+    "option_a": "Because the formulation, temperature, and impurities can alter the result",
+    "option_b": "Because the shell size is always the same",
+    "option_c": "Because the fuse can never be wrong",
+    "option_d": "Because the permit is expired",
+    "correct_answer": "A",
+    "explanation": "Many variables influence flame color."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is a balanced composition important for safe performance?",
+    "option_a": "Because it helps the material burn predictably and controllably",
+    "option_b": "Because it removes the need for testing",
+    "option_c": "Because it makes all shells loud",
+    "option_d": "Because it eliminates color variation",
+    "correct_answer": "A",
+    "explanation": "Balanced formulas support predictable behavior."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the role of a lift charge in relation to the shell’s internal timing?",
+    "option_a": "It starts the upward motion before the burst sequence begins",
+    "option_b": "It replaces the delay fuse",
+    "option_c": "It eliminates the burst",
+    "option_d": "It creates only smoke",
+    "correct_answer": "A",
+    "explanation": "The lift charge initiates the flight phase."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why does a color effect depend on chemical selection as well as temperature?",
+    "option_a": "Because both affect the emitted light characteristics",
+    "option_b": "Because only temperature matters",
+    "option_c": "Because the fuse determines color",
+    "option_d": "Because color is unrelated to chemistry",
+    "correct_answer": "A",
+    "explanation": "Color is influenced by chemistry and thermal conditions."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a saluting charge in a device?",
+    "option_a": "To produce a report effect",
+    "option_b": "To reduce shell weight",
+    "option_c": "To increase the delay",
+    "option_d": "To make the device smaller",
+    "correct_answer": "A",
+    "explanation": "Salutes are for report effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main reason a composition might produce a crackling effect?",
+    "option_a": "Because the formulation and particle structure create a rapid, irregular burn",
+    "option_b": "Because the shell is always wet",
+    "option_c": "Because the fuse is absent",
+    "option_d": "Because only red colors can crackle",
+    "correct_answer": "A",
+    "explanation": "Crackling effects result from the formulation and burn behavior."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does star formulation affect the visible pattern of a burst?",
+    "option_a": "It influences the shape, brightness, and spread of the burning particles",
+    "option_b": "It changes the permit only",
+    "option_c": "It changes the storage magazine type",
+    "option_d": "It removes the need for a delay",
+    "correct_answer": "A",
+    "explanation": "Star formulation shapes the observed pattern."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is it important to know whether a mixture is oxidizer-dominant or fuel-dominant?",
+    "option_a": "Because it affects how the mixture behaves during ignition and burn",
+    "option_b": "Because the permit depends on it",
+    "option_c": "Because only fuel-dominant mixtures are legal",
+    "option_d": "Because the shell color is determined by it",
+    "correct_answer": "A",
+    "explanation": "The balance determines behavior."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the main purpose of a composition review before a display?",
+    "option_a": "To verify that the formulation is appropriate and manageable for the planned use",
+    "option_b": "To choose the soundtrack",
+    "option_c": "To reduce the crew size",
+    "option_d": "To replace the site map",
+    "correct_answer": "A",
+    "explanation": "Composition review supports safe planning."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Which mortar tube material is most associated with impact resistance and durability?",
+    "option_a": "HDPE",
+    "option_b": "Steel",
+    "option_c": "Fiberglass",
+    "option_d": "Aluminum",
+    "correct_answer": "B",
+    "explanation": "Steel tubes are often chosen for durability and structural strength."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What inspection defect should cause a mortar tube to be taken out of service?",
+    "option_a": "A visible crack or deformation",
+    "option_b": "A clean interior",
+    "option_c": "A recent coat of paint",
+    "option_d": "A new safety cap",
+    "correct_answer": "A",
+    "explanation": "Any visible structural defect should be treated as a serious concern."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "How should a mortar tube be inspected for internal damage before use?",
+    "option_a": "By checking the interior for obstructions, cracks, or rough spots",
+    "option_b": "By looking only at the outside color",
+    "option_c": "By waiting until after loading",
+    "option_d": "By measuring the shell only",
+    "correct_answer": "A",
+    "explanation": "Interior inspection helps identify defects that may affect safety."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is mortar tube straightness important?",
+    "option_a": "Because an out-of-line tube can change the firing path",
+    "option_b": "Because it helps the shell become heavier",
+    "option_c": "Because it shortens the fuse",
+    "option_d": "Because it reduces the permit need",
+    "correct_answer": "A",
+    "explanation": "Straightness affects safe and predictable firing direction."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Which material is most likely to be affected by UV degradation over time?",
+    "option_a": "HDPE",
+    "option_b": "Steel",
+    "option_c": "Copper",
+    "option_d": "Concrete",
+    "correct_answer": "A",
+    "explanation": "HDPE can be affected by long-term UV exposure."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What should be done if a mortar tube shows swelling or deformation?",
+    "option_a": "Remove it from service and inspect it further",
+    "option_b": "Use it for a smaller shell",
+    "option_c": "Cover it with tape only",
+    "option_d": "Store it near the firing line",
+    "correct_answer": "A",
+    "explanation": "Swelling or deformation suggests a structural problem."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Which factor most affects the decision to replace a mortar tube?",
+    "option_a": "The extent of damage or wear",
+    "option_b": "The day of the week",
+    "option_c": "The shell color",
+    "option_d": "The number of spectators",
+    "correct_answer": "A",
+    "explanation": "Condition is the key factor."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main difference between a mortar rack and a trough setup?",
+    "option_a": "A rack holds tubes in defined positions while a trough is a continuous support structure",
+    "option_b": "They are legally identical",
+    "option_c": "A trough is always smaller",
+    "option_d": "A rack is only used for hand-firing",
+    "correct_answer": "A",
+    "explanation": "The support structure and positioning differ."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is it important to secure mortars at the base as well as at the tube mouth?",
+    "option_a": "To reduce movement and improve stability",
+    "option_b": "To reduce the shell size",
+    "option_c": "To increase the number of effects",
+    "option_d": "To reduce the need for inspection",
+    "correct_answer": "A",
+    "explanation": "Base security improves stability."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main purpose of burying a mortar tube in sand or earth?",
+    "option_a": "To increase stability and reduce movement",
+    "option_b": "To change the color effect",
+    "option_c": "To lower the permit cost",
+    "option_d": "To prevent crowd entry",
+    "correct_answer": "A",
+    "explanation": "Burial can improve confinement and stability."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "How does sandbagging improve mortar stability?",
+    "option_a": "It adds weight and resists shifting",
+    "option_b": "It changes the fuse timing",
+    "option_c": "It prevents the shell from rising",
+    "option_d": "It reduces the shell count",
+    "correct_answer": "A",
+    "explanation": "Sandbagging adds stability."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main risk of an unsecured mortar tube?",
+    "option_a": "It may shift or tip during firing",
+    "option_b": "It will always fail to ignite",
+    "option_c": "It will become more colorful",
+    "option_d": "It will reduce load time",
+    "correct_answer": "A",
+    "explanation": "Unsecured tubes can move dangerously."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Which setup is most appropriate for high-wind display environments?",
+    "option_a": "A heavier and more secure support arrangement",
+    "option_b": "A loose stack of tubes",
+    "option_c": "A shorter firing line",
+    "option_d": "No safety line",
+    "correct_answer": "A",
+    "explanation": "Wind increases the need for secure setups."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of placing a mortar tube in a sand-filled trough?",
+    "option_a": "To provide a more stable and controlled base",
+    "option_b": "To create a louder report",
+    "option_c": "To reduce the need for a fuse",
+    "option_d": "To increase shell size",
+    "correct_answer": "A",
+    "explanation": "Troughs help stabilize the tube."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why should mortars be positioned away from spectator access paths?",
+    "option_a": "To reduce the chance of injury from movement or debris",
+    "option_b": "To make cleanup easier",
+    "option_c": "To improve the sound of the show",
+    "option_d": "To increase the shell count",
+    "correct_answer": "A",
+    "explanation": "Distance improves safety."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main hazard of using a mortar with an uneven base?",
+    "option_a": "The tube can shift or misalign",
+    "option_b": "The shell will always ignite faster",
+    "option_c": "The shell will become brighter",
+    "option_d": "The permit will be automatically renewed",
+    "correct_answer": "A",
+    "explanation": "Uneven support can cause misalignment."
+  }
+]

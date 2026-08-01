@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In pyrotechnic color formulation, which chemical element is universally relied upon to produce a vibrant red flame?",
+    "option_a": "Barium",
+    "option_b": "Strontium",
+    "option_c": "Copper",
+    "option_d": "Sodium",
+    "correct_answer": "B",
+    "explanation": "Strontium compounds, such as strontium carbonate and strontium nitrate, emit atomic and molecular spectral lines in the red region of the visible spectrum when heated in a flame."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator is examining a green star composition. Which of the following elements is the primary color emitter for green in fireworks?",
+    "option_a": "Barium",
+    "option_b": "Calcium",
+    "option_c": "Titanium",
+    "option_d": "Potassium",
+    "correct_answer": "A",
+    "explanation": "Barium compounds (like barium nitrate or barium chlorate) are the industry standard for producing bright green flames, specifically emitting light as Barium Monochloride (BaCl) in the vapor phase."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which element is notoriously difficult to formulate for in pyrotechnics because its compounds must burn at a relatively low temperature to produce a deep blue color without washing out?",
+    "option_a": "Bismuth",
+    "option_b": "Strontium",
+    "option_c": "Copper",
+    "option_d": "Zinc",
+    "correct_answer": "C",
+    "explanation": "Copper is used to produce blue flames. However, the specific light-emitting molecule (Copper(I) chloride) is highly fragile and breaks down if the flame temperature is too hot, turning the blue to a washed-out white."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What color is predominantly produced by adding Sodium salts (such as Sodium Oxalate or Sodium Nitrate) to a pyrotechnic mixture?",
+    "option_a": "Purple",
+    "option_b": "Yellow",
+    "option_c": "Green",
+    "option_d": "Silver",
+    "correct_answer": "B",
+    "explanation": "Sodium burns with an intense, monochromatic yellow flame (the classic sodium D-line). It is so overpowering that trace amounts of sodium contamination can mask other colors like blue or green."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "To create a bright, vibrant purple star, a pyrotechnic manufacturer must precisely combine the spectral emissions of which two elements?",
+    "option_a": "Sodium and Barium",
+    "option_b": "Strontium and Copper",
+    "option_c": "Calcium and Bismuth",
+    "option_d": "Magnesium and Iron",
+    "correct_answer": "B",
+    "explanation": "Purple is not produced by a single element in fireworks. It requires a careful balance of Strontium (red) and Copper (blue) emitters burning simultaneously in the same flame."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the primary function of incorporating Polyvinyl Chloride (PVC) or Parlon into a colored star composition?",
+    "option_a": "To act as the primary oxidizer",
+    "option_b": "To cool the flame so it doesn't melt the shell casing",
+    "option_c": "To act as a chlorine donor, which combines with metal atoms to form light-emitting metal chlorides, drastically deepening the color",
+    "option_d": "To make the smoke completely invisible",
+    "correct_answer": "C",
+    "explanation": "Most metals produce weak colors as oxides. Adding a chlorine donor (like PVC or Parlon) provides chlorine atoms that bond with the metal in the flame to create metal chlorides (e.g., BaCl, SrCl), which are much stronger and richer color emitters."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the specific, fragile molecule that must survive within the flame envelope to successfully emit a high-quality pyrotechnic blue color?",
+    "option_a": "Copper(II) Oxide (CuO)",
+    "option_b": "Copper(I) Chloride (CuCl)",
+    "option_c": "Copper Carbonate (CuCO3)",
+    "option_d": "Copper(II) Sulfate (CuSO4)",
+    "correct_answer": "B",
+    "explanation": "While various copper salts are used in the mix, they must ultimately vaporize and bond with chlorine in the flame to form Copper(I) Chloride (CuCl), which is the specific molecular emitter of the blue wavelength."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "If a colored pyrotechnic composition burns at an excessively high temperature (e.g., due to an overload of magnesium), what visual phenomenon occurs?",
+    "option_a": "The color shifts to the opposite end of the spectrum (e.g., red turns blue)",
+    "option_b": "The star produces zero light and only smoke",
+    "option_c": "The color is 'washed out' as the intense white blackbody radiation of the incandescent metal completely overpowers the delicate spectral emissions of the colorant",
+    "option_d": "The star becomes completely invisible to the naked eye",
+    "correct_answer": "C",
+    "explanation": "Color washout occurs when high-energy fuels raise the flame temperature so high that incandescent white light (blackbody radiation) drowns out the specific colored wavelengths emitted by the metal chlorides."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do pyrotechnicians frequently use Hexamine (hexamethylenetetramine) as a fuel in blue star formulations instead of aluminum or magnesium?",
+    "option_a": "Hexamine produces massive amounts of white sparks",
+    "option_b": "Hexamine is a low-temperature, clean-burning fuel that prevents the fragile CuCl molecule from decomposing, ensuring the blue color is not washed out",
+    "option_c": "Hexamine provides its own copper atoms",
+    "option_d": "Hexamine makes the star highly resistant to static electricity",
+    "correct_answer": "B",
+    "explanation": "Blue colors require cool flames. High-energy metal fuels burn too hot and destroy the blue emitter. Hexamine burns relatively cool and produces very little smoke, providing an ideal dark background for the blue flame."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator is mixing a bright yellow star formula containing Sodium Nitrate. What significant physical challenge must be managed regarding this specific chemical?",
+    "option_a": "Sodium Nitrate is highly radioactive",
+    "option_b": "Sodium Nitrate is extremely hygroscopic and will rapidly absorb moisture from the air, rendering the composition a wet, un-ignitable slurry if not sealed",
+    "option_c": "Sodium Nitrate detonates upon contact with wood",
+    "option_d": "Sodium Nitrate produces highly toxic arsenic fumes",
+    "correct_answer": "B",
+    "explanation": "Sodium nitrate is notorious for being strongly hygroscopic. It attracts atmospheric humidity so aggressively that it can 'melt' into a puddle of water if left exposed, ruining the pyrotechnic mixture."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which yellow colorant is sometimes used as an alternative to Sodium Nitrate specifically because it is highly insoluble in water and completely non-hygroscopic?",
+    "option_a": "Sodium Bicarbonate",
+    "option_b": "Cryolite (Sodium Hexafluoroaluminate)",
+    "option_c": "Calcium Carbonate",
+    "option_d": "Potassium Nitrate",
+    "correct_answer": "B",
+    "explanation": "Cryolite is a mineral containing sodium that is virtually insoluble in water. It provides the necessary sodium for the yellow flame without the severe moisture-absorbing issues of sodium nitrate or sodium oxalate."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What highly toxic historical copper compound (Copper Acetoarsenite) was once prized for producing flawless blue colors but is now strictly banned due to extreme environmental and occupational hazards?",
+    "option_a": "Copper Sulfate",
+    "option_b": "Paris Green",
+    "option_c": "Bordeaux Mixture",
+    "option_d": "Copper Oxychloride",
+    "correct_answer": "B",
+    "explanation": "Paris Green contains massive amounts of arsenic. While it made incredibly beautiful blue fireworks, the fallout and manufacturing process poisoned workers and the environment with arsenic, leading to its ban."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Before the advent of modern chlorinated polymers like Parlon, what toxic heavy metal compound was considered the ultimate chlorine donor for deepening pyrotechnic colors?",
+    "option_a": "Lead Tetroxide",
+    "option_b": "Barium Chlorate",
+    "option_c": "Calomel (Mercury(I) Chloride)",
+    "option_d": "Strontium Chromate",
+    "correct_answer": "C",
+    "explanation": "Calomel is a mercury chloride compound. It provided exceptional chlorine release in flames to produce brilliant colors, but vaporized highly toxic mercury, causing severe neurological damage to pyrotechnic workers."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What severe chemical hazard is created if a pyrotechnician mixes Copper(II) Sulfate directly into a formula that utilizes Potassium Chlorate as the oxidizer?",
+    "option_a": "The mixture turns into an inert block of solid copper",
+    "option_b": "Copper sulfate is acidic; it will react with the chlorate to form chloric acid, an extremely unstable compound that causes the mixture to spontaneously combust or detonate",
+    "option_c": "The star will burn completely invisible",
+    "option_d": "The mixture will freeze any water it touches",
+    "correct_answer": "B",
+    "explanation": "Chlorates are incredibly dangerous in the presence of any acid. Copper sulfate forms an acidic solution in the presence of trace moisture, yielding chloric acid. Chloric acid will spontaneously ignite any organic fuel in the mix."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a red star formulation, Strontium Nitrate is frequently utilized. What dual purpose does this specific chemical serve during combustion?",
+    "option_a": "It acts as both the fuel and the binder",
+    "option_b": "It acts as both the oxidizer and the red color emitter",
+    "option_c": "It provides a whistling sound and a red color",
+    "option_d": "It absorbs moisture and provides chlorine",
+    "correct_answer": "B",
+    "explanation": "Unlike Strontium Carbonate (which only provides color and acts as a fuel/retardant), Strontium Nitrate is rich in oxygen. It breaks down to provide oxygen for combustion while simultaneously supplying the strontium atoms for the red flame."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Barium Carbonate is often added to green star formulations and some chlorate-based mixes. Aside from acting as a green color emitter, what critical safety function does it perform in a chlorate star?",
+    "option_a": "It acts as a primary explosive detonator",
+    "option_b": "It completely waterproofs the star",
+    "option_c": "It acts as an acid buffer (neutralizer), preventing the accidental formation of highly unstable chloric acid that leads to spontaneous combustion",
+    "option_d": "It creates a massive volume of white smoke",
+    "correct_answer": "C",
+    "explanation": "Barium carbonate is slightly alkaline. If added to a friction-sensitive chlorate composition, it neutralizes any trace acids that might form, vastly improving the chemical stability and safety of the mixture."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do color formulations utilizing Barium Nitrate often require an unusually high percentage of a metal fuel (like Magnalium) compared to those using Potassium Perchlorate?",
+    "option_a": "Barium Nitrate burns with a highly invisible flame on its own",
+    "option_b": "Barium Nitrate requires extremely high temperatures to decompose effectively and release its oxygen, which necessitates a high-heat metal fuel",
+    "option_c": "Barium Nitrate produces too much green color without it",
+    "option_d": "Magnalium neutralizes the toxicity of the barium",
+    "correct_answer": "B",
+    "explanation": "Barium nitrate is a very stable oxidizer and has a high decomposition temperature. Without a hot metallic fuel like magnalium to drive the reaction, a barium nitrate star will barely smolder and fail to ignite properly."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which chemical element is utilized primarily in older, traditional fireworks (like Japanese kamuro shells) to produce dim, deep orange or red sparks that persist for a very long time in the air?",
+    "option_a": "Titanium",
+    "option_b": "Magnesium",
+    "option_c": "Carbon (Lampblack or coarse charcoal)",
+    "option_d": "Copper",
+    "correct_answer": "C",
+    "explanation": "Fine carbon (like lampblack) or coarse hardwood charcoal burns relatively coolly and slowly. As it travels through the air, it continues to oxidize, leaving a beautiful, long-hanging trail of dim orange/gold sparks."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When formulating a bright orange color, pyrotechnicians typically rely on compounds of which element?",
+    "option_a": "Calcium",
+    "option_b": "Potassium",
+    "option_c": "Zinc",
+    "option_d": "Bismuth",
+    "correct_answer": "A",
+    "explanation": "Calcium compounds (such as Calcium Carbonate or Calcium Sulfate) emit in the orange band of the visible spectrum. They are the standard base for creating orange pyrotechnic flames."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "At a molecular level, how do metal chloride gases (like SrCl or BaCl) actually produce visible colored light inside a pyrotechnic flame?",
+    "option_a": "The metal burns to a fine ash that reflects ambient moonlight",
+    "option_b": "The heat of the flame excites the molecule's electrons to a higher energy state; as they fall back to their ground state, they release energy in the form of photons at specific visible wavelengths",
+    "option_c": "The chlorine gas condenses into tiny prisms that bend white light into a rainbow",
+    "option_d": "The metal molecules create tiny microscopic explosions that look colored from a distance",
+    "correct_answer": "B",
+    "explanation": "Pyrotechnic color is based on atomic emission spectroscopy. Thermal energy excites the outer electrons of the metal chlorides. When they drop back to lower energy orbits, the energy difference is emitted as a photon of specific colored light."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A pyrotechnic formula contains Potassium Perchlorate, Red Gum, Copper(II) Oxide, and Parlon. What color flame is this composition engineered to produce?",
+    "option_a": "Red",
+    "option_b": "Green",
+    "option_c": "Blue",
+    "option_d": "Yellow",
+    "correct_answer": "C",
+    "explanation": "Copper(II) Oxide provides the copper. Parlon is the chlorine donor. Together in the flame, they form Copper(I) Chloride (CuCl). Red gum is a low-temp fuel. This is a classic, modern formula for blue."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why must care be taken when adding pure Magnesium to colored star compositions containing ammonium perchlorate?",
+    "option_a": "Magnesium acts as an extreme retardant and will put the star out",
+    "option_b": "In the presence of moisture, magnesium reacts with ammonium compounds to release ammonia gas and massive exothermic heat, leading to spontaneous ignition",
+    "option_c": "Ammonium perchlorate absorbs the magnesium and turns it into inert chalk",
+    "option_d": "Magnesium changes the color of the ammonium to black",
+    "correct_answer": "B",
+    "explanation": "Ammonium perchlorate and unprotected magnesium are chemically incompatible when wet. The alkaline metal attacks the ammonium, causing a severe hydrolysis reaction that generates heat and can easily auto-ignite the batch."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What fundamental difference separates the pyrotechnic generation of vibrant nighttime colors (like red stars) from vibrant daytime colors (like red smoke)?",
+    "option_a": "There is no difference; both use Strontium",
+    "option_b": "Nighttime colors rely on metal salts emitting photons in a hot flame; daytime colored smokes rely on gently heating organic dyes until they sublimate into a vapor without burning",
+    "option_c": "Daytime smoke uses radioactive isotopes to generate color",
+    "option_d": "Nighttime stars use organic dyes that explode",
+    "correct_answer": "B",
+    "explanation": "Night colors are atomic emissions from hot metal salts. Daytime colored smoke is created by using a low-temperature mixture to boil/sublimate colored organic dyes (like synthetic indigo) into the air without incinerating them."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which of the following compounds is considered highly toxic and strictly regulated, but is still sometimes legally required in the manufacture of specific green and strobe pyrotechnics?",
+    "option_a": "Barium Nitrate",
+    "option_b": "Lead Tetroxide",
+    "option_c": "White Phosphorus",
+    "option_d": "Copper Acetoarsenite",
+    "correct_answer": "A",
+    "explanation": "While lead, phosphorus, and arsenic have been essentially banned due to extreme toxicity, Barium compounds (which are highly poisonous if ingested or inhaled) remain an industry standard because they are the only reliable way to produce bright green."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "If an operator requires brilliant, branching silver sparks that trail far behind a comet or shell, which specialized metal additive should be utilized?",
+    "option_a": "Atomized Aluminum",
+    "option_b": "Sponge Titanium or Ferrotitanium",
+    "option_c": "Strontium Carbonate",
+    "option_d": "Zinc Dust",
+    "correct_answer": "B",
+    "explanation": "Titanium (especially in sponge form or alloyed with iron as ferrotitanium) has irregular, porous surfaces that ignite as they leave the flame, burning aggressively in the air to produce iconic, branching, long-hanging silver sparks."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a pyrotechnic reduction-oxidation (redox) reaction, what is the precise chemical role of the oxidizer?",
+    "option_a": "It absorbs excess heat to prevent the mixture from exploding prematurely",
+    "option_b": "It undergoes thermal decomposition when heated, releasing free oxygen atoms to sustain the combustion of the fuel",
+    "option_c": "It acts as a physical binder to hold the fuel particles together",
+    "option_d": "It provides the carbon necessary to create expanding gases",
+    "correct_answer": "B",
+    "explanation": "An oxidizer (such as potassium nitrate or perchlorate) is a chemical compound that, upon reaching its decomposition temperature, breaks down and yields oxygen. This internal oxygen supply allows the fuel to burn violently without needing atmospheric air."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "During a pyrotechnic redox reaction, what happens to the fuel at the molecular level?",
+    "option_a": "The fuel is reduced, meaning it gains electrons from the oxidizer",
+    "option_b": "The fuel is oxidized, meaning it loses electrons to the oxidizer and forms stable oxides while releasing massive amounts of energy",
+    "option_c": "The fuel completely disappears into a vacuum",
+    "option_d": "The fuel absorbs heat and becomes cold",
+    "correct_answer": "B",
+    "explanation": "In a redox reaction, the fuel acts as the reducing agent. It is oxidized (loses electrons/bonds with oxygen) to form combustion products like carbon dioxide or aluminum oxide, in a highly exothermic process that releases heat and light."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why has Potassium Perchlorate largely replaced Potassium Chlorate as the primary oxidizer in modern commercial fireworks manufacturing?",
+    "option_a": "Potassium Perchlorate decomposes at a higher temperature and is significantly more stable, making it far less sensitive to accidental ignition from friction or impact",
+    "option_b": "Potassium Perchlorate is much cheaper to mine",
+    "option_c": "Potassium Chlorate cannot be mixed with organic fuels",
+    "option_d": "Potassium Perchlorate produces a completely smokeless flame",
+    "correct_answer": "A",
+    "explanation": "Potassium chlorate has a low decomposition temperature and forms incredibly friction-sensitive mixtures. Potassium perchlorate requires higher activation energy to release its oxygen, making it drastically safer to handle and mix."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What severe chemical hazard is created if Potassium Chlorate is intimately mixed with Sulfur?",
+    "option_a": "The mixture absorbs water and turns into a heavy, inert clay",
+    "option_b": "The sulfur neutralizes the chlorate, causing the mixture to fail to ignite",
+    "option_c": "Trace moisture causes the sulfur to form sulfuric acid, which attacks the chlorate to form highly unstable chloric acid, often resulting in spontaneous detonation",
+    "option_d": "It creates a massive volume of toxic chlorine gas instantly",
+    "correct_answer": "C",
+    "explanation": "Chlorates are violently incompatible with sulfur. The natural oxidation of sulfur in the presence of moisture creates acids. These acids react with chlorates to create chloric acid, which is so unstable it can spontaneously auto-ignite the mixture at room temperature."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What highly dangerous chemical reaction occurs if Ammonium Perchlorate is mixed with Potassium Chlorate in a wet star composition?",
+    "option_a": "An endothermic reaction that freezes the star solid",
+    "option_b": "An ion-exchange reaction that forms Ammonium Chlorate, a compound so unstable it can spontaneously explode at normal room temperatures",
+    "option_c": "The ammonium neutralizes the chlorate safely",
+    "option_d": "It produces inert nitrogen gas and puts out the flame",
+    "correct_answer": "B",
+    "explanation": "Mixing any ammonium salt with any chlorate salt is strictly forbidden. In the presence of moisture, they undergo double decomposition to form ammonium chlorate, which is notorious for spontaneously detonating."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When formulating a pyrotechnic composition, what defines a 'stoichiometric' mixture?",
+    "option_a": "A mixture that contains no oxidizer and relies strictly on air",
+    "option_b": "A mixture containing the exact, perfectly balanced molecular ratio of oxidizer and fuel, leaving no unreacted excess of either component after combustion",
+    "option_c": "A mixture that uses only metallic fuels",
+    "option_d": "A mixture heavily saturated with liquid binders",
+    "correct_answer": "B",
+    "explanation": "Stoichiometry is the exact calculation of reactants. A stoichiometric mixture is perfectly balanced—there is exactly enough oxygen supplied by the oxidizer to completely consume 100% of the fuel, resulting in maximum energy release."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How does reducing the physical particle size (using a higher mesh number) of a metallic fuel like aluminum affect the pyrotechnic reaction?",
+    "option_a": "It significantly slows down the burn rate by compacting the powder too tightly",
+    "option_b": "It vastly increases the total surface area available to the oxidizer, exponentially accelerating the burn rate and violence of the reaction",
+    "option_c": "It changes the color of the flame from white to red",
+    "option_d": "It makes the powder immune to static electricity",
+    "correct_answer": "B",
+    "explanation": "Pyrotechnic reactions occur on the surface of the particles. Grinding a fuel finer (e.g., from 100 mesh to 400 mesh) exponentially increases the surface area exposed to oxygen, shifting a slow burn into a violent, high-speed flash."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What does the term 'Activation Energy' refer to in pyrotechnic chemistry?",
+    "option_a": "The maximum energy a shell can produce when it explodes",
+    "option_b": "The minimum amount of external thermal or mechanical energy required to initiate the decomposition of the oxidizer and start the self-sustaining chemical reaction",
+    "option_c": "The electrical power required to run the firing system",
+    "option_d": "The kinetic energy of the shell leaving the mortar",
+    "correct_answer": "B",
+    "explanation": "Chemicals don't just react spontaneously; they require an initial input of energy to break their molecular bonds. This initial threshold (provided by a fuse, spark, or friction) is the activation energy."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a pyrotechnic formula, what does it mean if the mixture has a 'negative oxygen balance'?",
+    "option_a": "The mixture will extinguish itself immediately",
+    "option_b": "The mixture lacks sufficient internal oxygen to fully oxidize all of the fuel; the excess unburned fuel will either become smoke or burn externally using ambient air",
+    "option_c": "The mixture has too much oxygen and will burn too quickly",
+    "option_d": "The mixture will only burn underwater",
+    "correct_answer": "B",
+    "explanation": "A negative oxygen balance (fuel-rich) means there is leftover fuel after the oxidizer is exhausted. This is often intentional in fireworks to create secondary spark effects or long, trailing flames as the hot, unburned fuel hits the atmospheric oxygen."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When water contacts ultra-fine Aluminum or Magnesium powder, what dangerous chemical reaction can occur?",
+    "option_a": "The metal immediately rusts and becomes inert",
+    "option_b": "The metal violently absorbs the water and freezes",
+    "option_c": "An exothermic reaction occurs where the metal strips oxygen from the water, generating extreme heat and releasing highly flammable hydrogen gas",
+    "option_d": "The water completely desensitizes the metal",
+    "correct_answer": "C",
+    "explanation": "Fine reactive metals can undergo severe hydrolysis when wet. They act as reducing agents, stripping oxygen from H2O to form metal oxides, while simultaneously releasing hydrogen gas and enough heat to cause spontaneous auto-ignition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "To prevent Magnesium from dangerously reacting with water during the manufacturing of wet stars, pyrotechnicians often pre-treat the magnesium. What is this chemical coating process called?",
+    "option_a": "Oxidation",
+    "option_b": "Sublimation",
+    "option_c": "Passivation (often using Potassium Dichromate or Linseed Oil)",
+    "option_d": "Detonation",
+    "correct_answer": "C",
+    "explanation": "Passivation involves coating the reactive magnesium particles with a thin, protective chemical layer (like a chromate conversion coating or an oil). This barrier prevents water/binders from chemically attacking the raw metal."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What defines an 'exothermic' reaction in pyrotechnic chemistry?",
+    "option_a": "A reaction that absorbs ambient heat, making the surrounding environment cold",
+    "option_b": "A chemical reaction that vigorously releases stored chemical energy into the surrounding environment in the form of heat, light, and expanding gases",
+    "option_c": "A reaction that requires constant outside heat to keep burning",
+    "option_d": "A reaction that produces zero smoke",
+    "correct_answer": "B",
+    "explanation": "All functional fireworks rely on exothermic reactions. Once the activation energy is met, the breaking and reforming of chemical bonds releases massive amounts of thermal and radiant energy (heat and light)."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which of the following materials is commonly added to a pyrotechnic composition to serve the dual role of a water-soluble binder AND a supplemental carbohydrate fuel?",
+    "option_a": "Potassium Perchlorate",
+    "option_b": "Titanium Sponge",
+    "option_c": "Dextrin (roasted corn starch)",
+    "option_d": "Barium Carbonate",
+    "correct_answer": "C",
+    "explanation": "Dextrin is the most common binder in fireworks. When wetted with water, it becomes sticky. Because it is a starch (carbohydrate), it also actively participates in the redox reaction as a low-energy organic fuel."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why are metals like Titanium, Iron, and coarse Charcoal considered 'spark-producing' fuels rather than gas-producing fuels?",
+    "option_a": "They do not burn at all",
+    "option_b": "They vaporize instantly into invisible gas",
+    "option_c": "They do not completely vaporize upon ignition; instead, they are ejected as solid or liquid particles that continue to burn and glow incandescently in the atmosphere",
+    "option_d": "They create static electricity as they fly through the air",
+    "correct_answer": "C",
+    "explanation": "Unlike organic fuels that convert entirely to gas, metals like titanium and iron burn at high temperatures but remain as solid/liquid slag. These burning pieces of metal fly through the air, creating the visual effect we call 'sparks'."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the primary chemical difference between utilizing 'flake' aluminum versus 'atomized' (spherical) aluminum as a pyrotechnic fuel?",
+    "option_a": "Flake aluminum is non-flammable",
+    "option_b": "Atomized aluminum is highly sensitive to static, flake is not",
+    "option_c": "Flake aluminum has vastly more surface area per gram, making it highly reactive and suitable for explosive flash powders; atomized has low surface area and burns slowly for spark effects",
+    "option_d": "Flake aluminum is only used for blue colors",
+    "correct_answer": "C",
+    "explanation": "The shape of the particle dictates its burn rate. Flake aluminum (stamped flat) has massive surface area, allowing oxidizers to consume it instantly. Atomized aluminum (smooth spheres) has minimal surface area and burns much slower."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a star composition, what is the chemical effect of adding a small percentage of a 'retardant' like Sodium Bicarbonate or Barium Carbonate?",
+    "option_a": "It increases the explosive force",
+    "option_b": "It absorbs excess heat or produces carbon dioxide gas to cool and slow the reaction rate, increasing the burn time of the star",
+    "option_c": "It makes the star completely waterproof",
+    "option_d": "It changes the flame to a deep blue",
+    "correct_answer": "B",
+    "explanation": "Retardants are used to intentionally slow down a reaction that would otherwise burn too quickly (like glitters or strobes). They decompose endothermically or release CO2, acting as a chemical brake on the flame front."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When formulating a colored smoke composition, why are strong, high-temperature oxidizers like Potassium Perchlorate generally avoided in favor of weaker oxidizers like Potassium Chlorate?",
+    "option_a": "Perchlorate produces too much black smoke",
+    "option_b": "Perchlorate decomposes at too high of a temperature; it will cause the organic smoke dye to catch fire and incinerate rather than gently sublimating into a colored vapor",
+    "option_c": "Perchlorate reacts with smoke dye to create toxic nerve gas",
+    "option_d": "Chlorate is cheaper and burns completely invisibly",
+    "correct_answer": "B",
+    "explanation": "Colored smoke requires a delicate, low-temperature smolder. If the oxidizer requires high heat to activate (like perchlorate), the resulting flame will just burn the expensive organic dye into useless black ash."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the primary function of a 'phlegmatizer' (such as mineral oil, petroleum jelly, or stearic acid) when added to a highly reactive flash powder?",
+    "option_a": "To dramatically increase the explosive yield",
+    "option_b": "To coat the fuel particles, providing lubrication that drastically reduces the mixture's sensitivity to friction and electrostatic discharge",
+    "option_c": "To change the color of the flash to green",
+    "option_d": "To make the powder burn silently",
+    "correct_answer": "B",
+    "explanation": "Phlegmatizers are desensitizing agents. A tiny amount (1-2%) coats the ultra-fine aluminum and perchlorate particles, acting like microscopic ball bearings. This reduces friction during mixing and dampens static sensitivity."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Compared to organic fuels like charcoal or red gum, what is the primary physical difference in the combustion products when metal fuels like magnesium or aluminum oxidize?",
+    "option_a": "Metals produce pure oxygen gas",
+    "option_b": "Organic fuels produce solid slag, metals produce purely invisible gas",
+    "option_c": "Metal fuels produce significantly higher flame temperatures and leave behind solid/liquid metal oxide slag rather than purely gaseous products",
+    "option_d": "Metals burn endothermically",
+    "correct_answer": "C",
+    "explanation": "Carbon/organic fuels burn into CO2 gas. Metals burn into solid molecules (like Aluminum Oxide). Because the metal oxides cannot expand as a gas, they retain massive amounts of heat, driving the flame temperature to incandescent, blinding extremes."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What physical phenomenon causes 'spontaneous combustion' in a batch of damp pyrotechnic stars left in a poorly ventilated bucket?",
+    "option_a": "Friction from the earth's rotation",
+    "option_b": "A slow, exothermic chemical reaction (like hydrolysis) generates heat; because the bucket traps the heat, the temperature rises exponentially until it hits the composition's auto-ignition threshold",
+    "option_c": "The water evaporates and leaves a vacuum that implodes",
+    "option_d": "Static electricity from the plastic bucket",
+    "correct_answer": "B",
+    "explanation": "Spontaneous combustion requires a self-heating reaction (often moisture reacting with metals or sulfur) combined with insulation. The trapped heat builds up over hours or days until the mass becomes hot enough to light itself."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "How do catalytic additives like Iron(III) Oxide (Red Iron Oxide) function in specialized compositions like whistle mix or rocket propellants?",
+    "option_a": "They act as the primary fuel source",
+    "option_b": "They lower the activation energy required for the oxidizer to decompose, significantly accelerating the burn rate of the mixture without being entirely consumed themselves",
+    "option_c": "They make the mixture waterproof",
+    "option_d": "They absorb all the smoke",
+    "correct_answer": "B",
+    "explanation": "A catalyst speeds up a chemical reaction. In pyrotechnics, adding a pinch of metal oxides (like iron or copper oxide) helps the main oxidizer break down much faster, turning a slow-burning powder into a fast, violent one."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which chemical, commonly used as a fuel and binder, is unique because it dissolves in both acetone and alcohol, and burns extremely cleanly with very little ash?",
+    "option_a": "Dextrin",
+    "option_b": "Nitrocellulose (NC)",
+    "option_c": "Sulfur",
+    "option_d": "Charcoal",
+    "correct_answer": "B",
+    "explanation": "Nitrocellulose is a highly energetic polymer. It acts as an excellent waterproof binder when dissolved in solvents, and because it is highly oxygenated, it burns completely cleanly, leaving almost zero ash or smoke."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is Ammonium Nitrate rarely used as an oxidizer in commercial display fireworks, despite being a powerful oxidizer?",
+    "option_a": "It produces a toxic green gas",
+    "option_b": "It is heavily hygroscopic and undergoes crystal phase changes at standard weather temperatures, which causes pressed compositions (like stars or lift powder) to swell, crack, and crumble into dust",
+    "option_c": "It is too expensive to manufacture",
+    "option_d": "It cannot be ignited by black powder",
+    "correct_answer": "B",
+    "explanation": "Ammonium nitrate is physically unstable. As the ambient temperature rises and falls, its crystal structure physically changes shape and size. This constant shrinking and expanding destroys the physical integrity of pressed pyrotechnics."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a pyrotechnic mixture, most of the chemical reaction occurs in the 'gas phase' or 'vapor phase'. Why is 'intimate mixing' (extreme physical blending) of solid powders necessary for this to happen?",
+    "option_a": "To make the powder look uniform in color",
+    "option_b": "Because solid-state reactions are incredibly slow; the fuel and oxidizer particles must be in microscopic physical contact to transfer enough initial heat to vaporize and continue the high-speed reaction",
+    "option_c": "To prevent the mixture from catching fire",
+    "option_d": "To ensure the mixture is heavy enough to sink in water",
+    "correct_answer": "B",
+    "explanation": "Fireworks are mixtures of solid powders. For a fast reaction, heat must transfer instantly from an oxidizing particle to a fuel particle. If the particles are poorly mixed and too far apart, the reaction will stutter and fail."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "If a Pyrotechnic Operator encounters a batch of stars that emit a strong odor of ammonia, what chemical incompatibility is occurring, and what is the risk?",
+    "option_a": "The stars are curing perfectly and are safe to use",
+    "option_b": "An alkaline substance (like a metal or basic salt) is reacting with an ammonium-based oxidizer; this is an exothermic reaction that can easily lead to spontaneous combustion",
+    "option_c": "The stars have absorbed too much nitrogen from the air and will not burn",
+    "option_d": "The binder is evaporating, making the stars brittle",
+    "correct_answer": "B",
+    "explanation": "Ammonium compounds are highly reactive with bases (alkaline materials). This chemical conflict releases ammonia gas and generates heat. If smelled, the batch is actively self-heating and is in imminent danger of spontaneous ignition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When manufacturing 'rolled' or 'round' pyrotechnic stars, what is the specific physical mechanism that allows the star to change colors multiple times during its flight?",
+    "option_a": "The star contains a micro-chip that changes the burning temperature",
+    "option_b": "The star is manufactured by tumbling a core seed and applying successive, distinct layers of different color compositions, allowing it to burn from the outside inward like an onion",
+    "option_c": "The star spins rapidly, creating an optical illusion of changing colors",
+    "option_d": "The colors change as the star cools down in the upper atmosphere",
+    "correct_answer": "B",
+    "explanation": "Round stars are created in a star roller. A core (like a mustard seed or lead shot) is coated with a layer of one color, dried, and then coated with another. As it flies, it burns layer by layer, creating sequential color changes."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the typical manufacturing process for creating a 'cut' star?",
+    "option_a": "Melting the chemicals into a liquid and pouring them into ice cube trays",
+    "option_b": "Dampening the composition into a thick, dough-like consistency, flattening it into a block or patty, and slicing it into small cubes with a blade before drying",
+    "option_c": "Using a laser cutter to slice solid rocks of black powder",
+    "option_d": "Extruding the powder through a heated plastic nozzle",
+    "correct_answer": "B",
+    "explanation": "Cut stars are the simplest to manufacture. The composition is wetted with a binder/solvent until it forms a dough, patted flat, and cut into a grid of cubes. Because of their sharp edges, they catch fire easily."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A 'pumped' star is typically manufactured to create which specific type of shape, often used in cylindrical shells or Roman candles?",
+    "option_a": "A perfect sphere",
+    "option_b": "A jagged, irregular rock",
+    "option_c": "A uniform cylinder or pellet",
+    "option_d": "A flat disc",
+    "correct_answer": "C",
+    "explanation": "Pumped stars are made using a star pump (a metal syringe-like tool) or a star plate. The damp composition is pressed tightly into the mold and pushed out, resulting in uniform cylindrical pellets."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "To create a 'pattern shell' (e.g., a smiley face, a heart, or a five-pointed star), how are the pyrotechnic stars physically arranged inside the spherical shell casing?",
+    "option_a": "They are poured randomly into the center of the shell",
+    "option_b": "They are precisely glued or pasted in a two-dimensional geometric pattern against the interior wall of the shell hemispheres, backed by a fast burst charge",
+    "option_c": "They are stacked in a straight vertical line",
+    "option_d": "They are attached to the outside of the shell casing",
+    "correct_answer": "B",
+    "explanation": "Pattern shells require exact geometry. The stars are carefully glued to the inside wall of the shell casing in the desired shape. A hard, symmetrical burst charge pushes them outward in that exact orientation."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do pattern shells (like a ring or a heart) sometimes appear as a flat, unidentifiable line or a disorganized blob to certain spectators in the audience?",
+    "option_a": "The stars burned too quickly",
+    "option_b": "Pattern shells create a two-dimensional shape in the sky; if the shell rotates during flight and bursts edge-on to the viewer, the pattern is lost",
+    "option_c": "The shell broke at too low of an altitude",
+    "option_d": "The colors of the stars washed out",
+    "correct_answer": "B",
+    "explanation": "Unlike spherical chrysanthemum breaks, pattern shells break in a 2D plane. Since operators cannot control the exact rotation of a spherical shell in the air, the pattern will look perfect to some viewers and like a straight line to others."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which chemical is the standard, primary oxidizer used in modern commercial flash powder for aerial salutes?",
+    "option_a": "Potassium Nitrate",
+    "option_b": "Potassium Chlorate",
+    "option_c": "Potassium Perchlorate",
+    "option_d": "Ammonium Nitrate",
+    "correct_answer": "C",
+    "explanation": "Potassium Perchlorate is the industry standard oxidizer for salutes. It provides massive energy but is significantly less sensitive to friction and shock than the historically used Potassium Chlorate, greatly increasing manufacturing safety."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "To achieve maximum brisance (explosive shattering power) in an aerial salute, what specific type of aluminum fuel is required?",
+    "option_a": "Atomized Aluminum (spherical)",
+    "option_b": "Dark Pyro Aluminum (ultra-fine flake)",
+    "option_c": "Coarse Aluminum Turnings",
+    "option_d": "Aluminum Oxide",
+    "correct_answer": "B",
+    "explanation": "Dark Pyro aluminum consists of microscopically thin, flat flakes with massive surface area. This allows the oxidizer to consume the fuel almost instantaneously, producing the violent, high-velocity detonation wave (brisance) needed for a loud report."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Some salute compositions include a small percentage of Antimony Trisulfide. What is the specific chemical purpose of adding this to flash powder?",
+    "option_a": "To make the smoke green",
+    "option_b": "To act as a friction sensitizer and kindling agent, sharpening the report and lowering the activation energy required to ignite the mixture",
+    "option_c": "To completely waterproof the salute",
+    "option_d": "To slow down the explosion",
+    "correct_answer": "B",
+    "explanation": "Antimony trisulfide makes flash powder significantly more sensitive and energetic, producing a sharper, louder 'crack'. However, it dramatically increases the risk of accidental ignition from friction or static, making the powder much more dangerous to handle."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When comparing black powder to flash powder, what is meant by the statement that flash powder can 'auto-confine'?",
+    "option_a": "It shrinks when it gets cold",
+    "option_b": "It only explodes if placed inside a steel pipe",
+    "option_c": "The reaction is so incredibly fast that the mass of the powder and the surrounding air itself provide enough confinement to cause a violent explosion even in the open",
+    "option_d": "It automatically seals any leaks in the shell casing",
+    "correct_answer": "C",
+    "explanation": "Black powder requires a heavily pasted shell or a strong mortar tube to explode loudly. Flash powder burns so fast (fractions of a millisecond) that even a loose pile on the ground will violently detonate because the air cannot move out of the way fast enough."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What specialized pyrotechnic star is designed to fly outward, burn for a moment, and then violently split into four separate, flying fragments, creating a branching cross effect in the sky?",
+    "option_a": "A Crossette star",
+    "option_b": "A Falling Leaf star",
+    "option_c": "A Kamuro star",
+    "option_d": "A Tourbillon",
+    "correct_answer": "A",
+    "explanation": "A crossette is a pumped cylindrical star with a hollow cavity pressed into one end. This cavity is filled with a small charge of flash powder. As the star burns down, the flash powder ignites, violently splitting the star into symmetrical fragments."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In a traditional Italian-style multi-break cylindrical shell, what is the term for the final, heavily wrapped explosive charge at the bottom of the shell that produces a massive, deafening boom?",
+    "option_a": "The Passfire",
+    "option_b": "The Bottom Shot",
+    "option_c": "The Spoulette",
+    "option_d": "The Lift Cup",
+    "correct_answer": "B",
+    "explanation": "The 'Bottom Shot' is the grand finale of a multi-break shell. After the upper sections (breaks) have fired their colors, the final heavy salute charge at the base of the cylinder detonates, producing a massive report."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the primary chemical difference between a standard salute and a 'Titanium Salute'?",
+    "option_a": "Titanium salutes use titanium as the oxidizer",
+    "option_b": "Titanium salutes are significantly quieter",
+    "option_c": "Sponge titanium is added to the flash powder to produce a brilliant, blinding cloud of white/silver sparks upon detonation",
+    "option_d": "Titanium salutes produce thick red smoke",
+    "correct_answer": "C",
+    "explanation": "A standard salute produces a loud boom and a white flash. Adding coarse titanium sponge causes molten, burning titanium fragments to be blasted outward, creating the massive web of brilliant white sparks characteristic of a titanium salute."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When manufacturing flash powder for salutes, pyrotechnicians use the 'diaper method'. What does this safety technique involve?",
+    "option_a": "Wrapping the finished shell in thick cloth",
+    "option_b": "Placing the chemicals on a large sheet of anti-static material and gently rolling the sheet back and forth to mix the powders without using any friction-producing hard tools",
+    "option_c": "Mixing the powder entirely underwater",
+    "option_d": "Wearing heavy canvas aprons",
+    "correct_answer": "B",
+    "explanation": "Flash powder is lethally sensitive to friction and static. The diaper method avoids stirring with tools. The powders are placed on a grounded, anti-static sheet (like rubber or leather), and the edges are alternately lifted to gently roll the powders together."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Modern 'Dragon's Egg' microstars produce a crackling effect by undergoing a delayed, violent micro-explosion. Which chemical compound is the standard base for this effect today?",
+    "option_a": "Lead Tetroxide",
+    "option_b": "Bismuth Trioxide",
+    "option_c": "Copper Oxide",
+    "option_d": "Iron Oxide",
+    "correct_answer": "B",
+    "explanation": "Historically, highly toxic lead compounds were used. Today, Bismuth Trioxide combined with Magnalium and Copper Oxide is the standard formula for producing the loud, smolder-and-pop crackle effect known as Dragon's Eggs."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "If a Pyrotechnic Operator is examining a 'pillbox' star, how was this star physically constructed?",
+    "option_a": "By pumping powder into a spherical mold",
+    "option_b": "By packing pyrotechnic composition into a small, thin-walled paper or cardboard tube (like a tiny Roman candle)",
+    "option_c": "By melting powder into a plastic capsule",
+    "option_d": "By wrapping black powder in aluminum foil",
+    "correct_answer": "B",
+    "explanation": "Pillbox stars (often used in classic Maltese or Italian shells) are made by ramming composition into tiny paper tubes. They burn from the ends inward, producing very consistent, long-burning color or spark effects."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A 'spreader' or 'granite' star is designed to break apart into tiny, glowing fragments shortly after being expelled from the shell. What coarse metal is primarily used to achieve this fragmenting effect?",
+    "option_a": "Atomized Aluminum",
+    "option_b": "Zinc dust",
+    "option_c": "Strontium Carbonate",
+    "option_d": "Brass turnings",
+    "correct_answer": "B",
+    "explanation": "Zinc burns with a bluish-white flame and produces heavy oxide smoke. In spreader stars, zinc creates a sputtering, boiling reaction that physically tears the star apart into smaller, glowing chunks as it flies."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why must an operator NEVER add a few drops of water to a dry flash powder mix (Aluminum and Perchlorate) to reduce dust during manufacturing?",
+    "option_a": "It will dissolve the aluminum",
+    "option_b": "It will cause the perchlorate to freeze",
+    "option_c": "Water can cause the aluminum to oxidize rapidly, trapping heat in the mass, generating hydrogen gas, and leading to a highly catastrophic spontaneous detonation",
+    "option_d": "It turns the powder into an inert clay",
+    "correct_answer": "C",
+    "explanation": "Flash powder must be kept bone dry. Introducing water to fine aluminum powder initiates a highly exothermic oxidation reaction. Since the heat cannot escape, it will build rapidly until the entire mass spontaneously detonates."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In aerial shell construction, what is the primary difference in how a 'cylindrical' shell breaks compared to a 'spherical' shell?",
+    "option_a": "Cylindrical shells have no burst charge",
+    "option_b": "Spherical shells use a radial burst to create a perfect circle of stars, while cylindrical shells burst forcefully along their sides to scatter stars in a massive, wide bloom",
+    "option_c": "Cylindrical shells do not use time fuses",
+    "option_d": "Spherical shells are only used for salutes",
+    "correct_answer": "B",
+    "explanation": "Spherical shells (Asian style) burst equally in all directions (radially) to form symmetric globes like chrysanthemums. Cylindrical shells (Italian/Maltese style) are heavily spiked with string on the ends, forcing the burst laterally outward to create a massive, wide break."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the industry term for a star that fails to ignite from the burst charge, resulting in it falling to the earth completely unburned (and potentially live)?",
+    "option_a": "A squib",
+    "option_b": "A blind star",
+    "option_c": "A blowout",
+    "option_d": "A hangfire",
+    "correct_answer": "B",
+    "explanation": "A 'blind' star is one that fails to take fire during the explosion of the shell. This usually occurs if the star lacks a proper prime layer, was shattered by the burst, or was over-bound and too hard to ignite."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "To create a 'Go-Getter' star (a star that behaves like a self-propelled, erratically swimming flare), what specialized liquid binder/fuel is typically used to give it a flowing, syrupy consistency?",
+    "option_a": "Dextrin and water",
+    "option_b": "Nitrocellulose lacquer",
+    "option_c": "Liquid silicone",
+    "option_d": "Motor oil",
+    "correct_answer": "B",
+    "explanation": "Go-getters are a modern effect. The composition is heavily saturated with Nitrocellulose (NC) lacquer, creating a thick, sticky syrup that is extruded into paper tubes. As it burns, the NC provides powerful, erratic jet propulsion."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When making rolled color-changing stars, what must a pyrotechnician do if one color layer contains Potassium Chlorate and the next color layer contains Sulfur?",
+    "option_a": "Mix them together to create a stronger bond",
+    "option_b": "They must never be placed in contact; a completely inert 'barrier' layer (like a sulfurless black powder prime) must be rolled between them to prevent dangerous cross-contamination",
+    "option_c": "Wash the star in water between layers",
+    "option_d": "Use a blowtorch to dry the chlorate first",
+    "correct_answer": "B",
+    "explanation": "Chlorates and sulfur create a spontaneously explosive hazard. If a star requires both in different layers, a buffer zone—typically a layer of sulfurless prime or inert binder—must physically separate them to ensure safety."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A 3-inch aerial salute is designed strictly to produce a loud report. What type of shell casing is most commonly utilized for this specific effect?",
+    "option_a": "A thin plastic sphere",
+    "option_b": "A heavy, multi-layered kraft paper cylinder (or heavily pasted sphere) to provide maximum confinement for the flash powder before it ruptures",
+    "option_c": "A cast iron ball",
+    "option_d": "An un-pasted cardboard box",
+    "correct_answer": "B",
+    "explanation": "Even though flash powder auto-confines, encasing it in a heavily pasted, rigid paper cylinder drastically increases the pressure spike before the casing yields. This maximizes the brisance and the decibel level of the report."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the specific hazard of the 'dust cloud' generated when working with Dark Pyro aluminum in a salute manufacturing environment?",
+    "option_a": "It causes immediate rust on all tools",
+    "option_b": "The dust has an incredibly low Minimum Ignition Energy (MIE) and can be ignited by the microscopic electrostatic discharge (ESD) generated simply by walking across a floor",
+    "option_c": "It absorbs oxygen, suffocating the workers",
+    "option_d": "It makes the room too cold to work in",
+    "correct_answer": "B",
+    "explanation": "Suspended dark aluminum dust is terrifyingly sensitive. The static electricity generated by a human moving, which you cannot even feel, is more than enough to detonate an aluminum dust cloud, requiring strict grounding protocols."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do pyrotechnicians frequently add a tiny percentage (e.g., 1%) of Cab-O-Sil (fumed silica) to their flash powder compositions?",
+    "option_a": "To make the explosion louder",
+    "option_b": "To act as an extreme sensitizer",
+    "option_c": "To act as an anti-caking agent that keeps the ultra-fine powders free-flowing, preventing clumps and slightly reducing friction sensitivity",
+    "option_d": "To turn the flash powder blue",
+    "correct_answer": "C",
+    "explanation": "Cab-O-Sil consists of microscopic, fluffy silicon dioxide particles. It coats the aluminum and perchlorate, acting like tiny dry ball bearings. This keeps the powder loose and flowable, and slightly dampens dangerous friction between particles."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When constructing a spherical display shell, what is the 'burst matrix'?",
+    "option_a": "The computer program used to fire the shell",
+    "option_b": "The internal mixture of burst powder (Polverone) coated onto a carrier material (like rice hulls or cotton seeds) that fills the void spaces between the stars",
+    "option_c": "The fiberglass mortar tube",
+    "option_d": "The outside layer of pasted paper",
+    "correct_answer": "B",
+    "explanation": "The burst matrix is the core of the shell. Coating fluffy rice hulls with black powder creates a massive internal surface area. When the time fuse spits fire into the core, this matrix flashes over instantly, driving the stars outward simultaneously."
+  }
+]

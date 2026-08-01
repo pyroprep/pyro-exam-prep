@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under the US Department of Transportation (DOT) classification system used in California, what is the proper hazard classification for commercial professional display fireworks?",
+    "option_a": "1.1G",
+    "option_b": "1.2G",
+    "option_c": "1.3G",
+    "option_d": "1.4G",
+    "correct_answer": "C",
+    "explanation": "Professional display fireworks are classified by the DOT as 1.3G explosives (formerly known as Class B Special Fireworks)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the proper DOT hazard classification for 'Safe and Sane' consumer fireworks legally sold to the public in California?",
+    "option_a": "1.1G",
+    "option_b": "1.3G",
+    "option_c": "1.4G",
+    "option_d": "1.5G",
+    "correct_answer": "C",
+    "explanation": "Consumer fireworks, including state-approved 'Safe and Sane' items, are classified as 1.4G explosives (formerly known as Class C Common Fireworks)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "At what weight threshold must a vehicle transporting 1.3G display fireworks on public highways display DOT explosive placards?",
+    "option_a": "Over 100 pounds",
+    "option_b": "Over 500 pounds",
+    "option_c": "Over 1,000 pounds",
+    "option_d": "Any amount; placarding is required for any quantity of 1.3G explosives",
+    "correct_answer": "D",
+    "explanation": "Because 1.3G fireworks are considered high-hazard explosives in transportation, DOT regulations require a vehicle to be fully placarded regardless of the amount being transported (even a single shell requires placards)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "At what weight threshold must a commercial vehicle transporting strictly 1.4G consumer fireworks display DOT placards?",
+    "option_a": "Any amount requires placards",
+    "option_b": "Over 500 pounds aggregate gross weight",
+    "option_c": "Over 1,001 pounds aggregate gross weight",
+    "option_d": "1.4G never requires placards",
+    "correct_answer": "C",
+    "explanation": "For 1.4G explosives (a lower hazard class), DOT regulations require vehicle placarding only when the aggregate gross weight of the hazardous materials reaches or exceeds 1,001 pounds."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the required visual design of the DOT placard used for transporting 1.3G display fireworks?",
+    "option_a": "A red square with white text",
+    "option_b": "A yellow triangle with a flame icon",
+    "option_c": "An orange diamond with the number '1.3G' and an exploding bomb symbol",
+    "option_d": "A white rectangle with a red border",
+    "correct_answer": "C",
+    "explanation": "Explosive placards (Class 1) must be diamond-shaped and have a highly visible orange background with black text/symbols, including the specific division number (1.3G) and the exploding bomb icon."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When a vehicle is required to be placarded for transporting explosives, where must the placards be physically placed?",
+    "option_a": "Only on the rear of the vehicle",
+    "option_b": "Only on the sides of the cargo box",
+    "option_c": "On the dashboard facing out the windshield",
+    "option_d": "On all four sides of the vehicle (front, rear, and both sides)",
+    "correct_answer": "D",
+    "explanation": "To ensure emergency responders can easily identify the hazard from any approach angle, DOT regulations require placards to be securely attached to all four sides of the transport vehicle."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What type of driver's license is legally required to transport any quantity of 1.3G display fireworks on public roads in California?",
+    "option_a": "A standard Class C driver's license",
+    "option_b": "A Commercial Driver's License (CDL) with a Hazardous Materials (HazMat) endorsement",
+    "option_c": "A standard license plus an OSFM Pyrotechnic Operator license",
+    "option_d": "A specialized federal DOT license",
+    "correct_answer": "B",
+    "explanation": "Because any quantity of 1.3G requires placarding, the driver must possess a valid Commercial Driver's License (CDL) that includes a specific Hazardous Materials (HazMat) endorsement."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "While transporting explosives on a public highway, where must the driver securely keep the hazardous materials shipping papers?",
+    "option_a": "Inside the locked cargo box with the fireworks",
+    "option_b": "In the glove compartment of the truck",
+    "option_c": "Within immediate reach of the driver while restrained by the seat belt, or in a holder mounted on the driver's side door",
+    "option_d": "At the company's main office",
+    "correct_answer": "C",
+    "explanation": "DOT regulations mandate that shipping papers must be immediately visible and accessible to emergency responders. They must be kept within the driver's reach or in the driver's door pouch."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "According to California Highway Patrol (CHP) and DOT regulations, what is the minimum fire extinguisher requirement for a vehicle transporting placarded explosives?",
+    "option_a": "One small kitchen-style extinguisher",
+    "option_b": "Two fully charged fire extinguishers, each with a minimum rating of 10-B:C",
+    "option_c": "A pressurized water hose connected to the engine",
+    "option_d": "Fire extinguishers are not required during transport",
+    "correct_answer": "B",
+    "explanation": "Commercial vehicles hauling hazardous materials like explosives must carry at least two fully charged and readily accessible fire extinguishers with a minimum rating of 10-B:C to fight engine or tire fires before they reach the cargo."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the DOT Federal Motor Carrier Safety Administration (FMCSA) rule regarding leaving a placarded vehicle carrying 1.3G fireworks unattended?",
+    "option_a": "It can be left unattended for up to 2 hours",
+    "option_b": "It can be left unattended if parked behind a locked gate",
+    "option_c": "It must NEVER be left unattended on a public street, highway, or in a populated area",
+    "option_d": "It can be left unattended if the engine is running",
+    "correct_answer": "C",
+    "explanation": "A vehicle containing Division 1.1, 1.2, or 1.3 explosives must be attended at all times by the driver or a qualified representative, and cannot be parked unattended on public streets or populated areas."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under DOT routing rules, a vehicle transporting 1.3G explosives must avoid parking within what minimum distance of a bridge, tunnel, dwelling, or place where people gather?",
+    "option_a": "50 feet",
+    "option_b": "100 feet",
+    "option_c": "300 feet",
+    "option_d": "500 feet",
+    "correct_answer": "C",
+    "explanation": "To prevent a localized hazard from causing massive structural damage or mass casualties, placarded explosive vehicles must not be parked within 300 feet of bridges, tunnels, dwellings, or public gathering places, except for brief, necessary stops."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Can electric matches (detonators) be transported in the same cargo compartment as 1.3G display shells?",
+    "option_a": "Yes, if they are placed in a plastic bag",
+    "option_b": "Yes, if the trip is shorter than 100 miles",
+    "option_c": "No, they must be transported in a separate vehicle or inside a strictly engineered, DOT-approved segregated compartment",
+    "option_d": "Yes, if the driver holds a Class B pyrotechnic license",
+    "correct_answer": "C",
+    "explanation": "Electric matches and detonating devices are initiating explosives. To prevent sympathetic detonation of the main cargo, they must be strictly segregated from bulk 1.3G explosives during transport, often requiring separate vehicles or heavily specialized compartments."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the DOT minimum distance restriction for smoking near a commercial vehicle loaded with explosives?",
+    "option_a": "10 feet",
+    "option_b": "25 feet",
+    "option_c": "50 feet",
+    "option_d": "Smoking is permitted in the cab if the windows are rolled up",
+    "correct_answer": "B",
+    "explanation": "Under DOT regulation 49 CFR 397.13, no person may smoke or carry a lighted cigarette, cigar, or pipe on or within 25 feet of a motor vehicle containing Class 1 explosives."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "In California, who designates the approved 'Safe Routes' that a commercial vehicle must use when transporting high quantities of explosives?",
+    "option_a": "The Pyrotechnic Operator in Charge",
+    "option_b": "The local city mayor",
+    "option_c": "The California Highway Patrol (CHP)",
+    "option_d": "The event sponsor",
+    "correct_answer": "C",
+    "explanation": "The California Highway Patrol (CHP) strictly designates and maps approved explosive transportation routes statewide. Drivers are required by law to stick to these routes and avoid unapproved congested areas or tunnels."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What physical condition must the interior of the cargo space meet before 1.3G display fireworks can be loaded into a transport vehicle?",
+    "option_a": "It must be lined with 1-inch thick steel plate",
+    "option_b": "It must be heavily lubricated with oil",
+    "option_c": "It must be clean, dry, and have no exposed sparking metal or protruding nails that could damage the cartons",
+    "option_d": "It must have windows for ventilation",
+    "correct_answer": "C",
+    "explanation": "The interior of the cargo box must be free of sharp objects, protruding nails, or exposed sparking metals (like iron or steel floors) that could create friction sparks or puncture the explosive cartons during transit."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the required protocol for the transport vehicle's engine while explosive materials are actively being loaded or unloaded?",
+    "option_a": "The engine must be left running to ensure a quick getaway",
+    "option_b": "The engine must be shut off and the parking brake set, unless the engine is required to operate a lift gate",
+    "option_c": "The engine must be running to power the headlights",
+    "option_d": "It does not matter as long as the driver is present",
+    "correct_answer": "B",
+    "explanation": "To minimize the risk of electrical shorts, exhaust sparks, and accidental vehicle movement, the engine must be turned off and the brakes set during loading/unloading, with exceptions only for necessary cargo equipment."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a vehicle transporting 1.3G fireworks experiences a breakdown on the highway at night, what type of emergency warning devices are PROHIBITED from being used?",
+    "option_a": "Reflective traffic cones",
+    "option_b": "Battery-operated flashing lights",
+    "option_c": "Reflective bi-directional triangles",
+    "option_d": "Incendiary road flares (fusees)",
+    "correct_answer": "D",
+    "explanation": "Burning road flares (fusees) produce extreme heat and open flame. They are strictly prohibited from being used as warning devices around any vehicle carrying explosives or flammable gases."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A fire breaks out in the engine compartment of a truck carrying 1.3G display fireworks. The driver attempts to use a fire extinguisher but the fire begins to spread to the cargo box. What is the immediate required action?",
+    "option_a": "Open the cargo doors and try to pull the fireworks out",
+    "option_b": "Continue fighting the fire until the extinguisher is empty",
+    "option_c": "Cease fighting the fire, immediately evacuate to a safe distance (typically 2,500 feet), call 911, and warn bystanders of an imminent explosion",
+    "option_d": "Drive the burning truck into a nearby river",
+    "correct_answer": "C",
+    "explanation": "If fire threatens a cargo of explosives, the situation is lethal. The driver must immediately abandon the vehicle, evacuate the area, call emergency services, and establish a safe perimeter."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the universally recognized United Nations (UN) identification number for professional 1.3G display fireworks, which must be listed on the shipping papers?",
+    "option_a": "UN0333",
+    "option_b": "UN0334",
+    "option_c": "UN0335",
+    "option_d": "UN0336",
+    "correct_answer": "C",
+    "explanation": "UN0335 is the specific United Nations identification number for Fireworks, 1.3G. UN0336 is for 1.4G consumer fireworks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Is it legal to transport unauthorized passengers (such as a friend or family member) in the cab of a commercial vehicle hauling 1.3G explosives?",
+    "option_a": "Yes, if they sit in the back seat",
+    "option_b": "Yes, if they are over 18",
+    "option_c": "No, only employees or individuals specifically authorized by the carrier or DOT may ride in a vehicle transporting explosives",
+    "option_d": "Yes, but they cannot smoke",
+    "correct_answer": "C",
+    "explanation": "To maximize security and limit liability/casualties in the event of an accident, DOT regulations strictly prohibit the transport of unauthorized passengers in vehicles carrying placarded explosives."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the DOT regulation regarding the securement of explosive cargo inside the trailer?",
+    "option_a": "Boxes must be placed loosely so they can be easily moved",
+    "option_b": "Boxes must be secured using specialized Kevlar straps only",
+    "option_c": "The cargo must be properly blocked and braced to prevent any shifting, sliding, or movement during transit",
+    "option_d": "Boxes must be glued to the floor",
+    "correct_answer": "C",
+    "explanation": "Explosive cartons must be firmly blocked and braced (using load bars, straps, or wood) to prevent them from moving, falling, or rubbing against each other, which could cause friction or package damage during transport."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A pyrotechnic company wants to transfer a pallet of 1.3G fireworks from a broken-down truck to a fresh truck while parked on the shoulder of a busy public highway. Is this legal?",
+    "option_a": "Yes, as long as it takes less than 30 minutes",
+    "option_b": "Yes, if they put out traffic cones",
+    "option_c": "No, transferring explosives from one vehicle to another on a public highway is strictly prohibited unless it is an absolute emergency supervised by law enforcement",
+    "option_d": "Yes, if the driver has a HazMat endorsement",
+    "correct_answer": "C",
+    "explanation": "Transferring explosives on public roadways exposes the public to extreme hazard and theft risk. It is forbidden unless the original vehicle is disabled and moving the cargo is deemed an emergency by authorities."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Alongside the hazardous materials shipping papers, what critical safety reference document must the driver carry in the cab?",
+    "option_a": "The complete text of California Title 19",
+    "option_b": "The current edition of the Emergency Response Guidebook (ERG) or equivalent emergency response information",
+    "option_c": "A map of local hospitals",
+    "option_d": "The manufacturer's catalog",
+    "correct_answer": "B",
+    "explanation": "Drivers transporting HazMat must have emergency response information readily available, typically fulfilled by carrying the DOT Emergency Response Guidebook (ERG), which provides immediate guidance on handling spills or fires for specific UN numbers."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What protocol must a driver follow before driving a vehicle across railroad tracks when transporting placarded 1.3G explosives?",
+    "option_a": "Speed up to clear the tracks quickly",
+    "option_b": "Stop within 15 to 50 feet of the tracks, look, listen, and ensure the tracks are clear before proceeding without shifting gears while crossing",
+    "option_c": "Honk the horn three times and proceed",
+    "option_d": "Only stop if the crossing lights are flashing",
+    "correct_answer": "B",
+    "explanation": "Placarded vehicles must come to a complete stop between 15 and 50 feet from the nearest rail at all railroad crossings. The driver must look and listen for trains, and must not shift gears while crossing the tracks to prevent stalling."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Can an operator transport 1.3G display fireworks in the open bed of a standard pickup truck?",
+    "option_a": "Yes, if they are covered with a standard plastic tarp",
+    "option_b": "Yes, if the boxes are tied down with rope",
+    "option_c": "No, explosives must be transported in a fully enclosed cargo space or a closed-body vehicle to protect them from weather, sparks, and theft",
+    "option_d": "Yes, if the trip is under 5 miles",
+    "correct_answer": "C",
+    "explanation": "Explosives must be transported in a closed vehicle or a fully enclosed cargo body to prevent sparks, cigarettes, or weather elements from striking the packages, and to ensure they can be securely locked against theft."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the standard minimum spectator separation distance required for a public outdoor fireworks display?",
+    "option_a": "50 feet per inch of the largest mortar's internal diameter",
+    "option_b": "70 feet per inch of the largest mortar's internal diameter",
+    "option_c": "100 feet per inch of the largest mortar's internal diameter",
+    "option_d": "200 feet per inch of the largest mortar's internal diameter",
+    "correct_answer": "B",
+    "explanation": "NFPA 1123, which is the standard utilized, specifies a minimum radius of 70 feet per inch of the internal diameter of the largest aerial shell fired to separate spectators from the discharge area."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When calculating the required spectator separation distance, from what exact point is the measurement taken?",
+    "option_a": "From the center of the fallout zone",
+    "option_b": "From the closest point of the mortars, or the closest point of the ground display pieces, to the nearest edge of the spectator viewing area",
+    "option_c": "From the location of the pyrotechnic operator's firing panel",
+    "option_d": "From the sponsor's VIP seating area",
+    "correct_answer": "B",
+    "explanation": "The separation distance must be measured from the actual point of discharge (the mortars themselves or the ground pieces) to the closest boundary where spectators are permitted."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator is setting up a display containing only 3-inch aerial shells. According to standard calculations, what is the required minimum radius for the fallout area?",
+    "option_a": "150 feet",
+    "option_b": "210 feet",
+    "option_c": "300 feet",
+    "option_d": "350 feet",
+    "correct_answer": "B",
+    "explanation": "Using the standard calculation of 70 feet per inch of mortar diameter, a 3-inch shell requires a minimum fallout radius of 210 feet (3 x 70 = 210)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Is the designated fallout area required to be a perfect circle centered directly over the mortars?",
+    "option_a": "Yes, it must always be a perfect circle regardless of wind or mortar angles",
+    "option_b": "No, the fallout area can be shifted downwind or altered by angling the mortars away from the audience, provided the total required distance is maintained from the trajectory",
+    "option_c": "Yes, but the circle is centered on the audience",
+    "option_d": "No, it only needs to be a square",
+    "correct_answer": "B",
+    "explanation": "While often calculated as a radius, the actual fallout zone is the area where debris is expected to land. Operators are expected to adjust mortar angles to shift the fallout away from spectators based on real-time wind conditions."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the absolute minimum spectator separation distance allowed for any public display of dangerous fireworks, even if the operator is only firing very small 2-inch shells or cakes?",
+    "option_a": "50 feet",
+    "option_b": "75 feet",
+    "option_c": "140 feet",
+    "option_d": "200 feet",
+    "correct_answer": "D",
+    "explanation": "While the 70 ft/inch rule applies generally, California Code of Regulations (Title 19) establishes a hard minimum baseline of 200 feet for public displays of dangerous fireworks to ensure a base level of safety regardless of shell size."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator incorporates 'ground display pieces' (set pieces like lancework or wheels) into an outdoor display, what is the minimum required distance from those specific pieces to the spectator viewing area?",
+    "option_a": "25 feet",
+    "option_b": "50 feet",
+    "option_c": "75 feet",
+    "option_d": "150 feet",
+    "correct_answer": "C",
+    "explanation": "NFPA 1123 dictates that ground display pieces, which do not launch into the air but still present a spark and fire hazard, must be separated from spectators by at least 75 feet."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A hospital is located near a proposed fireworks display site. According to NFPA guidelines, what is the required minimum separation distance between the mortar line and a health care or detention facility?",
+    "option_a": "It uses the standard 70 feet per inch rule",
+    "option_b": "The distance must be at least twice the standard required spectator separation distance",
+    "option_c": "The distance is a flat 500 feet",
+    "option_d": "Displays are entirely banned near these facilities",
+    "correct_answer": "B",
+    "explanation": "For sensitive occupancies such as hospitals, health care facilities, or detention centers, the separation distance from the discharge site must be at least twice the normal spectator separation distance to ensure absolute safety for immobile populations."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator is planning to fire 6-inch aerial shells. What is the minimum spectator separation distance required?",
+    "option_a": "300 feet",
+    "option_b": "420 feet",
+    "option_c": "500 feet",
+    "option_d": "600 feet",
+    "correct_answer": "B",
+    "explanation": "Applying the standard rule of 70 feet per inch: 6 inches x 70 feet = 420 feet."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What type of personnel must be utilized to secure the perimeter of the fallout zone and spectator safety lines during the display?",
+    "option_a": "The pyrotechnic firing crew",
+    "option_b": "Armed law enforcement only",
+    "option_c": "Monitors or security personnel whose sole duty is to prevent unauthorized access, completely distinct from the firing crew",
+    "option_d": "Local volunteers from the crowd",
+    "correct_answer": "C",
+    "explanation": "The perimeter of the fallout zone and safety lines must be actively enforced by dedicated security personnel or monitors. The pyrotechnic crew cannot perform this duty as they must remain focused entirely on the safe discharge of the fireworks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under what specific condition is the local AHJ legally permitted to mandate a spectator separation distance greater than the state minimum of 70 feet per inch?",
+    "option_a": "Only if the display is on a Sunday",
+    "option_b": "Only if the State Fire Marshal pre-approves the increase",
+    "option_c": "The AHJ always retains the authority to require greater separation distances or increase the fallout zone based on local hazards, weather conditions, or specific site constraints",
+    "option_d": "The AHJ is never allowed to exceed the state minimum",
+    "correct_answer": "C",
+    "explanation": "State minimums (like the 70 ft/inch rule) are just that—minimums. Local AHJs have the legal authority to enact more restrictive requirements based on local safety concerns."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A display is planned in a large park with scattered trees. What is the requirement regarding the overhead trajectory of the aerial shells?",
+    "option_a": "Shells can be fired through tree branches if they are small",
+    "option_b": "The trajectory must be completely clear of all overhead obstacles (trees, wires, structures), with a minimum clearance distance of at least 25 feet from the mortars",
+    "option_c": "Overhead clearance is not required if firing electrically",
+    "option_d": "Trees provide a natural safety net and are encouraged",
+    "correct_answer": "B",
+    "explanation": "The entire upward trajectory of the shells must be unobstructed to prevent them from hitting an object, breaking low, and showering the ground with burning debris. A minimum 25-foot overhead clearance is required directly above the discharge area."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator intends to fire 4-inch aerial salutes (titanium salutes), what modification to the standard separation distance is typically required by NFPA 1123?",
+    "option_a": "Salutes require half the normal distance",
+    "option_b": "Salutes over 3 inches in diameter generally require double the standard spectator separation distance",
+    "option_c": "Salutes require a flat 1,000-foot separation",
+    "option_d": "Salutes are completely banned outdoors",
+    "correct_answer": "B",
+    "explanation": "Aerial salutes produce a violently concussive burst and carry a higher risk of severe injury from shrapnel in the event of a low break. Therefore, salutes larger than 3 inches typically require double the normal separation distance (140 feet per inch)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "During a display, the wind speed suddenly increases to 25 mph, blowing directly toward the audience. The fallout zone is no longer sufficient to capture the debris. What is the operator's immediate responsibility?",
+    "option_a": "Angle the mortars steeper into the wind while continuing to fire at the same pace",
+    "option_b": "Immediately halt the display and wait for conditions to improve, or cancel the event if the wind remains unsafe",
+    "option_c": "Switch to firing only the largest shells to punch through the wind",
+    "option_d": "Ask the audience to move back 50 feet",
+    "correct_answer": "B",
+    "explanation": "If wind causes hazardous debris to fall outside the designated fallout zone or reach the spectator area, the operator must immediately halt the display to protect public safety."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the primary purpose of strictly defining and enforcing a 'fallout area'?",
+    "option_a": "To provide a clear area for the sponsor's VIP parking",
+    "option_b": "To designate a zone where spectators can stand if they want a closer look",
+    "option_c": "To establish a secure, unoccupied safety zone where spent shell casings, ash, duds, and potentially hazardous debris can land safely without injuring people or damaging property",
+    "option_d": "To mark the area where the fireworks are stored before the show",
+    "correct_answer": "C",
+    "explanation": "The fallout area is the calculated hazard zone. Its sole purpose is to ensure that anything coming down from the sky—whether harmless ash or a highly dangerous unexploded dud—lands in a controlled, unoccupied area."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator is shooting a display from a barge on a lake. How is the spectator separation distance measured in this scenario?",
+    "option_a": "From the geographic center of the barge to the shoreline",
+    "option_b": "From the closest point of the mortars on the barge to the closest edge of the spectator viewing area on the shore or on surrounding spectator boats",
+    "option_c": "Barge displays have a fixed 500-foot separation rule",
+    "option_d": "From the anchor point of the barge",
+    "correct_answer": "B",
+    "explanation": "Whether on land or water, the separation distance is always measured from the closest point of discharge (the mortars on the vessel) to the nearest boundary of the spectator area (shoreline or marine perimeter)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Is passenger parking or spectator vehicle parking permitted within the designated fallout area during the display?",
+    "option_a": "Yes, if the cars have their windows rolled up",
+    "option_b": "Yes, but only for the crew's vehicles",
+    "option_c": "No, the fallout area must be kept completely clear of spectators, vehicles, and readily combustible materials",
+    "option_d": "Yes, if the sponsor signs a waiver for paint damage",
+    "correct_answer": "C",
+    "explanation": "The fallout area is a designated hazard zone. It must be completely clear of all spectators, civilian vehicles, and highly combustible materials to prevent injury, property damage, and secondary fires."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "In a situation where the available site is too small to meet the 70-foot per inch rule for the desired shell size, what is the operator's legal course of action?",
+    "option_a": "Shoot the show anyway but fire the shells straight up",
+    "option_b": "Only fire half the shells at a time",
+    "option_c": "The operator must reduce the maximum shell size used in the display until the required separation distance fits within the available site dimensions",
+    "option_d": "Use more lift powder to shoot the shells higher",
+    "correct_answer": "C",
+    "explanation": "Safety distances dictate the show size, not the other way around. If a site only provides 210 feet of clearance, the operator is legally restricted to using a maximum shell size of 3 inches (210 / 70 = 3)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A sponsor wants to place a large, flammable, decorative banner near the mortar racks. What is the general rule regarding combustible materials in the discharge area?",
+    "option_a": "It is allowed if the banner is painted",
+    "option_b": "Combustible materials and dry brush must be cleared from the discharge area to prevent accidental ignition from sparks or muzzle blasts",
+    "option_c": "It is allowed if the AHJ is standing next to it",
+    "option_d": "It is required for wind blocking",
+    "correct_answer": "B",
+    "explanation": "The discharge area is a high-fire-risk zone due to intense sparks, muzzle blasts, and falling debris. All unnecessary combustible materials (including dry grass, trash, and decorations) must be cleared to prevent a secondary fire."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the requirement for communicating the location of the safety lines and fallout zone to the security personnel enforcing them?",
+    "option_a": "They just need to look at the map once",
+    "option_b": "The Pyrotechnic Operator or AHJ must physically identify and establish the lines, and ensure the monitors understand the exact boundaries before loading begins",
+    "option_c": "Security personnel can decide where the lines should be",
+    "option_d": "A physical fence must be built for every show",
+    "correct_answer": "B",
+    "explanation": "The operator must brief the monitors and physically identify the boundaries of the hazard zones. Monitors cannot effectively enforce an invisible line they don't understand."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator is utilizing multi-shot 'cakes' containing shells up to 2 inches in diameter. According to the 70 ft/inch rule, what is the required separation distance?",
+    "option_a": "50 feet",
+    "option_b": "75 feet",
+    "option_c": "140 feet (2 inches x 70 feet)",
+    "option_d": "200 feet, because Title 19 establishes a minimum distance of 200 feet for public displays of dangerous fireworks regardless of calculation",
+    "correct_answer": "D",
+    "explanation": "While the NFPA calculation (2 x 70) equals 140 feet, California Title 19 overrides this by establishing a hard minimum baseline of 200 feet for any public display of dangerous fireworks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator discovers that the event sponsor has placed the audience viewing area 100 feet away from a mortar line loaded with 4-inch shells, what is the operator's legal duty?",
+    "option_a": "Ask the audience to wear safety glasses",
+    "option_b": "Refuse to load or fire the display until the audience is moved back to the required minimum distance of 280 feet",
+    "option_c": "Fire the show but angle the mortars extremely far backward",
+    "option_d": "Fire the show because the sponsor approved it",
+    "correct_answer": "B",
+    "explanation": "The licensed operator is ultimately responsible for safety. A 4-inch shell requires 280 feet of clearance (4 x 70). The operator must refuse to proceed until the safety perimeter is corrected and enforced."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the specific requirement regarding the location of the fallout area in relation to public highways?",
+    "option_a": "The fallout area must be at least 10 miles away from highways",
+    "option_b": "The fallout area should not encompass active public highways to prevent hazardous debris from striking moving vehicles and causing accidents",
+    "option_c": "Highways can be in the fallout area if the speed limit is under 35 mph",
+    "option_d": "Highways provide a good flat surface for fallout",
+    "correct_answer": "B",
+    "explanation": "Falling pyrotechnic debris, even if not explosive, can severely distract drivers or break windshields. Active public highways must not be within the calculated fallout zone unless the road is officially closed by law enforcement."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator is conducting a display from the roof of a parking garage, how does the elevation affect the separation distance calculation?",
+    "option_a": "Elevation makes the display safer, so distances are halved",
+    "option_b": "Elevation has no effect on the standard calculation",
+    "option_c": "Displays fired from elevated positions (like rooftops) generally require increased separation distances because the wind affects the shells more and the fallout pattern is significantly wider",
+    "option_d": "Rooftop displays only require 100 feet of clearance",
+    "correct_answer": "C",
+    "explanation": "Firing from an elevated position increases the altitude of the burst relative to the ground. This gives wind more time to blow debris off course, resulting in a much wider fallout pattern that requires larger separation distances."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What must be done if the required fallout area encompasses a body of water that is actively being used by civilian boaters?",
+    "option_a": "The operator must fire warning shots to scare the boats away",
+    "option_b": "The boats are considered 'under cover' and are safe",
+    "option_c": "The waterway must be officially closed, or a marine safety zone must be established and enforced by authorities (like the Coast Guard or Harbor Patrol) to keep civilian vessels out of the fallout area",
+    "option_d": "The operator can ignore the boats if they are moving",
+    "correct_answer": "C",
+    "explanation": "Civilian vessels cannot occupy the fallout zone. If the zone includes a waterway, the operator must coordinate with maritime authorities to establish and enforce a hard safety perimeter on the water before firing."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "During the display, a 'low break' occurs where an aerial shell detonates 50 feet off the ground, showering the fallout area with burning stars. No one is hurt because the perimeter held. What is the operator's appropriate response?",
+    "option_a": "Immediately widen the fallout perimeter, halt the display to check the remaining mortars for damage, and verify the safety of the setup before deciding whether to resume",
+    "option_b": "Ignore it and keep firing to maintain the tempo",
+    "option_c": "Blame the wind and keep firing",
+    "option_d": "Fire all remaining shells as fast as possible",
+    "correct_answer": "A",
+    "explanation": "A low break is a critical malfunction. The operator must pause, ensure the hazard didn't compromise the perimeter or the mortar racks (such as a cracked tube), and reassess the safety of the remaining product before continuing."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator is analyzing a supplier's spec sheet for commercial lift powder. The formula listed is 60% Potassium Nitrate, 20% Charcoal, and 20% Sulfur. Compared to standard 75/15/10 black powder, what will be the result of using this mixture as a lift charge?",
+    "option_a": "It will burn significantly faster and shatter the shells",
+    "option_b": "It will burn slower, produce weaker lift pressure, and leave considerably more solid slag behind",
+    "option_c": "It will spontaneously detonate due to the high sulfur content",
+    "option_d": "It will produce zero smoke",
+    "correct_answer": "B",
+    "explanation": "Decreasing the oxidizer (Potassium Nitrate) to 60% and increasing the fuels starves the mixture of oxygen. It will burn much slower, fail to generate sufficient lift pressure, and leave a heavy, sticky residue (slag) in the mortar."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When ordering commercial black powder for aerial displays, operators use the 'FA' grading system (e.g., 2FA, 4FA). What does 'FA' stand for in pyrotechnic terminology?",
+    "option_a": "Fast Action",
+    "option_b": "Fine Aggregate",
+    "option_c": "Fireworks A",
+    "option_d": "Federal Aviation",
+    "correct_answer": "C",
+    "explanation": "The 'FA' designation stands for 'Fireworks A' grade powder. It is formulated and corned specifically for the fireworks industry, distinguishing it from 'g' (Sporting/Firearms) or blasting grades."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator is preparing to manually load an 8-inch aerial display shell. Which granulation of black powder is the safest and most standard choice for the lift charge?",
+    "option_a": "Meal-D (Dust)",
+    "option_b": "7FA (Very fine granules)",
+    "option_c": "4FA (Medium granules)",
+    "option_d": "2FA (Coarse granules)",
+    "correct_answer": "D",
+    "explanation": "Large, heavy shells (like 8-inch) require a slower, sustained push of expanding gases to lift them without crushing the shell casing. Coarse 2FA granules burn slightly slower than fine granules, providing the necessary gentle but massive lift."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "During manufacturing, what type of black powder is most appropriate for creating a slurry to coat the outside of a time fuse (spoulette) to ensure it takes fire from the lift charge?",
+    "option_a": "1FA",
+    "option_b": "2FA",
+    "option_c": "Meal-D",
+    "option_d": "Cannon Grade",
+    "correct_answer": "C",
+    "explanation": "Meal-D is an extremely fine, un-corned black powder dust. Because it lacks large granules, it is ideal for mixing with a binder to create smooth primes, pastes, and black match."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A sealed bag of 2FA lift powder is accidentally left in the rain and becomes completely soaked. The operator dries it out in the hot sun until it is bone dry. Can it still be safely used for lifting display shells?",
+    "option_a": "Yes, once dry it returns to its exact original strength",
+    "option_b": "No, the water dissolves the Potassium Nitrate and pulls it out of the charcoal pores. When it dries, it recrystallizes on the outside, permanently destroying the powder's rapid burn rate",
+    "option_c": "Yes, but it will burn twice as fast",
+    "option_d": "No, because the sulfur evaporates in the sun",
+    "correct_answer": "B",
+    "explanation": "The power of commercial black powder comes from milling the soluble oxidizer (KNO3) deep into the microscopic pores of the charcoal. Water leaches the KNO3 out. Once dried, the chemicals are separated, and the powder will only smolder weakly."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why do commercial 2FA and 4FA black powder granules have a shiny, silver-black appearance?",
+    "option_a": "They are coated in silver paint for visibility",
+    "option_b": "They are tumbled with graphite powder to glaze the granules, making them free-flowing, slightly moisture-resistant, and highly conductive to dissipate static electricity",
+    "option_c": "The Potassium Nitrate crystallizes into a shiny glass",
+    "option_d": "They are coated in a layer of clear epoxy",
+    "correct_answer": "B",
+    "explanation": "Graphite glazing is a critical final step in black powder manufacturing. The thin layer of conductive graphite prevents static electricity buildup during transport and handling, while also lubricating the grains so they pour easily."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "A handful of 2FA black powder burned in an open field produces a gentle 'whoosh' of flame. The exact same amount burned at the bottom of a mortar tube produces a violent, deafening explosion. What chemical physics principle causes this?",
+    "option_a": "The mortar tube adds oxygen to the fire",
+    "option_b": "The mortar tube acts as an antenna for static electricity",
+    "option_c": "The deflagration rate of black powder is exponentially proportional to the surrounding gas pressure; heavy confinement traps the initial gases, instantly spiking the pressure and accelerating the burn rate",
+    "option_d": "The mortar tube chemically reacts with the sulfur",
+    "correct_answer": "C",
+    "explanation": "Black powder's burn rate is highly dependent on pressure. In the open, gases escape harmlessly. In a confined mortar, trapped gases create extreme pressure, driving the flame front into the remaining powder instantly."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When sourcing charcoal for the manufacture of high-quality, fast-burning lift powder, which type of wood is the industry standard?",
+    "option_a": "Hardwoods like Oak or Maple",
+    "option_b": "Softwoods like Willow, Alder, or Grapevine",
+    "option_c": "Bamboo",
+    "option_d": "Compressed MDF dust",
+    "correct_answer": "B",
+    "explanation": "Softwoods produce highly porous, lightweight charcoal. This massive microscopic surface area allows the Potassium Nitrate to integrate deeply, resulting in a highly reactive and extremely fast-burning powder necessary for lift charges."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Inside a traditional aerial shell, the time delay fuse (spoulette) consists of a paper tube filled with black powder. Why does this powder burn slowly (e.g., 1 inch per second) instead of exploding instantly?",
+    "option_a": "It uses a special chemical retardant",
+    "option_b": "It is heavily 'dead pressed' with hydraulic force, crushing all air pores and forcing the fire to burn slowly layer-by-layer like a solid cigarette",
+    "option_c": "It is mixed with 50% sand",
+    "option_d": "It contains zero sulfur",
+    "correct_answer": "B",
+    "explanation": "Black powder requires microscopic air gaps to flash over and burn rapidly. By hydraulically pressing meal powder into a solid, dense block (dead pressing), the flame can only consume the surface layer, resulting in a predictable, slow burn."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When a black powder lift charge fires, it creates a massive cloud of thick, white smoke. What is the chemical makeup of this smoke?",
+    "option_a": "Pure carbon dioxide and water vapor",
+    "option_b": "Vaporized sulfur",
+    "option_c": "Solid particulate byproducts (like potassium carbonate and potassium sulfate) that constitute over 50% of the powder's original weight",
+    "option_d": "Unburned charcoal dust",
+    "correct_answer": "C",
+    "explanation": "Unlike modern smokeless powder, black powder is extremely inefficient at converting mass to gas. Over half of its weight is expelled as solid, microscopic alkaline salts, which hang in the air as dense white smoke."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator is constructing a shell containing stars made with Potassium Chlorate. To prime these stars to ensure they ignite, what specific type of black powder MUST be used to prevent a catastrophic spontaneous ignition?",
+    "option_a": "Meal-D",
+    "option_b": "Sulfurless black powder",
+    "option_c": "Graphite-free black powder",
+    "option_d": "2FA",
+    "correct_answer": "B",
+    "explanation": "Sulfur and Chlorates are a highly dangerous combination. In the presence of trace moisture or acidity, they can form sulfuric/chloric acid and spontaneously combust. Sulfurless black powder must be used when in direct contact with chlorates."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In the classic 75/15/10 black powder formula, what is the exact physical/chemical purpose of the sulfur?",
+    "option_a": "It produces the majority of the expanding gases",
+    "option_b": "It acts as a high-temperature oxidizer",
+    "option_c": "It has a very low ignition temperature (~190 degrees C), acting as a kindling agent that lowers the overall activation energy required to ignite the charcoal and nitrate",
+    "option_d": "It binds the powder together into a hard rock",
+    "correct_answer": "C",
+    "explanation": "Charcoal and Potassium Nitrate are somewhat difficult to ignite on their own. Sulfur ignites easily at low temperatures. Its primary role is to catch fire first and provide the instant, uniform heat needed to ignite the rest of the mixture."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "What is the approximate burn rate of bare, unconfined black match (cotton string coated in meal powder) when laid out in open air?",
+    "option_a": "1 inch per minute",
+    "option_b": "1 inch per second",
+    "option_c": "10 feet per second",
+    "option_d": "100 feet per second",
+    "correct_answer": "B",
+    "explanation": "Unconfined black match burns relatively slowly in open air, typically at a rate of about 1 inch per second, allowing it to be used as a simple time delay for hand-lighting smaller consumer items."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "When black match is enclosed inside a loose paper pipe (creating 'quick match'), its burn rate accelerates from 1 inch per second to over 30 feet per second. What causes this?",
+    "option_a": "The paper burns hotter than the string",
+    "option_b": "The paper prevents oxygen from reaching the string, causing a vacuum",
+    "option_c": "The paper pipe traps the hot expanding gases, forcing the superheated fire rapidly down the tube to instantly ignite the entire length of the string",
+    "option_d": "The paper acts as a chemical catalyst",
+    "correct_answer": "C",
+    "explanation": "Quick match relies on confinement. The hot gases from the burning match cannot escape sideways, so they jet forward down the empty space in the paper pipe, igniting the rest of the string almost instantaneously."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "In shell manufacturing, what is 'Polverone'?",
+    "option_a": "A high-explosive detonator",
+    "option_b": "A rough, homemade black powder typically granulated with a binder (like dextrin) and water, often used to coat rice hulls for burst charges, but too slow for lifting large shells",
+    "option_c": "A waterproof coating for stars",
+    "option_d": "The Italian term for commercial 2FA",
+    "correct_answer": "B",
+    "explanation": "Polverone translates roughly to 'large powder.' It is meal powder mixed with a binder and pushed through a screen. It lacks the extreme pressure-corning of commercial powder, making it weaker, but perfectly suitable for internal shell burst charges."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "An operator accidentally uses very coarse Cannon Grade (1FA) powder to lift a small 3-inch shell out of a short mortar. What is the most likely dangerous outcome?",
+    "option_a": "The shell will be blown to pieces in the tube",
+    "option_b": "The coarse powder will burn too slowly, failing to build sufficient pressure before the shell exits the short tube, resulting in a dangerous low break",
+    "option_c": "The shell will fly into orbit",
+    "option_d": "The powder will not ignite at all",
+    "correct_answer": "B",
+    "explanation": "Small shells in short mortars require very fast-burning, fine powder (like 4FA or 5FA) to build pressure instantly. Coarse 1FA burns too slowly; the shell will leave the tube before enough pressure builds, resulting in almost zero altitude."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "At what stage of the black powder combustion process does the Potassium Nitrate (KNO3) perform its primary chemical function?",
+    "option_a": "Before ignition, by keeping the powder dry",
+    "option_b": "During heating, where it thermally decomposes to release free oxygen atoms that rapidly oxidize the charcoal and sulfur",
+    "option_c": "After the explosion, by turning into smoke",
+    "option_d": "It functions strictly as a binding agent",
+    "correct_answer": "B",
+    "explanation": "Potassium Nitrate is the oxidizer. When heated by the burning sulfur, the KNO3 molecule breaks apart, flooding the confined space with pure oxygen, allowing the carbon fuel to burn violently without needing outside air."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Which of the three ingredients in black powder is primarily responsible for generating the massive volume of expanding gases (Carbon Dioxide and Carbon Monoxide) that physically lift the aerial shell?",
+    "option_a": "Potassium Nitrate",
+    "option_b": "Sulfur",
+    "option_c": "Charcoal (Carbon)",
+    "option_d": "Graphite",
+    "correct_answer": "C",
+    "explanation": "Charcoal is the primary fuel. When it oxidizes, the solid carbon atoms convert into Carbon Dioxide (CO2) and Carbon Monoxide (CO) gases. The rapid expansion of these gases provides the physical propulsion."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Commercial lift powder (2FA) typically contains zero liquid or chemical binder; it holds its shape entirely due to immense hydraulic pressing. However, if a pyrotechnician adds Dextrin (starch) and water to meal powder, what are they most likely making?",
+    "option_a": "Flash powder",
+    "option_b": "A prime slurry for coating stars, black match, or time fuses",
+    "option_c": "A stronger lift powder",
+    "option_d": "Smoke dye",
+    "correct_answer": "B",
+    "explanation": "Dextrin is a water-soluble glue. Adding it to meal powder creates a sticky, paint-like slurry. When it dries, it binds the powder tightly to cotton strings (making black match) or to the outside of hard-to-ignite stars (as a prime)."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Compared to modern professional flash powder (Perchlorate/Aluminum), how sensitive is commercial black powder to Electrostatic Discharge (ESD)?",
+    "option_a": "Black powder is completely immune to static",
+    "option_b": "Black powder is exponentially more sensitive to static than flash powder",
+    "option_c": "Black powder requires significantly more static energy to ignite than flash powder, but still poses a severe ESD hazard under the right conditions",
+    "option_d": "Both have the exact same Minimum Ignition Energy",
+    "correct_answer": "C",
+    "explanation": "Flash powder has a microscopic Minimum Ignition Energy (MIE) and can be ignited by an imperceptible human shock. Black powder requires a much stronger spark, but dust clouds of black powder are still highly susceptible to static ignition."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Black powder is universally classified as a 'low explosive' because it undergoes deflagration rather than detonation. What technically defines deflagration?",
+    "option_a": "An explosive reaction that creates zero smoke",
+    "option_b": "An exothermic chemical reaction that propagates through the unburned material at a speed slower than the speed of sound (subsonic)",
+    "option_c": "An explosive reaction that travels faster than the speed of sound (supersonic shockwave)",
+    "option_d": "A reaction that only occurs in a vacuum",
+    "correct_answer": "B",
+    "explanation": "Deflagration is rapid, subsonic burning fueled by heat transfer from particle to particle. Detonation (high explosives) is a supersonic shockwave that crushes and instantly decomposes the material."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Is the traditional 75/15/10 black powder formula perfectly 'oxygen balanced'?",
+    "option_a": "Yes, it leaves exactly zero excess elements",
+    "option_b": "No, it is highly over-oxidized, meaning there is too much oxygen left over",
+    "option_c": "No, it is slightly oxygen deficient, meaning not all the carbon burns to CO2, which is why it also produces Carbon Monoxide (CO)",
+    "option_d": "Yes, but only if burned underwater",
+    "correct_answer": "C",
+    "explanation": "Standard black powder has a negative oxygen balance. There is not quite enough oxygen in the KNO3 to fully oxidize all the carbon into CO2, resulting in the production of highly flammable Carbon Monoxide (CO) gas as well."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why can't a pyrotechnician simply stir dry Potassium Nitrate, Charcoal, and Sulfur powders together with a spoon to make high-quality lift powder?",
+    "option_a": "The spoon will cause a static explosion",
+    "option_b": "Dry mixing cannot force the Potassium Nitrate deep into the microscopic pores of the charcoal; it requires wet milling and extreme hydraulic pressing to achieve the necessary intimate contact",
+    "option_c": "Dry mixing creates too much oxygen",
+    "option_d": "The sulfur will evaporate",
+    "correct_answer": "B",
+    "explanation": "Merely mixing dry powders creates a 'green mix' that burns very slowly. To get explosive speed, the KNO3 must be dissolved in water (or milled heavily) so it penetrates the cellular structure of the wood charcoal, putting the oxidizer and fuel in absolute microscopic contact."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Why is 2FA black powder provided as hard, jagged granules rather than a solid, single puck of compressed powder placed at the bottom of the mortar?",
+    "option_a": "Granules are cheaper to ship",
+    "option_b": "Granules create essential air gaps (interstitial space) within the lift cup, allowing the initial flame to instantly penetrate and ignite the entire massive surface area of the charge simultaneously",
+    "option_c": "A solid puck would be too heavy to lift",
+    "option_d": "Granules produce different colored smoke",
+    "correct_answer": "B",
+    "explanation": "If powder was a solid block, it would only burn on the top surface, taking seconds to finish (like a rocket motor). Granules pile loosely, leaving air channels. The flame flashes through these channels, igniting millions of surfaces instantly for a massive gas spike."
+  },
+  {
+    "module_name": "Module 2: Pyrotechnic Chemistry",
+    "question_text": "Does the lack of ambient oxygen inside a tightly sealed mortar tube prevent the black powder lift charge from burning properly?",
+    "option_a": "Yes, a vent hole must be drilled in every mortar to allow air in",
+    "option_b": "No, black powder is self-oxidizing; the thermal decomposition of Potassium Nitrate provides all the oxygen necessary, completely independently of the surrounding atmosphere",
+    "option_c": "Yes, which is why the shell must fit loosely",
+    "option_d": "No, because sulfur doesn't need oxygen to burn",
+    "correct_answer": "B",
+    "explanation": "Pyrotechnics do not rely on atmospheric oxygen. The entire purpose of the oxidizer (Potassium Nitrate) is to supply an internal, chemical source of oxygen, allowing the powder to burn violently even in a vacuum or underwater."
+  }
+]

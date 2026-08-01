@@ -15,9 +15,15 @@ const PAYPAL_API =
  * (never exposed to the client).
  */
 function createSupabaseAdmin() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
-  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY!;
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
+  if (!supabaseUrl) {
+    throw new Error(
+      "NEXT_PUBLIC_SUPABASE_URL is not set. " +
+        "Add it to your .env.local file from your Supabase project settings.",
+    );
+  }
   if (!serviceRoleKey) {
     throw new Error(
       "SUPABASE_SERVICE_ROLE_KEY is not set. " +
@@ -32,8 +38,22 @@ function createSupabaseAdmin() {
  * Obtain an OAuth 2.0 access token from PayPal.
  */
 async function getAccessToken(): Promise<string> {
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID ?? "";
-  const clientSecret = process.env.PAYPAL_CLIENT_SECRET ?? "";
+  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
+  const clientSecret = process.env.PAYPAL_CLIENT_SECRET;
+
+  if (!clientId) {
+    throw new Error(
+      "NEXT_PUBLIC_PAYPAL_CLIENT_ID is not set. " +
+        "Add it to your .env.local file from your PayPal developer dashboard.",
+    );
+  }
+  if (!clientSecret) {
+    throw new Error(
+      "PAYPAL_CLIENT_SECRET is not set. " +
+        "Add it to your .env.local file from your PayPal developer dashboard.",
+    );
+  }
+
   const auth = Buffer.from(`${clientId}:${clientSecret}`).toString("base64");
 
   const res = await fetch(`${PAYPAL_API}/v1/oauth2/token`, {

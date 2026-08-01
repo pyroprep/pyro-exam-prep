@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What specific type of background check must an applicant successfully complete before the Office of the State Fire Marshal (OSFM) will issue an original Pyrotechnic Operator license?",
+    "option_a": "A basic local police department records check",
+    "option_b": "A Department of Justice (DOJ) and Federal Bureau of Investigation (FBI) Live Scan fingerprint background check",
+    "option_c": "A standard consumer credit and financial history check",
+    "option_d": "No background check is required if the applicant has a sponsor",
+    "correct_answer": "B",
+    "explanation": "Under California Health and Safety Code and Title 19, all applicants for a pyrotechnic operator license must submit fingerprint images via Live Scan for a comprehensive DOJ and FBI criminal history background check."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "How long is a standard California Pyrotechnic Operator license valid before it expires and requires renewal?",
+    "option_a": "It is valid for 1 year from the date of issuance or a fixed annual date, requiring annual renewal",
+    "option_b": "It is valid for 3 years",
+    "option_c": "It is valid for 5 years",
+    "option_d": "It is a lifetime license and never expires",
+    "correct_answer": "A",
+    "explanation": "California pyrotechnic licenses must be renewed annually. Operators must submit a renewal application and pay the required fees before the expiration date to maintain their active status."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "To qualify for a Basic Commercial Pyrotechnic Operator license in California, an applicant must provide logs proving they have actively assisted in setting up and firing a minimum of how many public displays?",
+    "option_a": "3 displays",
+    "option_b": "5 displays",
+    "option_c": "8 displays",
+    "option_d": "15 displays",
+    "correct_answer": "C",
+    "explanation": "Title 19 regulations require applicants for a Basic Commercial license to have actively participated and assisted in a minimum of 8 public fireworks displays to demonstrate sufficient hands-on experience."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the minimum passing score required on the State Fire Marshal's written examination to obtain a Pyrotechnic Operator license?",
+    "option_a": "60%",
+    "option_b": "70%",
+    "option_c": "80%",
+    "option_d": "90%",
+    "correct_answer": "B",
+    "explanation": "Applicants must demonstrate their knowledge of California fireworks laws, safety protocols, and chemistry by passing the OSFM written examination with a minimum score of 70%."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An experienced Pyrotechnic Operator from Nevada moves to California. Can they legally act as the Operator in Charge for a public display in California using their valid Nevada license?",
+    "option_a": "Yes, pyrotechnic licenses have reciprocal agreements across all 50 states",
+    "option_b": "Yes, but only for displays using shells smaller than 4 inches",
+    "option_c": "No, they must apply for, test for, and hold a valid California OSFM Pyrotechnic Operator license",
+    "option_d": "Yes, provided the local fire chief gives verbal permission",
+    "correct_answer": "C",
+    "explanation": "California does not offer direct reciprocity that allows an out-of-state operator to shoot without a CA license. The operator must obtain a valid California OSFM license to legally conduct displays in the state."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under California law, what legal authority does a Pyrotechnic Operator - Special Effects (Class C) license grant the holder?",
+    "option_a": "To manufacture 1.3G display fireworks",
+    "option_b": "To conduct large outdoor aerial displays using 8-inch shells",
+    "option_c": "To use, set up, and discharge pyrotechnic special effects before a proximate audience (such as theatrical or film productions)",
+    "option_d": "To sell 'Safe and Sane' fireworks year-round",
+    "correct_answer": "C",
+    "explanation": "The Special Effects (Class C) license specifically authorizes the use of proximate pyrotechnics and special effects for television, motion pictures, and theatrical performances, not traditional high-level outdoor aerial displays."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator's license expires on May 1st, and they have a show scheduled on May 5th, is there a grace period that allows them to legally shoot the show while their renewal is processing?",
+    "option_a": "Yes, there is a 30-day legal grace period",
+    "option_b": "Yes, as long as they carry the receipt showing they paid for the renewal",
+    "option_c": "No, all licensed pyrotechnic activities must cease immediately upon expiration until the renewed license is physically in hand",
+    "option_d": "Yes, if the AHJ approves it",
+    "correct_answer": "C",
+    "explanation": "There is no operational grace period for an expired license. An operator cannot legally receive, handle, or discharge dangerous fireworks if their license has expired, regardless of pending paperwork."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which of the following criminal convictions will automatically result in the denial or revocation of a California Pyrotechnic Operator license?",
+    "option_a": "A minor traffic ticket for speeding",
+    "option_b": "A civil dispute over a business contract",
+    "option_c": "A felony conviction involving explosives, firearms, or moral turpitude",
+    "option_d": "A citation for a noise ordinance violation",
+    "correct_answer": "C",
+    "explanation": "The State Fire Marshal will deny or revoke a license if the applicant has been convicted of a felony, particularly those involving explosives, weapons, or acts of moral turpitude, as they pose a severe public safety risk."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A licensed Pyrotechnic Operator falls severely ill on the morning of a large public display. Can they legally transfer their OSFM license to their most experienced unlicensed assistant for the day?",
+    "option_a": "Yes, if the assistant has at least 5 years of experience",
+    "option_b": "Yes, but only if the sponsor signs a liability waiver",
+    "option_c": "No, OSFM pyrotechnic licenses are strictly issued to a specific individual and are completely non-transferable under any circumstances",
+    "option_d": "Yes, if the local fire department oversees the show",
+    "correct_answer": "C",
+    "explanation": "Under California Health and Safety Code, licenses are issued strictly to qualified individuals and are entirely non-transferable. Another licensed operator must take over, or the show must be canceled."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "During a display setup, a local fire inspector (AHJ) requests to see the Pyrotechnic Operator's OSFM license. The operator left it at their hotel. What is the legal consequence?",
+    "option_a": "The operator can just show a photo of it on their phone",
+    "option_b": "The operator can verbally confirm their license number and proceed",
+    "option_c": "The operator is in violation of Title 19; the license must be carried on their person at all times, and the AHJ has the authority to halt the display",
+    "option_d": "The AHJ must wait until after the show to check the license",
+    "correct_answer": "C",
+    "explanation": "Title 19 mandates that a licensed operator must have their valid physical OSFM license in their possession at all times while performing pyrotechnic duties. Failure to produce it allows the AHJ to immediately halt operations."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator loses their physical license document, what is the mandatory course of action before they can legally act as Operator in Charge at a display?",
+    "option_a": "Write 'Lost License' on the display permit and shoot the show",
+    "option_b": "They must immediately notify the OSFM, apply for a duplicate license, pay the replacement fee, and have the new document in hand",
+    "option_c": "Borrow another operator's license for the day",
+    "option_d": "Wait until the next annual renewal to get a new copy",
+    "correct_answer": "B",
+    "explanation": "An operator cannot conduct a display without the physical license. If lost or destroyed, they must formally request a duplicate from the OSFM, pay the required fee, and receive the replacement before resuming duties."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What specific authority does a Pyrotechnic Operator - Agricultural and Wildlife license provide?",
+    "option_a": "To conduct commercial aerial displays over agricultural land",
+    "option_b": "To manufacture explosives used for mining",
+    "option_c": "To use specified pyrotechnic devices strictly for the purpose of scaring away or controlling crop-destroying birds and wildlife",
+    "option_d": "To sell fireworks from a roadside stand",
+    "correct_answer": "C",
+    "explanation": "This restricted license limits the operator strictly to using agricultural and wildlife fireworks (like bird whistlers or specialized seal bombs) for the sole purpose of wildlife control and crop protection."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When an applicant fills out their initial Pyrotechnic Operator application, what is the penalty for intentionally omitting a prior license suspension from another state?",
+    "option_a": "A request for a written apology",
+    "option_b": "A mandatory re-take of the written exam",
+    "option_c": "Immediate denial of the application or revocation of the license for making false statements on an official state document",
+    "option_d": "An extra $50 processing fee",
+    "correct_answer": "C",
+    "explanation": "Falsifying information, or intentionally omitting material facts such as prior disciplinary actions on a state application, is illegal and serves as absolute grounds for immediate denial or revocation by the OSFM."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "While a licensed Pyrotechnic Operator is in charge of a display, what is their legal relationship and responsibility regarding the unlicensed assistants on their crew?",
+    "option_a": "The operator is only responsible for themselves",
+    "option_b": "The sponsor is legally responsible for the assistants",
+    "option_c": "The Operator in Charge holds absolute legal responsibility for the direct supervision, safety, and actions of all unlicensed assistants on the site",
+    "option_d": "Assistants operate independently once trained",
+    "correct_answer": "C",
+    "explanation": "Unlicensed assistants can only handle fireworks under the direct supervision of a licensed operator. The licensed operator holds the ultimate legal liability and responsibility for the safety and actions of their crew."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "After the OSFM issues a Pyrotechnic Operator license, how does the state monitor the licensee for subsequent criminal activity that might disqualify them?",
+    "option_a": "The operator must take a polygraph test every year",
+    "option_b": "The OSFM receives automatic 'Subsequent Arrest Notifications' from the DOJ via the initial Live Scan fingerprinting",
+    "option_c": "The OSFM randomly calls local police departments",
+    "option_d": "They rely on the operator to self-report",
+    "correct_answer": "B",
+    "explanation": "The Live Scan fingerprint process hooks the applicant into the DOJ system. If the licensee is arrested for a disqualifying crime at any point in the future, the DOJ automatically sends a subsequent arrest notification to the OSFM."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An unlicensed assistant has been working on a pyrotechnic crew for 10 years. Which of the following tasks are they legally forbidden from doing?",
+    "option_a": "Carrying boxes of 1.3G fireworks from the truck to the mortar line",
+    "option_b": "Connecting electric match wires to the firing module under supervision",
+    "option_c": "Acting as the designated Operator in Charge and making final safety determinations regarding the display",
+    "option_d": "Sweeping the fallout area for debris",
+    "correct_answer": "C",
+    "explanation": "No matter how much experience an unlicensed assistant has, they can never legally act as the Operator in Charge, assume ultimate liability, or make the final safety decisions that require a licensed professional."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If the State Fire Marshal officially suspends or revokes a pyrotechnic license due to a severe safety violation, what physical action is the former licensee legally required to take?",
+    "option_a": "Keep the license framed on their wall",
+    "option_b": "Shred the license",
+    "option_c": "Immediately surrender the physical license document back to the Office of the State Fire Marshal",
+    "option_d": "Hand the license over to their employer",
+    "correct_answer": "C",
+    "explanation": "A suspended or revoked license remains the property of the State of California. The individual is legally mandated to surrender and return the physical document to the OSFM immediately upon demand."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "In California, what is the legal classification for a person who intentionally organizes and discharges a public display of 1.3G dangerous fireworks without ever obtaining an OSFM license?",
+    "option_a": "A civil infraction",
+    "option_b": "A misdemeanor violation of the State Fireworks Law, punishable by fines and potential imprisonment",
+    "option_c": "A simple public nuisance warning",
+    "option_d": "A federal treason charge",
+    "correct_answer": "B",
+    "explanation": "Under CA Health and Safety Code Section 12700, violating the provisions of the fireworks law (such as operating without a required license) is classified as a misdemeanor, subject to fines and jail time."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When a pyrotechnic company submits an application for a public display permit to the local AHJ, what proof of qualification must be included regarding the personnel?",
+    "option_a": "A resume of the operator's past jobs",
+    "option_b": "A copy of the valid OSFM Pyrotechnic Operator license for the specific individual who will be in charge of the display",
+    "option_c": "A generic list of crew members without license numbers",
+    "option_d": "A letter of recommendation from the mayor",
+    "correct_answer": "B",
+    "explanation": "The AHJ requires the permit application to explicitly name the licensed Pyrotechnic Operator who will be physically in charge of the shoot, along with a copy of their valid OSFM license to verify their credentials."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Is a licensed Pyrotechnic Operator allowed to physically alter, modify, or laminate their license in a way that obscures the expiration date or license restrictions?",
+    "option_a": "Yes, lamination is required to waterproof it",
+    "option_b": "Yes, as long as their name is visible",
+    "option_c": "No, altering or obscuring an official state license document is illegal and renders it invalid",
+    "option_d": "Yes, if they use clear tape",
+    "correct_answer": "C",
+    "explanation": "Official OSFM licenses must not be physically altered, tampered with, or obscured in any way. Doing so can invalidate the license and result in disciplinary action or allegations of fraud."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Who is legally authorized to physically sign the OSFM Pyrotechnic Operator license application acknowledging the penalty of perjury?",
+    "option_a": "The applicant's employer",
+    "option_b": "The lead pyrotechnic instructor",
+    "option_c": "The applicant themselves",
+    "option_d": "A notary public only",
+    "correct_answer": "C",
+    "explanation": "The individual applying for the license must personally sign the application, certifying under penalty of perjury that all information provided regarding their experience, background, and identity is true and correct."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An applicant wishes to obtain a Pyrotechnic Operator license but has a documented history of severe, untreated mental health conditions that cause blackouts and erratic behavior. How might the OSFM handle this?",
+    "option_a": "They must issue the license anyway due to privacy laws",
+    "option_b": "They can deny the license, as applicants must not have physical or mental conditions that render them incapable of safely handling dangerous explosives",
+    "option_c": "They will issue the license but require a doctor to attend the shows",
+    "option_d": "They will issue a restricted license for daytime shows only",
+    "correct_answer": "B",
+    "explanation": "Because handling explosives is inherently dangerous to public safety, the OSFM has the authority to deny a license if the applicant has a severe condition that demonstrably impedes their ability to safely conduct pyrotechnic operations."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator is caught discharging commercial display fireworks while heavily intoxicated, what is the most likely administrative action by the OSFM?",
+    "option_a": "A mandatory drug education class",
+    "option_b": "Immediate suspension or revocation of their pyrotechnic license due to gross negligence and operating under the influence",
+    "option_c": "A temporary 24-hour hold on their license",
+    "option_d": "A simple verbal warning",
+    "correct_answer": "B",
+    "explanation": "Operating pyrotechnics under the influence of drugs or alcohol is an egregious violation of safety standards and Title 19. It demonstrates gross incompetence and will lead to immediate license suspension or permanent revocation."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What type of pyrotechnic license is required for a person who exclusively formulates, builds, and assembles custom commercial fireworks shells in a fixed, state-approved facility?",
+    "option_a": "Pyrotechnic Operator - Basic Commercial",
+    "option_b": "Pyrotechnic Operator - Special Effects",
+    "option_c": "Fireworks Manufacturer License (or equivalent specific manufacturing permit)",
+    "option_d": "Retail Sales License",
+    "correct_answer": "C",
+    "explanation": "A standard Pyrotechnic Operator license strictly covers the discharge/display of fireworks. Manufacturing or assembling custom shells from raw chemicals requires a highly regulated, distinct Manufacturer License."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator holds a valid California Pyrotechnic Operator license but fails to secure the necessary local permit from the AHJ for a specific show. If they fire the show anyway, what is the consequence?",
+    "option_a": "The state license protects them from local prosecution",
+    "option_b": "They will only be fined by the local city, but the OSFM will not care",
+    "option_c": "They are committing a crime; the OSFM license only qualifies them to apply for permits, it does not bypass the legal requirement to obtain local AHJ approval to fire",
+    "option_d": "They must pay double the permit fee after the fact",
+    "correct_answer": "C",
+    "explanation": "Holding a state license proves competence but does not grant blanket permission to shoot anywhere. Firing a public display without a local operational permit is illegal and subjects the operator to criminal charges and license revocation."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Who is the primary Authority Having Jurisdiction (AHJ) responsible for reviewing the site plan and issuing the operational permit for a public fireworks display in California?",
+    "option_a": "The Office of the State Fire Marshal headquarters in Sacramento",
+    "option_b": "The local fire chief, fire prevention bureau, or designated local fire code official where the display will take place",
+    "option_c": "The California Highway Patrol",
+    "option_d": "The Federal Aviation Administration (FAA)",
+    "correct_answer": "B",
+    "explanation": "While the State Fire Marshal issues the individual operator's license, the actual operational permit for a specific fireworks display event is issued by the local AHJ (usually the local fire department)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under California Health and Safety Code and Title 19 regulations, how many days prior to a planned public display must the permit application typically be submitted to the local AHJ?",
+    "option_a": "At least 3 days",
+    "option_b": "At least 10 days",
+    "option_c": "At least 14 days",
+    "option_d": "At least 30 days",
+    "correct_answer": "B",
+    "explanation": "State law dictates that an application for a permit to conduct a public fireworks display must be submitted to the local Authority Having Jurisdiction at least 10 days prior to the date of the event."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator is scheduled to conduct a fireworks display on state-owned or state-occupied property, what specific reporting requirement must be met?",
+    "option_a": "The licensee must report to the State Fire Marshal at least 72 hours prior to the display",
+    "option_b": "The licensee must report to the Governor's office 30 days prior",
+    "option_c": "The licensee must only notify the local city police department",
+    "option_d": "Displays on state property are strictly exempt from all reporting requirements",
+    "correct_answer": "A",
+    "explanation": "According to California Code of Regulations Title 19, Section 993.1, a licensee must explicitly report to the State Fire Marshal at least 72 hours prior to conducting any display on state-owned or state-occupied property."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the statutory minimum amount of public liability and property damage insurance that must be secured and provided to the AHJ before a public display permit can be issued?",
+    "option_a": "$250,000",
+    "option_b": "$500,000",
+    "option_c": "$1,000,000",
+    "option_d": "$5,000,000",
+    "correct_answer": "C",
+    "explanation": "California Health and Safety Code Section 12610 requires that the applicant or pyrotechnic company carry a minimum of $1,000,000 in commercial general liability insurance for bodily injury and property damage."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When a pyrotechnic company submits their certificate of insurance to the local AHJ for a display permit, what specific policy endorsement is universally required by the municipality?",
+    "option_a": "The insurance must guarantee clear weather",
+    "option_b": "The local AHJ, the city/county, and its officers and employees must be explicitly named as 'Additional Insured' on the policy",
+    "option_c": "The insurance must be paid entirely in cash",
+    "option_d": "The policy must cover the spectators' personal vehicle insurance",
+    "correct_answer": "B",
+    "explanation": "Municipalities require an endorsement that officially lists the city, the AHJ, and its personnel as 'Additional Insured' to protect the local government from liability in the event of a pyrotechnic accident."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A pyrotechnic company employs three paid assistants to help set up a show. In addition to the $1M general liability insurance, what other specific insurance proof must be provided to the AHJ with the permit application?",
+    "option_a": "Health insurance for all spectators",
+    "option_b": "Proof of statutory Workers' Compensation insurance for the employees",
+    "option_c": "Unemployment insurance for the local fire department",
+    "option_d": "Life insurance policies for the entire crew",
+    "correct_answer": "B",
+    "explanation": "If the pyrotechnic operator or company utilizes paid employees to conduct the display, California law requires them to maintain and provide proof of valid Workers' Compensation insurance."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which of the following items is a mandatory component of the site plan/plot plan submitted to the AHJ during the permit application process?",
+    "option_a": "The brand names of the crew's safety glasses",
+    "option_b": "A detailed layout showing the mortar locations, spectator viewing lines, fallout zones, and any overhead obstructions",
+    "option_c": "The exact decibel level of each individual firework",
+    "option_d": "The dietary restrictions of the pyrotechnic crew",
+    "correct_answer": "B",
+    "explanation": "The AHJ requires a highly detailed, dimensioned plot plan. This diagram must accurately depict the firing site, the spectator separation distances, the calculated fallout area, and environmental hazards like trees or power lines."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a public fireworks display is being hosted on private property (e.g., a private golf course), what additional documentation must accompany the permit application to the AHJ?",
+    "option_a": "A property tax receipt for the current year",
+    "option_b": "Written authorization and consent from the legal owner of the property allowing the fireworks display to take place",
+    "option_c": "A list of all members of the golf course",
+    "option_d": "A separate $1,000,000 insurance policy solely for the grass",
+    "correct_answer": "B",
+    "explanation": "The AHJ will not issue a permit for a display on private land without explicit, written permission from the legal property owner acknowledging and authorizing the hazardous activity on their premises."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Can a local city council or local fire chief (AHJ) enact an ordinance requiring a 100-foot per inch spectator separation distance, even though state law (Title 19) only requires 70 feet per inch?",
+    "option_a": "No, state law strictly overrides local ordinances, and the AHJ cannot demand more than 70 feet per inch",
+    "option_b": "Yes, local jurisdictions in California retain the legal right to adopt and enforce safety ordinances that are more restrictive than the state minimums",
+    "option_c": "Only if they get permission from the Governor",
+    "option_d": "No, fireworks distances are regulated by federal law only",
+    "correct_answer": "B",
+    "explanation": "California Health and Safety Code allows local Authorities Having Jurisdiction to enact rules, bans, or safety distances that are more restrictive (but never less restrictive) than state minimum standards."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Along with the licensed Pyrotechnic Operator or pyrotechnic company, who else must legally sign the public display permit application acknowledging their role in the event?",
+    "option_a": "Every spectator in the VIP section",
+    "option_b": "A legally authorized representative of the sponsoring organization (the event host)",
+    "option_c": "The local mayor",
+    "option_d": "The lead pyrotechnic assistant",
+    "correct_answer": "B",
+    "explanation": "The application must be signed by the event sponsor (the person or organization funding and hosting the event) to acknowledge their liability and compliance with the permit conditions."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "On the day of the display, what mandatory action must the AHJ (Local Fire Official) take before giving final authorization to begin firing?",
+    "option_a": "They must personally load the first mortar",
+    "option_b": "They must conduct a physical on-site inspection of the mortar setup, fallout area, safety equipment, and verify the operator's license",
+    "option_c": "They must confiscate the firing panel key until sunset",
+    "option_d": "They must test fire at least one shell from every rack",
+    "correct_answer": "B",
+    "explanation": "Before the show can begin, the AHJ must conduct a site inspection to ensure the physical setup strictly matches the approved plot plan, the safety distances are maintained, and the operator is properly licensed."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Ten minutes before a scheduled display, the wind shifts and begins blowing at 25 mph directly toward the audience. The Pyrotechnic Operator believes it is safe to shoot, but the local Fire Inspector (AHJ) orders the show canceled. Who has the final legal authority?",
+    "option_a": "The Pyrotechnic Operator",
+    "option_b": "The Event Sponsor",
+    "option_c": "The Authority Having Jurisdiction (AHJ)",
+    "option_d": "The crowd, by popular vote",
+    "correct_answer": "C",
+    "explanation": "The AHJ has absolute, final legal authority over public safety at the event. If the AHJ determines conditions are unsafe and orders a halt or cancellation, the operator must comply immediately."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator's approved permit explicitly lists the largest shell as 5 inches. On site, the operator realizes they accidentally brought several 6-inch shells instead. What is the legal course of action?",
+    "option_a": "Shoot the 6-inch shells but angle them away from the crowd",
+    "option_b": "Shoot them, as long as the fallout area is large enough for 6-inch shells",
+    "option_c": "The operator must absolutely not fire the 6-inch shells unless the permit is formally amended and approved by the AHJ prior to the display",
+    "option_d": "Only fire them during the finale to mask the size",
+    "correct_answer": "C",
+    "explanation": "Firing shells larger than what is explicitly authorized on the AHJ-approved permit is illegal. It invalidates the safety calculations of the permit and voids insurance. The unauthorized shells cannot be fired."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a severe accident occurs during a display resulting in an injury to a crew member or a fire that requires suppression by the fire department, what is the operator's reporting obligation?",
+    "option_a": "They only need to report it to their insurance company",
+    "option_b": "They must formally report the incident to the Office of the State Fire Marshal (OSFM) in addition to local AHJ reports",
+    "option_c": "They are only required to report it if a spectator is injured",
+    "option_d": "They should keep it quiet to avoid losing their license",
+    "correct_answer": "B",
+    "explanation": "State regulations require pyrotechnic operators and companies to report any fires, injuries, or significant safety incidents involving fireworks to the Office of the State Fire Marshal, usually within 24 hours."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A pyrotechnic company obtains a display permit for July 4th. Due to severe thunderstorms, the event is postponed to July 5th. Does the original permit automatically cover the new date?",
+    "option_a": "Yes, permits are universally valid for a 7-day window",
+    "option_b": "Yes, as long as the weather is better",
+    "option_c": "No, a permit is issued for a specific date and time; the operator must secure a formal amendment or approval from the AHJ for the new date",
+    "option_d": "Yes, but only if they pay the fee a second time",
+    "correct_answer": "C",
+    "explanation": "Permits are strictly bound to the dates and times listed on the application to ensure fire department resources are available. Any change in date requires formal coordination and approval from the AHJ."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a public fireworks display includes large-caliber aerial shells that will encroach into navigable airspace, what federal reporting requirement must be fulfilled before the permit is viable?",
+    "option_a": "Filing a report with the Environmental Protection Agency (EPA)",
+    "option_b": "Filing a Notice to Air Missions (NOTAM) with the Federal Aviation Administration (FAA)",
+    "option_c": "Notifying the Department of Homeland Security",
+    "option_d": "Calling the local airport control tower 5 minutes before the show",
+    "correct_answer": "B",
+    "explanation": "Displays that pose a hazard to aircraft in navigable airspace must coordinate with the FAA, which issues a NOTAM to warn pilots to avoid the airspace over the display site."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A public display is permitted to be fired from a barge located in a navigable coastal harbor. In addition to the local fire department AHJ, what agency must review the permit application and issue a Marine Event approval?",
+    "option_a": "The California Department of Transportation (Caltrans)",
+    "option_b": "The United States Coast Guard (USCG)",
+    "option_c": "The local lifeguard captain",
+    "option_d": "The Federal Maritime Commission",
+    "correct_answer": "B",
+    "explanation": "Displays fired from vessels on navigable waterways require coordination with the U.S. Coast Guard, which must establish a marine safety zone and issue a Marine Event Permit to keep civilian boats away from the fallout area."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Where is the approved public display permit legally required to be physically located during the event?",
+    "option_a": "In a locked safe at the sponsor's office",
+    "option_b": "On file at the local fire station only",
+    "option_c": "Physically on-site at the display location, readily available for inspection by any fire or law enforcement official",
+    "option_d": "In the glovebox of the delivery truck",
+    "correct_answer": "C",
+    "explanation": "The original or a copy of the approved AHJ permit must be kept on the display site at all times during setup and firing to immediately prove to any inspector that the operation is legally authorized."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "A pyrotechnic operator submits a permit for a display located directly adjacent to a large equine center and an animal sanctuary. What unique reporting/permitting step will the AHJ most likely require?",
+    "option_a": "A requirement to use only blue-colored fireworks",
+    "option_b": "Written notification to, and potentially consent from, the administrators of the animal facilities to prevent severe animal panic and secondary hazards",
+    "option_c": "Providing earplugs to the horses",
+    "option_d": "A guarantee that no shells will exceed 2 inches",
+    "correct_answer": "B",
+    "explanation": "When firing near sensitive populations (hospitals, mental health facilities, or animal sanctuaries), the AHJ generally requires documented notification and coordination with the facility managers to prevent panic or dangerous stampedes."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "During the post-show sweep, the operator discovers a live, unexploded 4-inch shell inside a mortar. Beyond rendering it safe, what is the operator's immediate reporting responsibility before leaving the site?",
+    "option_a": "Take a photo for Instagram",
+    "option_b": "Notify the AHJ or fire watch personnel remaining on scene about the dud and how it was secured",
+    "option_c": "Call the shell manufacturer in China",
+    "option_d": "The operator does not need to tell anyone if they put it in water",
+    "correct_answer": "B",
+    "explanation": "The presence of live unexploded ordnance is a critical safety hazard. The operator must inform the on-site AHJ or fire watch immediately so they are aware of the hazard during the site breakdown."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator intentionally lists '3-inch shells max' on a permit application to secure a site with a small fallout area, but secretly plans to shoot 5-inch shells. What is the legal consequence of this action?",
+    "option_a": "It is allowed if the operator thinks they can do it safely",
+    "option_b": "The AHJ will charge them a higher permit fee post-show",
+    "option_c": "It is a fraudulent application; the AHJ will revoke the permit immediately, and the operator faces OSFM license suspension and criminal misdemeanor charges",
+    "option_d": "The operator only gets a written warning",
+    "correct_answer": "C",
+    "explanation": "Falsifying details on a permit application to circumvent safety distances is severe fraud and gross negligence. It will result in immediate shutdown, loss of license, and potential criminal prosecution."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Can the local AHJ legally deny a display permit strictly based on extreme local weather conditions, such as severe drought and peak fire season, even if the operator meets all minimum distance requirements?",
+    "option_a": "No, distance requirements are the only legal metric for denial",
+    "option_b": "No, the State Fire Marshal forces AHJs to accept all permits",
+    "option_c": "Yes, the AHJ has broad authority to deny a permit if local environmental conditions create an unacceptable risk to public safety and property",
+    "option_d": "Yes, but only if they refund the sponsor's money",
+    "correct_answer": "C",
+    "explanation": "The AHJ's primary mandate is public safety. If local fire conditions (like severe drought or red flag warnings) make any display unacceptably hazardous, the AHJ has the absolute right to deny the permit."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator arrives at a permitted shoot and the event sponsor excitedly presents a box of unlicensed, unclassified fireworks they bought in another country, asking the operator to add them to the finale. What is the operator's legal obligation?",
+    "option_a": "Shoot them, as the sponsor is paying for the event",
+    "option_b": "Refuse to shoot them, isolate the illegal fireworks, and report the presence of dangerous, unclassified explosives to the AHJ immediately",
+    "option_c": "Only shoot them if they look safe",
+    "option_d": "Keep them for their own personal use later",
+    "correct_answer": "B",
+    "explanation": "A licensed operator can only discharge OSFM-classified and AHJ-permitted fireworks. Discharging illegal fireworks violates state and federal law. The operator must refuse, secure the site, and inform the AHJ."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What does a 'Post-Display Report' typically document for the State Fire Marshal or pyrotechnic company logs?",
+    "option_a": "The names of the spectators who attended",
+    "option_b": "A detailed accounting of the fireworks actually fired, any malfunctions/duds encountered, and any safety incidents that occurred",
+    "option_c": "The amount of money the sponsor made",
+    "option_d": "The food eaten by the crew",
+    "correct_answer": "B",
+    "explanation": "Post-display reports and log sheets are used to track the exact inventory consumed, document any product failures (like duds or low breaks) for manufacturer tracking, and record safety incidents."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator conducts a show without verifying that the sponsor actually obtained and paid for the AHJ permit, who is held liable for discharging dangerous fireworks without a permit?",
+    "option_a": "Only the event sponsor",
+    "option_b": "Only the local fire department for not catching them",
+    "option_c": "The Pyrotechnic Operator; the licensed operator is ultimately responsible for ensuring a valid permit exists before striking a match",
+    "option_d": "The manufacturer of the fireworks",
+    "correct_answer": "C",
+    "explanation": "While the sponsor may handle the paperwork and fees, the licensed Operator in Charge is the one handling the explosives. It is their absolute legal duty to verify the physical permit is approved and on-site before operating."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Under California and federal regulations, what type of storage magazine is minimally required for the permanent or temporary outdoor storage of 1.3G display fireworks (low explosives)?",
+    "option_a": "Type 1",
+    "option_b": "Type 2",
+    "option_c": "Type 3",
+    "option_d": "Type 4",
+    "correct_answer": "D",
+    "explanation": "A Type 4 magazine (a permanent, portable, or mobile structure that is fire-resistant, theft-resistant, and weather-resistant) is the standard minimum requirement for storing low explosives like 1.3G display fireworks."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the primary function of a Type 3 explosive magazine?",
+    "option_a": "It is a permanent concrete bunker for high explosives",
+    "option_b": "It is a portable 'day box' used for the temporary storage of explosive materials while attended at a display or job site",
+    "option_c": "It is a specialized magazine strictly for storing electric matches",
+    "option_d": "It is an underground storage facility",
+    "correct_answer": "B",
+    "explanation": "A Type 3 magazine is a portable 'day box' constructed to be fire-resistant, weather-resistant, and theft-resistant, used strictly for temporary storage of explosives while the site is attended."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "According to Title 19 regulations regarding the removal of pyrotechnic materials from a magazine at a display site, what is the strict limit on the quantity removed?",
+    "option_a": "No more than 500 pounds at a time",
+    "option_b": "Only the amount necessary for immediate use",
+    "option_c": "All fireworks must be removed from the magazine at the start of the day",
+    "option_d": "Exactly half of the show's inventory",
+    "correct_answer": "B",
+    "explanation": "Title 19 mandates that quantities of pyrotechnic or special effects materials removed from magazines shall be strictly limited to the amount necessary for immediate use, preventing excess explosive hazards on the site."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "How long is a licensed Pyrotechnic Operator or pyrotechnic business legally required to retain their inventory logs and records of fireworks received, used, and disposed of?",
+    "option_a": "1 year",
+    "option_b": "3 years",
+    "option_c": "5 years",
+    "option_d": "7 years",
+    "correct_answer": "B",
+    "explanation": "California regulations mandate that operators and licensees maintain accurate records of all explosive materials and fireworks handled, received, and discharged for a minimum period of 3 years."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When utilizing a Type 3 'day box' at a fireworks display site, what is the critical security requirement regarding its attendance?",
+    "option_a": "It can be left unattended as long as it has two padlocks",
+    "option_b": "It must be attended at all times by a competent person when explosive materials are inside",
+    "option_c": "It can be left unattended if hidden from public view",
+    "option_d": "It must be surrounded by a 10-foot chain-link fence",
+    "correct_answer": "B",
+    "explanation": "Federal and state laws dictate that Type 3 magazines (day boxes) must be attended at all times when they contain explosive materials. They cannot be left unattended and locked like a Type 4 magazine."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "According to NFPA 495 and adopted fire codes, how frequently must a magazine containing explosive materials be physically inspected to verify that all materials are accounted for?",
+    "option_a": "Every 24 hours",
+    "option_b": "Every 3 days",
+    "option_c": "At least every 7 days",
+    "option_d": "Once a month",
+    "correct_answer": "C",
+    "explanation": "Magazines containing explosive materials must be physically inspected at least every 7 days to verify that the magazine has not been compromised and that all explosive materials are fully accounted for."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the minimum age requirement for the competent person designated to supervise an explosive storage magazine?",
+    "option_a": "18 years old",
+    "option_b": "21 years old",
+    "option_c": "25 years old",
+    "option_d": "30 years old",
+    "correct_answer": "B",
+    "explanation": "The person responsible for the supervision of an explosive materials magazine and the enforcement of all safety precautions must be at least 21 years of age."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator's inventory logs reveal a shortage, or if fireworks are discovered stolen from a magazine, within what timeframe must this be reported to the authorities?",
+    "option_a": "Within 24 hours of discovery",
+    "option_b": "Within 48 hours of discovery",
+    "option_c": "Within 72 hours of discovery",
+    "option_d": "By the end of the calendar month",
+    "correct_answer": "A",
+    "explanation": "Any theft or unaccounted loss of explosive materials must be reported to the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATFE), local law enforcement, and the OSFM within 24 hours of discovery."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the primary purpose of constructing an artificial earth barricade or utilizing a natural barricade (like a hill) around an outdoor fireworks magazine?",
+    "option_a": "To keep the fireworks cooler in the summer",
+    "option_b": "To prevent water from entering the magazine",
+    "option_c": "To allow for a reduction in the required separation distances between the magazine and inhabited buildings or public highways",
+    "option_d": "To hide the magazine from aerial view",
+    "correct_answer": "C",
+    "explanation": "Barricades deflect the blast wave of a potential explosion upward. Utilizing an approved barricade allows the operator to reduce the required separation distances to inhabited buildings or roads, typically by half."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the strict rule regarding the storage of non-explosive items (like spare tools, crew radios, or paint) inside a fireworks magazine?",
+    "option_a": "They may be stored inside if kept in a separate plastic bin",
+    "option_b": "Magazines shall be used exclusively for the storage of explosive materials; no other tools or non-explosive items are permitted",
+    "option_c": "Only non-sparking tools may be permanently stored inside",
+    "option_d": "They may be stored inside if the AHJ gives verbal permission",
+    "correct_answer": "B",
+    "explanation": "NFPA 495 and CA Fire Code state that magazines must be used exclusively for the storage of explosive materials. Storing non-explosive items creates unnecessary traffic, clutter, and potential fire/spark hazards."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "When securing an outdoor Type 4 magazine, what specific physical protection is required for the padlocks to prevent tampering or cutting?",
+    "option_a": "The padlocks must be painted red",
+    "option_b": "The padlocks must be covered by steel hoods constructed of at least 1/4-inch steel to prevent access by bolt cutters",
+    "option_c": "The padlocks must be wrapped in heavy-duty chains",
+    "option_d": "Padlocks are not required if a security camera is present",
+    "correct_answer": "B",
+    "explanation": "ATF and fire code regulations require that outdoor magazines secured with padlocks must have the locks protected by 1/4-inch thick steel hoods to prevent them from being easily sawed, pried, or cut with bolt cutters."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator needs to open several sealed cardboard boxes of display fireworks to check the inventory. Where must this task be performed?",
+    "option_a": "Inside the magazine, to ensure no fireworks are lost",
+    "option_b": "Outside the magazine, at least 50 feet away from the storage facility",
+    "option_c": "Immediately outside the door of the magazine",
+    "option_d": "On the tailgate of the transport vehicle",
+    "correct_answer": "B",
+    "explanation": "Packages of explosive materials must not be unpacked or repacked inside a magazine, nor within 50 feet of a magazine, to prevent a localized accident from sympathetic detonation of the entire magazine's inventory."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What type of tools are legally permitted to be used for opening boxes or containers of explosive materials?",
+    "option_a": "Steel crowbars",
+    "option_b": "Iron hammers",
+    "option_c": "Non-sparking tools made of wood, brass, rubber, or plastic",
+    "option_d": "Standard steel box cutters",
+    "correct_answer": "C",
+    "explanation": "Only non-sparking tools may be used to open explosive containers to eliminate the risk of a friction spark igniting loose powder. Steel and iron tools are strictly prohibited."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What distance must be kept completely clear of combustible materials, dry grass, brush, and rubbish around an outdoor fireworks magazine?",
+    "option_a": "10 feet",
+    "option_b": "25 feet",
+    "option_c": "50 feet",
+    "option_d": "100 feet",
+    "correct_answer": "B",
+    "explanation": "The exterior of an outdoor magazine must be kept clear of combustible materials, dry brush, and rubbish for a minimum distance of 25 feet (though smoking is banned within 50 feet) to prevent wildfires from threatening the explosives."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If lighting is absolutely necessary inside a fireworks storage magazine, what type of lighting is authorized?",
+    "option_a": "Standard extension cords and drop lights",
+    "option_b": "Approved battery-activated safety lanterns or fully enclosed, explosion-proof electric lights",
+    "option_c": "Propane lanterns",
+    "option_d": "Candles in glass jars",
+    "correct_answer": "B",
+    "explanation": "Only strictly approved battery-operated safety lanterns or permanently installed, explosion-proof electrical systems with the wiring enclosed in sealed conduit are permitted inside a magazine to prevent spark ignition."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What must be done to an outdoor fireworks magazine when the entire inventory is removed and it is temporarily empty?",
+    "option_a": "The doors must be left wide open to air it out",
+    "option_b": "It must be locked, and the explosive warning placards must be removed or covered",
+    "option_c": "It must be painted white",
+    "option_d": "A sign reading 'Empty' must be placed on the padlocks",
+    "correct_answer": "B",
+    "explanation": "When a magazine is empty, it must remain locked, and all DOT/NFPA explosive warning placards must be removed or completely covered to prevent a false hazard response by emergency personnel."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Can 1.4G 'Safe and Sane' consumer fireworks and 1.3G Display Fireworks be legally stored in the same Type 4 magazine?",
+    "option_a": "No, they must always be in separate magazines",
+    "option_b": "Yes, provided the total weight complies with the table of distances for the highest hazard class (1.3G)",
+    "option_c": "Yes, but they must be separated by a steel wall",
+    "option_d": "No, 1.4G fireworks cannot be stored in magazines",
+    "correct_answer": "B",
+    "explanation": "Different classes of fireworks can be stored together, but the entire magazine's inventory is then treated as the highest hazard class present (1.3G) for the purpose of calculating mandatory separation distances."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which of the following items is strictly prohibited from being stored in the same magazine as 1.3G aerial display shells?",
+    "option_a": "Quick match fuse",
+    "option_b": "Electric matches and commercial blasting caps/detonators",
+    "option_c": "1.4G consumer cakes",
+    "option_d": "Black powder lift charges",
+    "correct_answer": "B",
+    "explanation": "Electric matches and detonators are initiating devices. They must be stored in a separate magazine away from bulk explosives (like 1.3G shells) to prevent a localized accidental ignition from sympathetically detonating the main explosive cache."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator finds a broken 3-inch shell leaking black powder onto the floor of the magazine. What is the proper procedure?",
+    "option_a": "Sweep the powder into a corner and leave it",
+    "option_b": "Immediately clean up the spill using non-sparking tools, place the damaged shell and loose powder in a sealed, safe container, and remove it from the magazine",
+    "option_c": "Vacuum the powder up with a standard shop-vac",
+    "option_d": "Wash the floor of the magazine with bleach",
+    "correct_answer": "B",
+    "explanation": "Loose powder is a severe friction and static hazard. Spills must be cleaned immediately using non-sparking tools (like a wooden dustpan and natural bristle brush), and the damaged product isolated and safely removed."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "In the construction of the interior of any explosive magazine, what physical requirement must be met regarding the walls and floor?",
+    "option_a": "They must be painted bright red",
+    "option_b": "They must be completely soundproof",
+    "option_c": "There must be no exposed sparking metal on the interior; any metal must be covered with wood or a non-sparking material",
+    "option_d": "They must be lined with aluminum foil",
+    "correct_answer": "C",
+    "explanation": "To prevent accidental friction sparks when moving heavy boxes, the interior of a magazine must be completely smooth and have zero exposed sparking metals (like steel nails, bolt heads, or iron plating)."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "What is the legal distance that smoking, matches, and open flames must be kept away from an explosive storage magazine?",
+    "option_a": "25 feet",
+    "option_b": "50 feet",
+    "option_c": "75 feet",
+    "option_d": "100 feet",
+    "correct_answer": "B",
+    "explanation": "No person shall smoke, carry matches, or possess any open flame within 50 feet of any magazine containing explosive materials."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "According to the California Fire Code, what occupancy types are strictly prohibited from housing an indoor explosive storage magazine?",
+    "option_a": "Group F (Factory)",
+    "option_b": "Group M (Mercantile)",
+    "option_c": "Group R (Residential)",
+    "option_d": "Group S (Storage)",
+    "correct_answer": "C",
+    "explanation": "The storage of explosives in indoor magazines is strictly prohibited within any Residential (Group R) occupancy to prevent catastrophic loss of life in populated dwellings."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "If a Pyrotechnic Operator is using an indoor magazine, what is a specific structural requirement regarding its location within the building?",
+    "option_a": "It must be located on the top floor of the building",
+    "option_b": "It must be located in the basement for temperature control",
+    "option_c": "It must be located on the ground floor or have ramp access to the exterior grade level to ensure rapid removal in an emergency",
+    "option_d": "It must be hidden inside a closet",
+    "correct_answer": "C",
+    "explanation": "Indoor magazines must be located on the ground floor or have direct ramp access to the exterior. They cannot be placed in basements or upper floors where emergency access or removal would be hindered."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "Which of the following describes the proper protocol for logging explosive materials in and out of the magazine?",
+    "option_a": "The log is only updated at the end of the year",
+    "option_b": "The log is only required for shells larger than 6 inches",
+    "option_c": "A continuous, running inventory must be maintained, logging the date, quantity, type of fireworks received, and the date and quantity removed, ensuring the log perfectly matches the physical count",
+    "option_d": "The log only needs to state the total weight of the magazine",
+    "correct_answer": "C",
+    "explanation": "A strict, real-time inventory log is legally required. Every time explosives are added or removed, it must be documented so that an inspector can immediately reconcile the logbook with the physical boxes in the magazine."
+  },
+  {
+    "module_name": "Module 1: California Fireworks Law",
+    "question_text": "An operator is utilizing a semi-trailer as a mobile Type 4 magazine. When parked and storing fireworks overnight, what must be done to the wheels/undercarriage?",
+    "option_a": "The tires must be deflated",
+    "option_b": "The trailer must be immobilized by removing the wheels or installing a kingpin locking device to prevent theft of the entire magazine",
+    "option_c": "The trailer must be hoisted off the ground",
+    "option_d": "Nothing, locking the doors is sufficient",
+    "correct_answer": "B",
+    "explanation": "Mobile magazines like semi-trailers must be rendered immobile when parked and containing explosives. This is typically done by removing the wheels or attaching a heavy-duty steel lock to the kingpin so the trailer cannot be hitched and stolen."
+  }
+]

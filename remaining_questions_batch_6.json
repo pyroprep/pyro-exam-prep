@@ -1,0 +1,752 @@
+[
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main purpose of a mortar tube safety cap during transport?",
+    "option_a": "To protect the opening and reduce accidental contact",
+    "option_b": "To shorten the shell",
+    "option_c": "To change the color",
+    "option_d": "To eliminate the need for inspection",
+    "correct_answer": "A",
+    "explanation": "Safety caps protect the tube opening."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "When should a mortar tube be inspected after being moved between displays?",
+    "option_a": "Before it is reused",
+    "option_b": "After the crowd leaves",
+    "option_c": "Only if the shell is large",
+    "option_d": "Only at the next year",
+    "correct_answer": "A",
+    "explanation": "Reused equipment should be re-inspected."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main difference between a steel mortar tube and a fiberglass mortar tube?",
+    "option_a": "Steel is generally more rigid while fiberglass is lighter and more corrosion resistant",
+    "option_b": "Fiberglass is always stronger",
+    "option_c": "Steel is always cheaper",
+    "option_d": "Fiberglass requires no inspection",
+    "correct_answer": "A",
+    "explanation": "The materials differ in weight, strength, and handling."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is tube angle important in a display layout?",
+    "option_a": "It changes the intended trajectory and safety envelope",
+    "option_b": "It always shortens the fuse",
+    "option_c": "It makes the shell quieter",
+    "option_d": "It changes the permit name",
+    "correct_answer": "A",
+    "explanation": "Angle is part of safe trajectory planning."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Which setup is typically used for angled trajectories?",
+    "option_a": "A rack or trough arranged to support the chosen angle",
+    "option_b": "A flat table only",
+    "option_c": "A loose stack only",
+    "option_d": "A spectator barrier only",
+    "correct_answer": "A",
+    "explanation": "Support geometry should match the intended angle."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main reason to use a water barge in some display layouts?",
+    "option_a": "To place the firing source over water and reduce ground impacts",
+    "option_b": "To increase the number of shells",
+    "option_c": "To shorten the display",
+    "option_d": "To create a smoke cloud only",
+    "correct_answer": "A",
+    "explanation": "Barge setups alter the firing environment."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "How does a barge setup differ from a ground-based firing layout?",
+    "option_a": "It places the display over water and changes the hazard footprint",
+    "option_b": "It uses no mortars",
+    "option_c": "It always allows spectators closer",
+    "option_d": "It eliminates the need for a site plan",
+    "correct_answer": "A",
+    "explanation": "Barge layouts have altered hazards."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is distance from shore or spectator areas important in barge setups?",
+    "option_a": "Because the over-water environment changes the risk footprint",
+    "option_b": "Because the show will be louder",
+    "option_c": "Because the shell count is lower",
+    "option_d": "Because the permit is easier",
+    "correct_answer": "A",
+    "explanation": "Water setups require careful separation."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main hazard of firing at too steep an angle?",
+    "option_a": "The effect may travel into unintended areas",
+    "option_b": "It always creates more color",
+    "option_c": "It always lowers the burn rate",
+    "option_d": "It eliminates the need for a delay fuse",
+    "correct_answer": "A",
+    "explanation": "Strategic angle matters for safety."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of checking the planned trajectory before the display?",
+    "option_a": "To confirm the intended flight path is clear and safe",
+    "option_b": "To choose the crew lunch",
+    "option_c": "To reduce the shell load",
+    "option_d": "To increase the number of spectators",
+    "correct_answer": "A",
+    "explanation": "Trajectory checks are preventive controls."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main concern when firing near overhead obstructions?",
+    "option_a": "The effect may strike or pass near an unintended target",
+    "option_b": "The show will become longer",
+    "option_c": "The shell will become lighter",
+    "option_d": "The permit will be easier to renew",
+    "correct_answer": "A",
+    "explanation": "Obstructions create risk."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of a continuity test in an electronic firing system?",
+    "option_a": "To confirm that the circuit will carry the firing signal",
+    "option_b": "To increase the shell count",
+    "option_c": "To reduce the number of crew members",
+    "option_d": "To change the fuel ratio",
+    "correct_answer": "A",
+    "explanation": "Continuity ensures the firing path is intact."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the most common reason for a failed continuity test?",
+    "option_a": "A broken wire or poor connection",
+    "option_b": "The shell color is wrong",
+    "option_c": "The permit is missing",
+    "option_d": "The weather is too dry",
+    "correct_answer": "A",
+    "explanation": "Continuity failures are commonly wiring issues."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What does an e-match do in a firing system?",
+    "option_a": "It provides an ignition source when the circuit is energized",
+    "option_b": "It replaces the shell",
+    "option_c": "It colors the flame only",
+    "option_d": "It lowers the delay fuse",
+    "correct_answer": "A",
+    "explanation": "E-matches ignite the device."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why must firing wires be checked before the display begins?",
+    "option_a": "To prevent intermittent or failed ignition",
+    "option_b": "To increase the shell count",
+    "option_c": "To improve the weather forecast",
+    "option_d": "To shorten the setup",
+    "correct_answer": "A",
+    "explanation": "Wire inspection supports reliability."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main purpose of an electronic firing panel?",
+    "option_a": "To send and control the firing signals",
+    "option_b": "To replace the mortar tubes",
+    "option_c": "To determine the permit fee",
+    "option_d": "To identify the AHJ",
+    "correct_answer": "A",
+    "explanation": "The control panel manages firing."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What should be done if a firing system shows intermittent continuity?",
+    "option_a": "Investigate and repair it before use",
+    "option_b": "Proceed if the show is short",
+    "option_c": "Use a larger shell",
+    "option_d": "Ignore it until loading",
+    "correct_answer": "A",
+    "explanation": "Intermittent continuity is unsafe."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is it important to test the circuit before loading the display?",
+    "option_a": "Because a bad circuit can fail before the show begins",
+    "option_b": "Because the show becomes louder",
+    "option_c": "Because the shell weight changes",
+    "option_d": "Because the crew will get more lunch",
+    "correct_answer": "A",
+    "explanation": "Testing before loading prevents hidden failures."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the difference between a wire break and a poor connection in a firing system?",
+    "option_a": "A wire break interrupts the path entirely while a poor connection causes unreliable signal transfer",
+    "option_b": "They are the same thing",
+    "option_c": "A poor connection always makes the shell brighter",
+    "option_d": "A wire break increases the shell size",
+    "correct_answer": "A",
+    "explanation": "The two conditions differ in severity and behavior."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is polarity important in some electronic firing systems?",
+    "option_a": "Because incorrect polarity can prevent proper current flow",
+    "option_b": "Because it determines shell color",
+    "option_c": "Because it shortens the fuse",
+    "option_d": "Because it replaces the panel",
+    "correct_answer": "A",
+    "explanation": "Polarity affects circuit operation."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main purpose of a firing system checklist?",
+    "option_a": "To ensure that every control and connection is verified",
+    "option_b": "To eliminate the need for a safety line",
+    "option_c": "To replace the site map",
+    "option_d": "To increase the shell count",
+    "correct_answer": "A",
+    "explanation": "Checklists help prevent omissions."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of a hand-firing portfire in a display?",
+    "option_a": "To provide a manual ignition source for a specific effect",
+    "option_b": "To replace the mortar tube",
+    "option_c": "To shorten the permit process",
+    "option_d": "To reduce the need for PPE",
+    "correct_answer": "A",
+    "explanation": "Portfires are manual ignition aids."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the main risk of hand-firing without proper control of the ignition source?",
+    "option_a": "It can create an uncontrolled ignition or misfire situation",
+    "option_b": "It will always make the effect brighter",
+    "option_c": "It reduces the need for a delay fuse",
+    "option_d": "It makes the site map irrelevant",
+    "correct_answer": "A",
+    "explanation": "Manual firing requires careful control."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why are safety caps important when storing or transporting hand-fired components?",
+    "option_a": "They reduce accidental contact and contamination",
+    "option_b": "They increase the shell size",
+    "option_c": "They improve the color",
+    "option_d": "They shorten the display",
+    "correct_answer": "A",
+    "explanation": "Safety caps help prevent unintended contact."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "Why is crew spacing important during hand-firing operations?",
+    "option_a": "To reduce the chance of accidental ignition or injury",
+    "option_b": "To improve the permit review",
+    "option_c": "To create more smoke",
+    "option_d": "To avoid using a checklist",
+    "correct_answer": "A",
+    "explanation": "Spacing supports safety."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of a designated firing leader during hand-firing?",
+    "option_a": "To coordinate the crew and maintain control of the operation",
+    "option_b": "To improve the shell color",
+    "option_c": "To cancel the weather check",
+    "option_d": "To replace the site map",
+    "correct_answer": "A",
+    "explanation": "A leader provides control and communication."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What should be done if a hand-fired device fails to ignite on the first attempt?",
+    "option_a": "Stop, assess, and follow the documented procedure",
+    "option_b": "Use a larger shell",
+    "option_c": "Keep firing until it works",
+    "option_d": "Move the spectators closer",
+    "correct_answer": "A",
+    "explanation": "Failed ignition requires controlled response."
+  },
+  {
+    "module_name": "Module 3: Display Operations",
+    "question_text": "What is the purpose of marking a firing position before the display begins?",
+    "option_a": "To ensure that each position is known and controlled",
+    "option_b": "To increase the number of effects",
+    "option_c": "To make the show louder",
+    "option_d": "To reduce the need for a safety line",
+    "correct_answer": "A",
+    "explanation": "Marking supports organization and safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the first action after a misfire is observed in a mortar?",
+    "option_a": "Stop and secure the area before approaching",
+    "option_b": "Start the next shell immediately",
+    "option_c": "Move the crowd closer",
+    "option_d": "Put out the shell with water",
+    "correct_answer": "A",
+    "explanation": "Misfire response begins with control and isolation."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "How long should a crew wait before approaching a suspected misfire?",
+    "option_a": "Long enough to follow the documented wait period and safety procedure",
+    "option_b": "Only until the next shell is loaded",
+    "option_c": "Until the crowd leaves",
+    "option_d": "Until the shell stops smoking",
+    "correct_answer": "A",
+    "explanation": "A defined wait period is part of safe misfire handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of marking a device after a misfire?",
+    "option_a": "To identify the item and keep others away from it",
+    "option_b": "To make it easier to throw away",
+    "option_c": "To increase the shell count",
+    "option_d": "To shorten the cleanup",
+    "correct_answer": "A",
+    "explanation": "Marked items are easier to manage safely."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main difference between a misfire and a hang-fire?",
+    "option_a": "A hang-fire is delayed ignition while a misfire is failure to ignite",
+    "option_b": "They are exactly the same",
+    "option_c": "A misfire is always safe",
+    "option_d": "A hang-fire can never be dangerous",
+    "correct_answer": "A",
+    "explanation": "The distinction is timing and ignition behavior."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if a device appears to be smoking but has not fired?",
+    "option_a": "Treat it as a potential hazard and follow the procedure",
+    "option_b": "Immediately touch it with bare hands",
+    "option_c": "Throw it away immediately",
+    "option_d": "Move it to the center of the crowd",
+    "correct_answer": "A",
+    "explanation": "Smoking or delayed ignition indicates a hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is it important to keep the area clear after a suspected hang-fire?",
+    "option_a": "Because the device may still ignite unexpectedly",
+    "option_b": "Because the show will be more colorful",
+    "option_c": "Because the shell will be lighter",
+    "option_d": "Because no one needs to log it",
+    "correct_answer": "A",
+    "explanation": "Clear areas reduce exposure."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a dud procedure after a display?",
+    "option_a": "To handle unexploded or non-functioning items safely",
+    "option_b": "To increase the amount of debris",
+    "option_c": "To shorten the post-event report",
+    "option_d": "To replace the fire watch",
+    "correct_answer": "A",
+    "explanation": "Dud procedures support safe recovery."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done with an unfired device recovered after a display?",
+    "option_a": "Handle it according to the documented safe procedure and log it",
+    "option_b": "Throw it into a normal trash bin",
+    "option_c": "Place it near spectators",
+    "option_d": "Leave it in the mortar tube",
+    "correct_answer": "A",
+    "explanation": "Recovered items require controlled handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should a suspected dud be marked and logged?",
+    "option_a": "To keep the item identifiable and prevent accidental handling",
+    "option_b": "To shorten the cleanup",
+    "option_c": "To reduce the need for monitoring",
+    "option_d": "To make the show louder",
+    "correct_answer": "A",
+    "explanation": "Marking and logging support control and accountability."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main reason to stop a display in high winds?",
+    "option_a": "Because wind can change the flight path and increase hazards",
+    "option_b": "Because the show will be shorter",
+    "option_c": "Because crew fatigue is lower",
+    "option_d": "Because the permit is easier",
+    "correct_answer": "A",
+    "explanation": "Wind is a major operational hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What weather condition most increases the risk of a display accident?",
+    "option_a": "Gusty or shifting wind",
+    "option_b": "Bright sunshine",
+    "option_c": "Cool temperatures",
+    "option_d": "A calm morning",
+    "correct_answer": "A",
+    "explanation": "Wind variability is a major risk factor."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of wind monitoring before a display?",
+    "option_a": "To confirm the conditions remain within the planned limits",
+    "option_b": "To select the shell colors",
+    "option_c": "To reduce the crew size",
+    "option_d": "To shorten the permit review",
+    "correct_answer": "A",
+    "explanation": "Monitoring supports decision-making."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if wind conditions exceed the approved operating threshold?",
+    "option_a": "Postpone or cancel the display",
+    "option_b": "Continue if the crew is experienced",
+    "option_c": "Load more shells",
+    "option_d": "Move the spectators closer",
+    "correct_answer": "A",
+    "explanation": "Exceeding limits requires stopping."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is lightning a major reason to halt a display?",
+    "option_a": "It creates an immediate and serious hazard to people and equipment",
+    "option_b": "It improves visibility",
+    "option_c": "It lowers the amount of smoke",
+    "option_d": "It makes the shell lighter",
+    "correct_answer": "A",
+    "explanation": "Lightning is a severe hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should a display be postponed if visibility becomes poor?",
+    "option_a": "Because the crew may lose the ability to maintain a safe site and clear path",
+    "option_b": "Because the show will be more colorful",
+    "option_c": "Because the permit will be easier",
+    "option_d": "Because the shells are safer",
+    "correct_answer": "A",
+    "explanation": "Poor visibility undermines safe operations."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a fire watch during a display?",
+    "option_a": "To observe and respond to fire or other hazards",
+    "option_b": "To replace the firing crew",
+    "option_c": "To determine the shell color",
+    "option_d": "To reduce the need for PPE",
+    "correct_answer": "A",
+    "explanation": "Fire watch is for observation and response."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Which PPE item is most important for preventing eye injury?",
+    "option_a": "Safety goggles",
+    "option_b": "A baseball cap",
+    "option_c": "A watch",
+    "option_d": "Gloves only",
+    "correct_answer": "A",
+    "explanation": "Eye protection is critical."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why are hearing protection devices used during a display?",
+    "option_a": "To reduce exposure to loud noise",
+    "option_b": "To improve shell color",
+    "option_c": "To make the show longer",
+    "option_d": "To prevent weather issues",
+    "correct_answer": "A",
+    "explanation": "Hearing protection limits noise exposure."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should operators wear flame-resistant clothing?",
+    "option_a": "To reduce the chance of injury from sparks or flame",
+    "option_b": "To make them easier to identify",
+    "option_c": "To improve the weather",
+    "option_d": "To increase the shell count",
+    "correct_answer": "A",
+    "explanation": "Flame-resistant clothing adds protection."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of safety goggles in a firing area?",
+    "option_a": "To protect the eyes from debris and sparks",
+    "option_b": "To identify the shell type",
+    "option_c": "To improve the sound",
+    "option_d": "To shorten the delay",
+    "correct_answer": "A",
+    "explanation": "Goggles protect eyes."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is PPE inspection important before the event?",
+    "option_a": "Because damaged equipment may not protect properly",
+    "option_b": "Because it reduces the cost of the show",
+    "option_c": "Because it removes weather concerns",
+    "option_d": "Because it speeds up cleanup",
+    "correct_answer": "A",
+    "explanation": "PPE should be checked for condition."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if PPE shows visible damage before use?",
+    "option_a": "Replace or repair it before the event",
+    "option_b": "Continue using it if the crew is experienced",
+    "option_c": "Use it only for transport",
+    "option_d": "Keep it in the truck only",
+    "correct_answer": "A",
+    "explanation": "Damaged PPE should not be used."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of a fire extinguisher on the firing line?",
+    "option_a": "To provide a rapid response to small fires",
+    "option_b": "To launch the shells",
+    "option_c": "To replace the permit",
+    "option_d": "To increase crowd access",
+    "correct_answer": "A",
+    "explanation": "Extinguishers support emergency response."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Which type of extinguishing capability is generally appropriate for a fireworks site?",
+    "option_a": "A suitable class of extinguisher based on the hazard present",
+    "option_b": "A decorative sign only",
+    "option_c": "A paint can",
+    "option_d": "A water hose only",
+    "correct_answer": "A",
+    "explanation": "Extinguisher selection should match the hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is a fire watch required during setup and cleanup?",
+    "option_a": "Because hazards can exist before and after the main firing",
+    "option_b": "Because the shells are all loaded",
+    "option_c": "Because the permit is easier",
+    "option_d": "Because the crowd is already gone",
+    "correct_answer": "A",
+    "explanation": "Fire watch supports periods of heightened risk."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main responsibility of a fire watch during a display?",
+    "option_a": "To observe and raise the alarm if fire or unusual hazards appear",
+    "option_b": "To set the shell colors",
+    "option_c": "To change the firing angles",
+    "option_d": "To handle the inventory log",
+    "correct_answer": "A",
+    "explanation": "Fire watch is an observation and response role."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done if a fire is discovered near the firing site?",
+    "option_a": "Raise the alarm and respond according to procedure",
+    "option_b": "Ignore it until the show ends",
+    "option_c": "Leave it for spectators",
+    "option_d": "Move it closer to the shells",
+    "correct_answer": "A",
+    "explanation": "Fires should be handled promptly."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of conducting a sweep of the display area after firing?",
+    "option_a": "To find any remaining hazardous material or debris",
+    "option_b": "To make the crowd leave",
+    "option_c": "To reduce the permit fee",
+    "option_d": "To shorten the show",
+    "correct_answer": "A",
+    "explanation": "Sweeps support hazard removal."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What should be done with unexploded product found during a sweep?",
+    "option_a": "Handle it with the documented safe procedure and keep it isolated",
+    "option_b": "Throw it into an ordinary trash can",
+    "option_c": "Leave it near the firing line",
+    "option_d": "Give it to spectators",
+    "correct_answer": "A",
+    "explanation": "Recovered unexploded product requires careful handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is cleanup important after a display even when no visible fire remains?",
+    "option_a": "Because hidden hazards and residue may still be present",
+    "option_b": "Because the crew no longer needs the site",
+    "option_c": "Because the permit is already closed",
+    "option_d": "Because the shells become lighter",
+    "correct_answer": "A",
+    "explanation": "Post-display cleanup addresses latent hazards."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main hazard of leaving debris in the firing area?",
+    "option_a": "It can conceal hazardous remnants and create new trip or fire risks",
+    "option_b": "It makes the show look better",
+    "option_c": "It increases the permit fee",
+    "option_d": "It ensures faster transport",
+    "correct_answer": "A",
+    "explanation": "Debris can conceal hazards."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should disposal of unfired product follow a documented procedure?",
+    "option_a": "To reduce the chance of mishandling or accidental ignition",
+    "option_b": "To make the show louder",
+    "option_c": "To lower the insurance premium",
+    "option_d": "To remove the need for logs",
+    "correct_answer": "A",
+    "explanation": "Documentation supports safe handling."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Who should be notified if a hazardous residue is discovered after cleanup?",
+    "option_a": "The responsible supervisor or authority according to procedure",
+    "option_b": "The nearest spectator",
+    "option_c": "The delivery driver only",
+    "option_d": "The event photographer",
+    "correct_answer": "A",
+    "explanation": "Hazard findings should be reported to the responsible authority."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "How should a crew handle damaged packaging found after the display?",
+    "option_a": "Treat it as potentially hazardous and manage it carefully",
+    "option_b": "Throw it away immediately",
+    "option_c": "Ignore it if it is empty",
+    "option_d": "Fold it into the crowd line",
+    "correct_answer": "A",
+    "explanation": "Damaged packaging may contain residual hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of separating debris from intact product during cleanup?",
+    "option_a": "To avoid mixing hazardous residues with safe material",
+    "option_b": "To shorten the cleanup duration",
+    "option_c": "To make the crowd happier",
+    "option_d": "To reduce the need for PPE",
+    "correct_answer": "A",
+    "explanation": "Separation helps control hazards."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is documentation important during post-display recovery?",
+    "option_a": "It preserves what was found and what actions were taken",
+    "option_b": "It improves the shell color",
+    "option_c": "It reduces the permit length",
+    "option_d": "It changes the weather",
+    "correct_answer": "A",
+    "explanation": "Documentation supports accountability and follow-up."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main risk of allowing spectators to enter the site too early?",
+    "option_a": "They may enter a hazardous area before it is declared safe",
+    "option_b": "They will always improve the show",
+    "option_c": "They will speed up cleanup",
+    "option_d": "They can replace the fire watch",
+    "correct_answer": "A",
+    "explanation": "Early entry creates danger."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of maintaining a controlled perimeter after firing?",
+    "option_a": "To keep unauthorized people out until the site is confirmed safe",
+    "option_b": "To make the show colorful",
+    "option_c": "To give the crew lunch",
+    "option_d": "To increase the number of shells",
+    "correct_answer": "A",
+    "explanation": "Perimeter control supports safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should cleanup begin only after the site is declared safe?",
+    "option_a": "Because the area may still contain live or hazardous material",
+    "option_b": "Because the show will be brighter",
+    "option_c": "Because the crew needs a break",
+    "option_d": "Because permits are only issued after cleanup",
+    "correct_answer": "A",
+    "explanation": "Cleanup should not start prematurely."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Which item should be checked first during a post-event sweep?",
+    "option_a": "The immediate firing area and known hazard zones",
+    "option_b": "The parking lot signs",
+    "option_c": "The loudspeaker",
+    "option_d": "The lunch cooler",
+    "correct_answer": "A",
+    "explanation": "Priority should go to hazard zones."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "How should a crew respond to a smoking residue near the firing line?",
+    "option_a": "Treat it as a hazard and follow the safe response process",
+    "option_b": "Ignore it if the flames are out",
+    "option_c": "Move it toward the crowd",
+    "option_d": "Throw it into a trash bin",
+    "correct_answer": "A",
+    "explanation": "Smoking residue can indicate lingering hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is it important to recover all pyrotechnic components from the site?",
+    "option_a": "To reduce the chance of later ignition or injury",
+    "option_b": "To shorten the report",
+    "option_c": "To avoid the need for a fire watch",
+    "option_d": "To make the show more colorful",
+    "correct_answer": "A",
+    "explanation": "Recovery reduces residual hazard."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the main purpose of a post-display inspection of the firing area?",
+    "option_a": "To confirm that the site is clear and no hazards remain",
+    "option_b": "To choose the next shell color",
+    "option_c": "To eliminate the permit",
+    "option_d": "To reduce PPE use",
+    "correct_answer": "A",
+    "explanation": "Inspection verifies site safety."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why should unfired product never be casually discarded?",
+    "option_a": "Because it may remain hazardous and require controlled handling",
+    "option_b": "Because it improves the weather",
+    "option_c": "Because it is too expensive to store",
+    "option_d": "Because it will automatically ignite",
+    "correct_answer": "A",
+    "explanation": "Unfired product remains hazardous."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "What is the purpose of identifying the exact location of recovered product?",
+    "option_a": "To improve accountability and follow-up",
+    "option_b": "To eliminate the need for records",
+    "option_c": "To shorten the show",
+    "option_d": "To change the permit",
+    "correct_answer": "A",
+    "explanation": "Location tracking supports control."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "How should a crew handle a damaged shell discovered after cleanup?",
+    "option_a": "Treat it carefully and follow the documented response",
+    "option_b": "Throw it into the nearest bin",
+    "option_c": "Leave it in the firing line",
+    "option_d": "Give it to the crowd",
+    "correct_answer": "A",
+    "explanation": "Damaged items require cautious response."
+  },
+  {
+    "module_name": "Module 4: Emergency & Safety",
+    "question_text": "Why is it important to separate hazardous debris from ordinary trash?",
+    "option_a": "To lower the chance of accidental exposure or ignition",
+    "option_b": "To make the crew move faster",
+    "option_c": "To make the show louder",
+    "option_d": "To eliminate the need for PPE",
+    "correct_answer": "A",
+    "explanation": "Separation reduces hazard."
+  }
+]
