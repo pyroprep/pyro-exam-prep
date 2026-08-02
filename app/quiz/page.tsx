@@ -61,8 +61,8 @@ function ProgressIndicator({
   label?: string;
 }) {
   return (
-    <div className="flex items-center gap-2 font-mono text-xs text-zinc-500 uppercase tracking-wider">
-      {label && <span className="text-zinc-600">{label}</span>}
+    <div className="flex items-center gap-2 font-mono text-xs text-zinc-400 uppercase tracking-wider">
+      {label && <span className="text-zinc-400">{label}</span>}
       <span className="text-orange-500">
         {String(current + 1).padStart(2, "0")}
       </span>
@@ -494,7 +494,7 @@ function QuizContent() {
           <div className="flex items-center justify-between mb-4">
             <Link
               href="/dashboard"
-              className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors font-mono uppercase tracking-wider"
+              className="text-xs text-zinc-400 hover:text-zinc-200 transition-colors font-mono uppercase tracking-wider"
             >
               &larr; {isExam ? "Exit Exam" : "Exit Practice"}
             </Link>
@@ -533,7 +533,7 @@ function QuizContent() {
         )}
 
         {/* Question text */}
-        <h2 className="text-base sm:text-lg text-zinc-100 font-medium leading-relaxed mb-8 self-start">
+        <h2 className="text-xl text-zinc-100 font-bold leading-relaxed mb-8 self-start">
           {currentQuestion.questionText}
         </h2>
 
@@ -563,7 +563,7 @@ function QuizContent() {
                 "border-orange-500 bg-orange-500/10 text-orange-300 cursor-pointer ";
             } else {
               optionClasses +=
-                "border-zinc-800 bg-zinc-900/40 text-zinc-400 hover:border-zinc-600 hover:text-zinc-200 cursor-pointer ";
+                "border-zinc-800 bg-zinc-900/40 text-zinc-100 hover:border-zinc-700 hover:bg-zinc-800/50 cursor-pointer ";
             }
 
             return (
@@ -585,7 +585,7 @@ function QuizContent() {
                             : "border-zinc-700 text-zinc-600"
                         : isSelected
                           ? "border-orange-500 bg-orange-500/20 text-orange-400"
-                          : "border-zinc-700 text-zinc-600"
+                          : "border-zinc-700 bg-zinc-800 text-zinc-300"
                     }`}
                   >
                     {isSubmitted
