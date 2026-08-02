@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 
 const METRICS = [
   { value: "94%", label: "First-attempt pass rate" },
-  { value: "1,200+", label: "Operators certified" },
-  { value: "15 yr", label: "Lead instructor experience" },
+  { value: "500+", label: "Practice questions" },
+  { value: "4", label: "Comprehensive modules" },
 ];
 
 const TRACKS = [
@@ -60,31 +60,32 @@ const PRICING = [
     name: "Self-Study",
     price: "$349",
     cadence: "one-time",
-    description: "Work through the course on your own time.",
+    description: "Study at your own pace with immediate access to all course materials.",
     features: [
       "Full 4-module curriculum",
       "500+ question practice bank",
       "Module workbooks (PDF)",
       "2 mock final exams",
-      "Email support",
+      "Video walkthroughs",
+      "Study on your own schedule",
     ],
-    cta: "Enroll self-study",
-    highlighted: false,
+    cta: "Enroll Self-Study",
+    highlighted: true,
   },
   {
     name: "Live Class",
-    price: "$1,295",
-    cadence: "per seat",
-    description: "8 weeks of live classes with the lead instructor.",
+    price: "Coming Soon",
+    cadence: "",
+    description: "Instructor-led sessions will be offered in the future. Join the self-study course to prepare now.",
     features: [
       "Everything in Self-Study",
-      "Weekly live Zoom sessions",
+      "Weekly live sessions",
       "OSFM paperwork walkthrough",
       "1:1 readiness review",
       "Lifetime course updates",
     ],
-    cta: "Enroll live class",
-    highlighted: true,
+    cta: "Join Waitlist",
+    highlighted: false,
   },
   {
     name: "Employer",
@@ -98,7 +99,7 @@ const PRICING = [
       "Dedicated account manager",
       "On-site option available",
     ],
-    cta: "Enroll team",
+    cta: "Contact us",
     highlighted: false,
   },
 ];
@@ -180,51 +181,6 @@ function MediaLayoutIcon({ className = "h-5 w-5" }: { className?: string }) {
   );
 }
 
-function Header() {
-  return (
-    <header className="sticky top-0 z-50 bg-black/85 backdrop-blur-md border-b border-zinc-800 shadow-[0_10px_30px_rgba(0,0,0,0.45)]">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-16 items-center justify-between gap-4">
-          <div className="flex items-center gap-3 min-w-0">
-            <a href="/" className="flex items-center gap-2.5 min-w-0">
-              <span className="grid h-7 w-7 place-items-center rounded-md bg-gradient-to-br from-red-600 to-orange-500 text-white font-bold text-xs shadow-[0_0_18px_rgba(234,88,12,0.35)]">
-                P
-              </span>
-              <span className="truncate text-sm sm:text-base font-semibold text-white tracking-tight">
-                Pyro Prep Academy
-              </span>
-            </a>
-            <span className="hidden sm:inline-flex items-center gap-1.5 rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-              CA — OSFM
-            </span>
-          </div>
-          <div className="flex items-center gap-6">
-            <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-400">
-              <a href="#syllabus" className="hover:text-white transition-colors font-semibold">
-                Syllabus
-              </a>
-              <a href="#features" className="hover:text-white transition-colors font-semibold">
-                Features
-              </a>
-              <a href="#pricing" className="hover:text-white transition-colors font-semibold">
-                Pricing
-              </a>
-            </nav>
-            <a
-              href="#pricing"
-              className="inline-flex items-center gap-1.5 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white text-xs sm:text-sm font-semibold tracking-wide px-3.5 sm:px-4 py-2 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
-            >
-              Enroll now
-              <ArrowRightIcon className="h-3.5 w-3.5" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 function Hero() {
   return (
     <section className="relative overflow-hidden bg-black">
@@ -237,8 +193,7 @@ function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
           <div className="lg:col-span-7">
             <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-              <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
-              Next live class opens March 14
+              SELF-PACED · IMMEDIATE ACCESS
             </span>
 
             <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white uppercase">
@@ -250,9 +205,9 @@ function Hero() {
             </h1>
 
             <p className="body-strong mt-6 max-w-xl text-base sm:text-lg leading-relaxed">
-              Practice questions, detailed explanations, and study tools built directly
-              from CA Title 19 regulations. Live classes are taught by a licensed
-              California operator with 15 years on display crews.
+              Practice questions, explanations, and study tools built directly
+              from CA Title 19 regulations. Study at your own pace with immediate
+              access to the course materials.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -260,14 +215,14 @@ function Hero() {
                 href="#pricing"
                 className="inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all shadow-[0_0_24px_rgba(234,88,12,0.30)]"
               >
-                Enroll now
+                Enroll Self-Study
                 <ArrowRightIcon className="h-4 w-4" />
               </a>
               <a
                 href="#syllabus"
                 className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-800 bg-zinc-900/40 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all"
               >
-                See syllabus
+                See Syllabus
               </a>
             </div>
 
@@ -341,10 +296,10 @@ function Hero() {
 
                 <div className="space-y-2.5 pt-2">
                   {[
-                    "Self-Paced Course",
-                    "Module workbooks",
+                    "Self-Paced · Immediate Access",
+                    "Module workbooks (PDF)",
                     "500+ practice questions",
-                    "Live Class (Coming Soon!)",
+                    "Video walkthroughs",
                   ].map((line, idx) => (
                     <div key={line} className="flex items-center gap-3 text-sm">
                       <span className="font-mono text-[10px] text-zinc-600 w-5">
@@ -566,11 +521,11 @@ function Pricing() {
             Pricing
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Three ways to take the course.
+            Choose your plan.
           </h2>
           <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
-            Self-paced, live class, or team licensing for display companies.
-            All packages include lifetime updates.
+            Start studying today with our self-paced course. A live class is
+            coming soon, and team licensing is available for display companies.
           </p>
         </div>
 
@@ -665,7 +620,6 @@ function Footer() {
 export default function HomePage() {
   return (
     <main className="min-h-screen flex-1 bg-black text-zinc-100">
-      <Header />
       <Hero />
       <Syllabus />
       <Bento />
