@@ -18,11 +18,11 @@ export default function NavHeader() {
             <Link className="flex items-center gap-2" href="/">
               <Image
                 alt="Pyro Prep Academy"
-                className="h-10 w-auto object-contain"
-                height={50}
+                className="h-20 w-auto object-contain"
+                height={100}
                 priority
                 src="/logo.png"
-                width={220}
+                width={440}
               />
             </Link>
           </div>
