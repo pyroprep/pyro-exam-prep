@@ -13,6 +13,16 @@ import {
   type ModuleName,
 } from "@/lib/quiz-types";
 
+// ─── Helper: convert ALL-CAPS text to Sentence case ─────────────────────────
+const formatSentenceCase = (text: string) => {
+  if (!text) return '';
+  // If string is ALL CAPS, convert to proper Sentence case
+  if (text === text.toUpperCase()) {
+    return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+  }
+  return text;
+};
+
 // ─── Countdown Timer ──────────────────────────────────────────────────────────
 function CountdownTimer({
   secondsLeft,
@@ -496,7 +506,7 @@ function QuizContent() {
               href="/dashboard"
               className="text-xs text-zinc-400 hover:text-zinc-200 transition-colors font-mono uppercase tracking-wider"
             >
-              &larr; {isExam ? "Exit Exam" : "Exit Practice"}
+              &larr; <span className="text-zinc-300">{isExam ? "Exit Exam" : "Exit Practice"}</span>
             </Link>
             <ProgressIndicator
               current={currentIndex}
@@ -526,15 +536,15 @@ function QuizContent() {
         {/* Exam mode: mini module label */}
         {isExam && (
           <div className="self-start mb-3">
-            <span className="text-[10px] font-mono text-zinc-600 uppercase tracking-widest">
+            <span className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest">
               {currentQuestion.moduleName}
             </span>
           </div>
         )}
 
         {/* Question text */}
-        <h2 className="text-xl text-zinc-100 font-bold leading-relaxed mb-8 self-start">
-          {currentQuestion.questionText}
+        <h2 className="font-bold text-xl text-zinc-100 leading-relaxed mb-8 self-start">
+          {formatSentenceCase(currentQuestion.questionText)}
         </h2>
 
         {/* Choices */}
@@ -596,7 +606,7 @@ function QuizContent() {
                           : String.fromCharCode(65 + index)
                       : String.fromCharCode(65 + index)}
                   </span>
-                  {choice}
+                  {formatSentenceCase(choice)}
                 </span>
               </button>
             );
@@ -649,7 +659,7 @@ function QuizContent() {
                   Correct answer:{" "}
                   <span className="text-emerald-400">
                     {String.fromCharCode(65 + currentQuestion.correctIndex)}.{" "}
-                    {currentQuestion.choices[currentQuestion.correctIndex]}
+                    {formatSentenceCase(currentQuestion.choices[currentQuestion.correctIndex])}
                   </span>
                 </p>
               )}
@@ -657,7 +667,7 @@ function QuizContent() {
 
             {/* Explanation (shown in study mode immediately; always available after submit) */}
             <p className="text-sm text-zinc-300 leading-relaxed mb-4">
-              {currentQuestion.explanation}
+              {formatSentenceCase(currentQuestion.explanation)}
             </p>
 
             {currentIndex < questions.length - 1 ? (
