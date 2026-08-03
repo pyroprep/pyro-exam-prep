@@ -16,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className="h-full antialiased">
+      <head>
+        <link rel="preconnect" href="https://supabase.co" />
+      </head>
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">
         <AuthProvider>
           <NavHeader />

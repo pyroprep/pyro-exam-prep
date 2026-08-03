@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -271,7 +273,7 @@ function Hero() {
                   <p className="mt-1 text-lg sm:text-xl font-bold text-white">
                     California Pyrotechnic Operator
                   </p>
-                  <p className="text-sm text-zinc-400">Class B — outdoor display</p>
+                  <p className="text-sm text-zinc-400">Class B&#39;s — outdoor display</p>
                 </div>
 
                 <div className="grid grid-cols-3 gap-3 pt-2">
@@ -353,7 +355,7 @@ function Syllabus() {
           </h2>
           <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
             Each module covers a section of the state exam. The law, the chemistry,
-            and the field operations you'll be tested on.
+            and the field operations you&apos;ll be tested on.
           </p>
         </div>
 
@@ -601,14 +603,15 @@ function Footer() {
   return (
     <footer className="border-t border-zinc-900 bg-black">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-16 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-2.5">
-          <span className="grid h-6 w-6 place-items-center rounded-md bg-gradient-to-br from-red-600 to-orange-500 text-white font-bold text-[10px]">
-            P
-          </span>
-          <span className="text-sm font-semibold text-white tracking-tight">
-            Pyro Prep Academy
-          </span>
-        </div>
+        <Link href="/" className="flex items-center gap-2.5">
+          <Image
+            alt="Pyro Prep Academy"
+            className="h-6 w-auto"
+            height={100}
+            src="/logo.png"
+            width={440}
+          />
+        </Link>
         <p className="text-[11px] font-mono font-semibold uppercase tracking-wider text-zinc-300 text-center sm:text-right">
           Not affiliated with OSFM or Pearson VUE · For training purposes only
         </p>

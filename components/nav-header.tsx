@@ -52,7 +52,7 @@ export default function NavHeader() {
                 <button
                   type="button"
                   onClick={signOut}
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-500 hover:text-zinc-300 transition-colors"
+                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-white transition-colors"
                 >
                   Sign Out
                 </button>
