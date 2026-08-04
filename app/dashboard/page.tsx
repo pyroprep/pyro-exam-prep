@@ -236,7 +236,7 @@ export default function DashboardPage() {
             Welcome{user?.email ? `, ${user.email.split("@")[0]}` : " Back"}
           </h1>
           <p className="text-zinc-500 mt-1 text-sm font-mono uppercase tracking-wider">
-            Your Pyrotechnic Operator exam command centre.
+            Your Pyrotechnic Operator exam command center.
           </p>
           {isPremium && (
             <p className="text-amber-400 mt-2 text-xs font-mono uppercase tracking-wider">
@@ -246,7 +246,7 @@ export default function DashboardPage() {
         </div>
 
         {/* ── Orientation Video ─────────────────────────────────────── */}
-        <div className="mb-10">
+        <div className="mb-10 max-w-2xl w-full mx-auto">
           <VideoPlayer
             src="/videos/video_1.mp4"
             title="Orientation"

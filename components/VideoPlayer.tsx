@@ -16,6 +16,7 @@ export default function VideoPlayer({ src, title }: VideoPlayerProps) {
       <video
         className="h-full w-full rounded-xl"
         controls
+        playsInline
         preload="metadata"
         title={title}
         aria-label={title ?? "Video player"}

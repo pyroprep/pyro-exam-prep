@@ -12,18 +12,18 @@ export default function NavHeader() {
   return (
     <header className="sticky top-0 z-50 bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex h-14 items-center justify-between gap-4">
+        <div className="flex h-24 items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3 min-w-0">
-            <Link className="flex items-center gap-2 h-10" href="/">
+            <Link className="flex items-center gap-2 h-20" href="/">
               <Image
                 alt="Pyro Prep Academy"
-                className="h-10 w-auto object-contain"
-                height={41}
+                className="h-20 w-auto object-contain"
+                height={82}
                 priority
-                sizes="(max-width: 768px) 150px, 180px"
+                sizes="(max-width: 768px) 150px, 360px"
                 src="/logo.png"
-                width={180}
+                width={360}
               />
             </Link>
           </div>
