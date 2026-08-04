@@ -277,6 +277,7 @@ function QuizContent() {
         if (prev <= 1) {
           // Time's up — finish the exam
           clearInterval(timerRef.current!);
+          setPhase("finished");
           return 0;
         }
         return prev - 1;
@@ -361,12 +362,14 @@ function QuizContent() {
       const progress = stored
         ? (JSON.parse(stored) as {
             totalCorrect: number;
+            totalAttempted: number;
             moduleStats: Record<string, { score: number; total: number }>;
           })
-        : { totalCorrect: 0, moduleStats: {} };
+        : { totalCorrect: 0, totalAttempted: 0, moduleStats: {} };
 
       const correctCount = answers.filter((a) => a.isCorrect).length;
       progress.totalCorrect += correctCount;
+      progress.totalAttempted += answers.length;
 
       for (const ans of answers) {
         const q = questions[ans.questionIndex];
@@ -385,8 +388,13 @@ function QuizContent() {
       // ignore storage errors
     }
 
-    // Store results in sessionStorage for the results page
+    // Store results in both sessionStorage and localStorage for the results page
     sessionStorage.setItem("quizResults", JSON.stringify(resultsPayload));
+    try {
+      localStorage.setItem("pyroprep_last_results", JSON.stringify(resultsPayload));
+    } catch {
+      // ignore storage errors
+    }
 
     router.push("/results");
   }, [answers, questions, mode, router]);

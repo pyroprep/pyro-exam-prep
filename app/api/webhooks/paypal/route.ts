@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
+import { getPayPalAccessToken } from "@/lib/paypal";
 
-/**
- * PayPal API base URL — sandbox vs live based on NODE_ENV.
- */
 const PAYPAL_API =
   process.env.NODE_ENV === "development"
     ? "https://api-m.sandbox.paypal.com"
@@ -35,46 +33,6 @@ function createSupabaseAdmin() {
 }
 
 /**
- * Obtain an OAuth 2.0 access token from PayPal.
- */
-async function getAccessToken(): Promise<string> {
-  const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID;
-  const clientSecret = process.env.PAYPAL_CLIENT_SECRET;
-
-  if (!clientId) {
-    throw new Error(
-      "NEXT_PUBLIC_PAYPAL_CLIENT_ID is not set. " +
-        "Add it to your .env.local file from your PayPal developer dashboard.",
-    );
-  }
-  if (!clientSecret) {
-    throw new Error(
-      "PAYPAL_CLIENT_SECRET is not set. " +
-        "Add it to your .env.local file from your PayPal developer dashboard.",
-    );
-  }
-
-  const auth = Buffer.from(`${clientId}:${clientSecret}`).toString("base64");
-
-  const res = await fetch(`${PAYPAL_API}/v1/oauth2/token`, {
-    method: "POST",
-    headers: {
-      Authorization: `Basic ${auth}`,
-      "Content-Type": "application/x-www-form-urlencoded",
-    },
-    body: "grant_type=client_credentials",
-  });
-
-  if (!res.ok) {
-    const errBody = await res.text();
-    throw new Error(`PayPal auth error ${res.status}: ${errBody}`);
-  }
-
-  const data = await res.json();
-  return data.access_token as string;
-}
-
-/**
  * Verify the PayPal webhook signature by calling PayPal's verification API.
  */
 async function verifyWebhookSignature(
@@ -88,7 +46,7 @@ async function verifyWebhookSignature(
     return false;
   }
 
-  const accessToken = await getAccessToken();
+  const accessToken = await getPayPalAccessToken();
 
   const verificationRes = await fetch(
     `${PAYPAL_API}/v1/notifications/verify-webhook-signature`,

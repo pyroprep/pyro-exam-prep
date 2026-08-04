@@ -143,6 +143,7 @@ export default function DashboardPage() {
   const { profile, loading: authLoading, user } = useAuth();
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [totalCorrect, setTotalCorrect] = useState(0);
+  const [totalAttempted, setTotalAttempted] = useState(0);
   const [moduleStats, setModuleStats] = useState<Record<string, ModuleStats>>(
     {},
   );
@@ -192,11 +193,13 @@ export default function DashboardPage() {
       if (stored) {
         const parsed = JSON.parse(stored) as {
           totalCorrect: number;
+          totalAttempted: number;
           moduleStats: Record<string, ModuleStats>;
         };
         // synchronize persisted progress with state on mount
         // eslint-disable-next-line react-hooks/set-state-in-effect
         setTotalCorrect(parsed.totalCorrect ?? 0);
+        setTotalAttempted(parsed.totalAttempted ?? 0);
         setModuleStats((prev) => ({
           ...prev,
           ...parsed.moduleStats,
@@ -258,8 +261,8 @@ export default function DashboardPage() {
             accent={masteryPct >= 70 ? "emerald" : "amber"}
           />
           <SummaryCard
-            label="Questions Completed"
-            value={String(totalCorrect)}
+            label="Questions Answered"
+            value={String(totalAttempted)}
             accent="amber"
           />
           <SummaryCard

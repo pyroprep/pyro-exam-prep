@@ -132,7 +132,11 @@ export default function ResultsPage() {
   const { results, error } = useMemo(() => {
     if (authLoading || !user) return { results: null, error: null };
     try {
-      const raw = sessionStorage.getItem("quizResults");
+      // Try sessionStorage first, fall back to localStorage
+      let raw = sessionStorage.getItem("quizResults");
+      if (!raw) {
+        raw = localStorage.getItem("pyroprep_last_results");
+      }
       if (!raw) {
         return { results: null, error: "No quiz results found. Take a quiz first." };
       }

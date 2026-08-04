@@ -26,7 +26,7 @@ export async function createSupabaseServerClient() {
     );
   }
 
-  return createServerClient(url, anonKey,
+    return createServerClient(url, anonKey,
     {
       cookies: {
         getAll() {
@@ -37,9 +37,10 @@ export async function createSupabaseServerClient() {
             cookiesToSet.forEach(({ name, value, options }) =>
               cookieStore.set(name, value, options),
             );
-          } catch {
-            // The `setAll` method was called from a Server Component.
+          } catch (err) {
+            // `setAll` was called from a Server Component.
             // This can be ignored if you have middleware refreshing sessions.
+            console.error("supabase-server: cookie setAll failed", err);
           }
         },
       },

@@ -30,8 +30,9 @@ export default function TutorChat() {
       if (!content.trim() || loading) return;
 
       const userMsg: Message = { role: "user", content: content.trim() };
-      const updated = [...messages, userMsg];
-      setMessages(updated);
+      // Keep only the last 20 messages to prevent unbounded growth
+      const trimmed = [...messages.slice(-19), userMsg];
+      setMessages(trimmed);
       setInput("");
       setLoading(true);
 
@@ -39,7 +40,7 @@ export default function TutorChat() {
         const res = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ messages: updated }),
+          body: JSON.stringify({ messages: trimmed }),
         });
 
         const data = (await res.json()) as { reply?: string; error?: string };

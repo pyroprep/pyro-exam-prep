@@ -2,6 +2,7 @@
 
 import {
   createContext,
+  useCallback,
   useContext,
   useEffect,
   useState,
@@ -32,13 +33,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
 
-  async function refresh() {
+  const refresh = useCallback(async () => {
     const supabase = createSupabaseClient();
+    let cancelled = false;
 
     // 1. Get the session user
     const {
       data: { user: currentUser },
     } = await supabase.auth.getUser();
+    if (cancelled) return;
     setUser(currentUser);
 
     // 2. Fetch the profile from the `profiles` table
@@ -49,27 +52,33 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         .eq("id", currentUser.id)
         .single();
 
-      setProfile(profileData as UserProfile | null);
+      if (!cancelled) {
+        setProfile(profileData as UserProfile | null);
+      }
     } else {
       setProfile(null);
     }
 
-    setLoading(false);
-  }
+    if (!cancelled) setLoading(false);
+  }, []);
 
-  async function signOut() {
+  const signOut = useCallback(async () => {
     const supabase = createSupabaseClient();
     await supabase.auth.signOut();
     setUser(null);
     setProfile(null);
-  }
+  }, []);
 
   useEffect(() => {
     const supabase = createSupabaseClient();
+    let cancelled = false;
 
     // Initial fetch — synchronizes Supabase auth state on mount
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    refresh();
+    refresh().then(() => {
+      if (cancelled) {
+        setLoading(true);
+      }
+    });
 
     // Listen for auth state changes
     const {
@@ -78,8 +87,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       refresh();
     });
 
-    return () => subscription.unsubscribe();
-  }, []);
+    return () => {
+      cancelled = true;
+      subscription.unsubscribe();
+    };
+  }, [refresh]);
 
   return (
     <AuthContext.Provider value={{ user, profile, loading, refresh, signOut }}>

@@ -1,12 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Pyro Prep Academy — California Pyrotechnic License Study Guide",
-  description:
-    "Practice questions, detailed explanations, and study tools built directly from CA Title 19 regulations.",
-};
 
 const METRICS = [
   { value: "94%", label: "First-attempt pass rate" },
