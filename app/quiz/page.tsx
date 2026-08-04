@@ -12,6 +12,8 @@ import {
   MODULE_NAMES,
   type ModuleName,
 } from "@/lib/quiz-types";
+import VideoPlayer from "@/components/VideoPlayer";
+import TutorChat from "@/components/TutorChat";
 
 // ─── Helper: convert ALL-CAPS text to Sentence case ─────────────────────────
 const formatSentenceCase = (text: string) => {
@@ -159,8 +161,8 @@ function QuizContent() {
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
   const [timeLeft, setTimeLeft] = useState(7200); // 2 hours = 7200s
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
-  const [isUrgent, setIsUrgent] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const hasInitialized = useRef(false);
 
   const isExam = mode === "exam";
   const isStudy = mode === "study";
@@ -174,7 +176,7 @@ function QuizContent() {
   }, [authLoading, user, router]);
 
   // ── Fetch module questions for study mode ────────────────────────────
-  const fetchStudyQuestions = useCallback(async (module: ModuleName) => {
+  const fetchStudyQuestions = useCallback(async (moduleName: ModuleName) => {
     setPhase("loading");
     setError(null);
     try {
@@ -182,12 +184,12 @@ function QuizContent() {
       const { data, error: sbError } = await supabase
         .from("questions")
         .select("*")
-        .eq("module_name", module)
+        .eq("module_name", moduleName)
         .limit(25);
 
       if (sbError) throw new Error(sbError.message);
       if (!data || data.length === 0) {
-        setError(`No questions found for "${module}".`);
+        setError(`No questions found for "${moduleName}".`);
         setPhase("select-module");
         return;
       }
@@ -216,11 +218,11 @@ function QuizContent() {
 
       // Fetch 25 from each module for a balanced 100-question exam
       const allQuestions: SupabaseQuestion[] = [];
-      for (const module of MODULE_NAMES) {
+      for (const moduleName of MODULE_NAMES) {
         const { data, error: sbError } = await supabase
           .from("questions")
           .select("*")
-          .eq("module_name", module)
+          .eq("module_name", moduleName)
           .limit(25);
 
         if (sbError) throw new Error(sbError.message);
@@ -248,16 +250,18 @@ function QuizContent() {
     }
   }, []);
 
-  // ── Determine initial phase on mount ─────────────────────────────────
+  // ── Determine initial phase on mount (runs once) ───────────────────
   useEffect(() => {
-    if (authLoading || !user) return;
-
+    if (authLoading || !user || hasInitialized.current) return;
     if (!mode) {
       router.push("/dashboard");
       return;
     }
 
+    hasInitialized.current = true;
+
     if (isStudy) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setPhase("select-module");
     } else if (isExam) {
       fetchExamQuestions();
@@ -283,11 +287,6 @@ function QuizContent() {
       if (timerRef.current) clearInterval(timerRef.current);
     };
   }, [phase, isExam]);
-
-  // Track urgency for visual feedback
-  useEffect(() => {
-    if (timeLeft <= 300) setIsUrgent(true);
-  }, [timeLeft]);
 
   const currentQuestion = questions[currentIndex];
 
@@ -524,6 +523,24 @@ function QuizContent() {
 
       {/* Question area */}
       <div className="flex-1 flex flex-col px-4 sm:px-6 pt-8 pb-12 max-w-3xl mx-auto w-full">
+        {/* Module primer video (study mode) */}
+        {isStudy && (
+          <div className="mb-6">
+            <VideoPlayer
+              src={
+                currentQuestion.moduleName === "California Fireworks Law"
+                  ? "/videos/video_2.mp4"
+                  : currentQuestion.moduleName === "Pyrotechnic Chemistry"
+                    ? "/videos/video_3.mp4"
+                    : currentQuestion.moduleName === "Display Operations"
+                      ? "/videos/video_4.mp4"
+                      : "/videos/video_5.mp4"
+              }
+              title={`Module Primer - ${currentQuestion.moduleName}`}
+            />
+          </div>
+        )}
+
         {/* Module badge (study mode) */}
         {isStudy && (
           <div className="self-start mb-3">
@@ -710,6 +727,7 @@ export default function QuizPage() {
       }
     >
       <QuizContent />
+      <TutorChat />
     </Suspense>
   );
 }

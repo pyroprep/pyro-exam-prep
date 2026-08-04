@@ -193,7 +193,6 @@ export async function POST(request: Request) {
       );
     }
 
-    console.log(`✅ User ${customId} upgraded to premium via PayPal`);
     return NextResponse.json({ received: true });
   } catch (error) {
     console.error("PayPal webhook handler error:", error);

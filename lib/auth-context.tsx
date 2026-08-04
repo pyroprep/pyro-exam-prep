@@ -67,7 +67,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     const supabase = createSupabaseClient();
 
-    // Initial fetch
+    // Initial fetch — synchronizes Supabase auth state on mount
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     refresh();
 
     // Listen for auth state changes
@@ -78,7 +79,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     });
 
     return () => subscription.unsubscribe();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

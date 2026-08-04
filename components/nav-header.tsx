@@ -15,14 +15,15 @@ export default function NavHeader() {
         <div className="flex h-14 items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-3 min-w-0">
-            <Link className="flex items-center gap-2" href="/">
+            <Link className="flex items-center gap-2 h-10" href="/">
               <Image
                 alt="Pyro Prep Academy"
-                className="h-20 w-auto object-contain"
-                height={100}
+                className="h-10 w-auto object-contain"
+                height={41}
                 priority
+                sizes="(max-width: 768px) 150px, 180px"
                 src="/logo.png"
-                width={440}
+                width={180}
               />
             </Link>
           </div>

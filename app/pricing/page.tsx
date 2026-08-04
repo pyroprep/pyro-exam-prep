@@ -39,7 +39,6 @@ const PLANS = [
 
 export default function PricingPage() {
   const { user } = useAuth();
-  const [loadingId, setLoadingId] = useState<string | null>(null);
   const [success, setSuccess] = useState(false);
 
   const clientId = process.env.NEXT_PUBLIC_PAYPAL_CLIENT_ID ?? "";
@@ -48,8 +47,6 @@ export default function PricingPage() {
     if (!user) {
       throw new Error("Please sign in first to upgrade.");
     }
-
-    setLoadingId("premium");
 
     const res = await fetch("/api/paypal/create-order", {
       method: "POST",
@@ -67,7 +64,6 @@ export default function PricingPage() {
   }
 
   async function handleApprove() {
-    setLoadingId(null);
     setSuccess(true);
     // Refresh the page so the dashboard picks up the new premium status
     setTimeout(() => {
@@ -186,9 +182,8 @@ export default function PricingPage() {
                       alert(
                         "Something went wrong during checkout. Please try again.",
                       );
-                      setLoadingId(null);
                     }}
-                    onCancel={() => setLoadingId(null)}
+                    onCancel={() => {}}
                   />
                 </PayPalScriptProvider>
               )}

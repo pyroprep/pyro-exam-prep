@@ -154,13 +154,7 @@ export default function ExamPage() {
   const { user, loading: authLoading } = useAuth();
   const router = useRouter();
 
-  // ── Auth guard: redirect unauthenticated users to /login ───────────
-  useEffect(() => {
-    if (!authLoading && !user) {
-      router.push("/login");
-    }
-  }, [authLoading, user, router]);
-
+  // ── All hooks must be called unconditionally (before any early return) ──
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedChoice, setSelectedChoice] = useState<number | null>(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -169,22 +163,14 @@ export default function ExamPage() {
   const [isExamFinished, setIsExamFinished] = useState(false);
   const TOTAL_TIME = 3600;
 
-  // Show a loading/skeleton state while auth is resolving
-  if (authLoading || !user) {
-    return (
-      <main className="min-h-screen bg-black flex items-center justify-center">
-        <div className="flex flex-col items-center gap-4">
-          <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
-            Authenticating...
-          </p>
-        </div>
-      </main>
-    );
-  }
-
-  // Load all OSFM questions
   const examQuestions = osfmQuestions;
+
+  // ── Auth guard: redirect unauthenticated users to /login ───────────
+  useEffect(() => {
+    if (!authLoading && !user) {
+      router.push("/login");
+    }
+  }, [authLoading, user, router]);
 
   // Core timer tick — runs every second while exam is active
   useEffect(() => {
@@ -209,10 +195,10 @@ export default function ExamPage() {
   // Select a choice — applies orange highlight
   const handleSelect = useCallback(
     (index: number) => {
-      if (isSubmitted || isExamFinished) return;
+      if (isSubmitted || isExamFinished || authLoading || !user) return;
       setSelectedChoice(index);
     },
-    [isSubmitted, isExamFinished],
+    [isSubmitted, isExamFinished, authLoading, user],
   );
 
   // Submit the current answer and reveal rationale
@@ -234,6 +220,20 @@ export default function ExamPage() {
       setIsExamFinished(true);
     }
   }, [currentIndex, examQuestions.length]);
+
+  // ── Show loading/authenticating state ──────────────────────────────
+  if (authLoading || !user) {
+    return (
+      <main className="min-h-screen bg-black flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
+          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+            Authenticating...
+          </p>
+        </div>
+      </main>
+    );
+  }
 
   // ── Exam Finished Screen ───────────────────────────────────────────────
   if (isExamFinished) {

@@ -1,8 +1,7 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 import type { QuizQuestion } from "@/lib/quiz-types";
 
@@ -129,32 +128,25 @@ function MissedQuestionCard({
 // ─── Results Page ─────────────────────────────────────────────────────────────
 export default function ResultsPage() {
   const { user, loading: authLoading } = useAuth();
-  const router = useRouter();
-  const [results, setResults] = useState<ResultsPayload | null>(null);
-  const [error, setError] = useState<string | null>(null);
 
-  useEffect(() => {
-    if (authLoading || !user) return;
-
+  const { results, error } = useMemo(() => {
+    if (authLoading || !user) return { results: null, error: null };
     try {
       const raw = sessionStorage.getItem("quizResults");
       if (!raw) {
-        setError("No quiz results found. Take a quiz first.");
-        return;
+        return { results: null, error: "No quiz results found. Take a quiz first." };
       }
-
       const parsed = JSON.parse(raw) as ResultsPayload;
       if (
         !parsed.questions ||
         !parsed.answers ||
         parsed.questions.length === 0
       ) {
-        setError("No quiz results found. Take a quiz first.");
-        return;
+        return { results: null, error: "No quiz results found. Take a quiz first." };
       }
-      setResults(parsed);
+      return { results: parsed, error: null };
     } catch {
-      setError("Failed to load quiz results.");
+      return { results: null, error: "Failed to load quiz results." };
     }
   }, [authLoading, user]);
 

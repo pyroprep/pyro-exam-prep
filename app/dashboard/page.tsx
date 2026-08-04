@@ -6,9 +6,10 @@ import { useAuth } from "@/lib/auth-context";
 import { createSupabaseClient } from "@/lib/supabase";
 import {
   MODULE_NAMES,
-  type ModuleName,
   type SupabaseQuestion,
 } from "@/lib/quiz-types";
+import VideoPlayer from "@/components/VideoPlayer";
+import TutorChat from "@/components/TutorChat";
 
 // ─── Circular Progress Ring ──────────────────────────────────────────────────
 function CircularProgressRing({
@@ -193,6 +194,8 @@ export default function DashboardPage() {
           totalCorrect: number;
           moduleStats: Record<string, ModuleStats>;
         };
+        // synchronize persisted progress with state on mount
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setTotalCorrect(parsed.totalCorrect ?? 0);
         setModuleStats((prev) => ({
           ...prev,
@@ -237,6 +240,14 @@ export default function DashboardPage() {
               ★ Premium access enabled — all tracks unlocked.
             </p>
           )}
+        </div>
+
+        {/* ── Orientation Video ─────────────────────────────────────── */}
+        <div className="mb-10">
+          <VideoPlayer
+            src="/videos/video_1.mp4"
+            title="Orientation"
+          />
         </div>
 
         {/* ── Summary Cards ─────────────────────────────────────────── */}
@@ -331,6 +342,7 @@ export default function DashboardPage() {
           </Link>
         </div>
       </div>
+      <TutorChat />
     </main>
   );
 }

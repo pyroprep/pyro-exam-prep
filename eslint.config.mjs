@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Utility scripts (Node.js, use require())
+    "*.js",
+    "scripts/*.js",
+    "archive/**",
   ]),
 ]);
 

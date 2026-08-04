@@ -402,7 +402,7 @@ function Bento() {
       <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
           <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-            What's in the course
+            {"What\u2019s in the course"}
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Study materials for the whole exam.
@@ -545,7 +545,7 @@ function Pricing() {
               >
                 <div className={`h-full w-full rounded-[11px] p-7 sm:p-8 flex flex-col ${isHighlighted ? "surface-card-accent" : "surface-card"}`}>
                   {isHighlighted && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-orange-600 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-[0_0_18px_rgba(234,88,12,0.4)]">
+                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-amber-400 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-zinc-950 shadow-[0_0_18px_rgba(234,88,12,0.4)]">
                       Most popular
                     </span>
                   )}

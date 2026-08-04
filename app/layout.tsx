@@ -4,9 +4,17 @@ import { AuthProvider } from "@/lib/auth-context";
 import NavHeader from "@/components/nav-header";
 
 export const metadata: Metadata = {
-  title: "Pyro Prep Academy — California OSFM Title 19 Exam Prep",
+  title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
   description:
-    "Master the California OSFM Title 19 Pyrotechnic Operator Exam. Practice with real-world questions, track your readiness, and stay compliant with 2026 regulations.",
+    "Master CA Title 19 regulations and pass your Class B Pyrotechnic Operator license exam with interactive practice tests and video modules.",
+  openGraph: {
+    title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
+    description:
+      "Master CA Title 19 regulations and pass your Class B Pyrotechnic Operator license exam with interactive practice tests and video modules.",
+    url: "https://pyroprep.academy",
+    siteName: "Pyro Prep Academy",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -17,7 +25,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="h-full antialiased">
       <head>
-        <link rel="preconnect" href="https://supabase.co" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="preconnect" href="https://anzfynvnclczxzwurfex.supabase.co" />
       </head>
       <body className="min-h-full flex flex-col bg-zinc-950 text-zinc-100">
         <AuthProvider>
