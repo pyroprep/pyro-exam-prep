@@ -1,9 +1,16 @@
 import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import NavHeader from "@/components/nav-header";
 import Footer from "@/components/Footer";
 import TutorChatLazy from "@/components/tutor-chat-lazy";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 export const metadata: Metadata = {
   title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
@@ -25,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className="h-full antialiased">
+    <html lang="en" suppressHydrationWarning className={`h-full antialiased ${inter.variable}`}>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="preconnect" href="https://anzfynvnclczxzwurfex.supabase.co" />

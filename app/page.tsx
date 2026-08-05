@@ -1,16 +1,9 @@
-import Image from "next/image";
 import Link from "next/link";
 
-const METRICS = [
-  { value: "94%", label: "First-attempt pass rate" },
-  { value: "500+", label: "Practice questions" },
-  { value: "4", label: "Comprehensive modules" },
-];
-
 const HERO_STATS = [
-  { value: "94%", label: "First-attempt pass rate" },
-  { value: "1,200+", label: "Operators certified" },
-  { value: "15 yr", label: "Lead instructor experience" },
+  { value: "94%", label: "First-Attempt Pass Rate" },
+  { value: "1,200+", label: "Operators Certified" },
+  { value: "500+", label: "Title 19 Practice Questions" },
 ];
 
 const TRACKS = [
@@ -202,16 +195,16 @@ function Hero() {
               </span>
 
               {/* Headline — left-aligned, sentence case */}
-              <h1 className="font-industrial mt-6 max-w-3xl text-left text-4xl font-black leading-[1.05] text-white sm:text-5xl lg:text-6xl">
-                Earn your <span className="text-amber-400">CA</span> Pyrotechnic
-                Operator license.
+              <h1 className="mt-6 max-w-3xl text-left text-4xl font-extrabold tracking-tight leading-[1.05] text-white sm:text-5xl lg:text-6xl">
+                Pass the <span className="text-amber-400">California</span>{" "}
+                Pyrotechnic Operator Exam.
               </h1>
 
               {/* Paragraph — left-aligned */}
-              <p className="mt-6 max-w-2xl text-left text-base leading-relaxed text-zinc-300 sm:text-lg">
-                Practice questions, detailed explanations, and study tools built
-                directly from CA Title 19 regulations. Live classes are taught by a
-                licensed California operator with 15 years on display crews.
+              <p className="mt-6 max-w-2xl text-left text-base leading-relaxed text-zinc-400 sm:text-lg">
+                Master CA Title 19 regulations with 500+ practice questions,
+                realistic timed mock exams, and instant answer explanations for
+                Class B and Class C candidates.
               </p>
 
               {/* Dual CTAs — left-aligned */}
@@ -238,65 +231,60 @@ function Hero() {
                     <p className="text-3xl font-extrabold tracking-tight text-amber-400 tabular-nums sm:text-4xl">
                       {s.value}
                     </p>
-                    <p className="text-sm text-zinc-300">{s.label}</p>
+                    <p className="text-sm text-zinc-400">{s.label}</p>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* RIGHT COLUMN — License Blueprint / Browser preview card */}
+            {/* RIGHT COLUMN — License Blueprint / Platform preview card */}
             <div className="lg:col-span-5">
-              <div className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/60 shadow-2xl shadow-orange-500/5 backdrop-blur-sm">
-                {/* Browser chrome bar */}
-                <div className="flex items-center justify-between gap-4 border-b border-zinc-800 bg-zinc-950/60 px-4 py-3 sm:px-5">
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/90 shadow-2xl shadow-amber-500/10 backdrop-blur-sm">
+                {/* Glassmorphism header bar */}
+                <div className="flex items-center justify-between gap-4 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5">
                   <div className="flex items-center gap-2">
                     <span className="h-3 w-3 rounded-full bg-red-500" />
                     <span className="h-3 w-3 rounded-full bg-yellow-500" />
                     <span className="h-3 w-3 rounded-full bg-green-500" />
                   </div>
-                  <span className="text-[11px] font-semibold tracking-widest text-zinc-300 font-mono sm:text-xs">
-                    License Blueprint
-                  </span>
-                  <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-700 bg-zinc-900 px-2.5 py-1 text-[10px] font-semibold tracking-wider text-zinc-300 font-mono">
-                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
-                    Safe Area
+                  <span className="inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[10px] font-semibold tracking-wider text-amber-400">
+                    PLATFORM PREVIEW
                   </span>
                 </div>
 
-                {/* Blueprint body */}
-                <div className="relative bg-[linear-gradient(rgba(249,115,22,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.05)_1px,transparent_1px)] bg-[size:24px_24px] p-6 sm:p-8">
+                {/* Card body */}
+                <div className="p-6 sm:p-8">
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                    <div className="rounded-lg border border-dashed border-amber-400/40 bg-black/40 p-5">
-                      <p className="text-[10px] font-mono tracking-widest text-amber-400">
-                        Class B · 1.3G Display
+                    <div className="rounded-xl border border-white/10 bg-zinc-950/60 p-5">
+                      <span className="inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-amber-400">
+                        Class B
+                      </span>
+                      <p className="mt-3 text-sm font-semibold text-white">
+                        1.3G Display
                       </p>
-                      <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+                      <p className="mt-2 text-sm leading-relaxed text-zinc-400">
                         Large aerial displays & consumer-grade 1.3G fireworks
                         operations.
                       </p>
                     </div>
-                    <div className="rounded-lg border border-dashed border-amber-400/40 bg-black/40 p-5">
-                      <p className="text-[10px] font-mono tracking-widest text-amber-400">
-                        Class C · 1.4G Commercial
+                    <div className="rounded-xl border border-white/10 bg-zinc-950/60 p-5">
+                      <span className="inline-flex items-center rounded-full border border-zinc-500/30 bg-zinc-500/10 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-zinc-300">
+                        Class C
+                      </span>
+                      <p className="mt-3 text-sm font-semibold text-white">
+                        1.4G Commercial
                       </p>
-                      <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+                      <p className="mt-2 text-sm leading-relaxed text-zinc-400">
                         Commercial pyrotechnics & 1.4G professional use.
                       </p>
                     </div>
                   </div>
 
-                  <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-zinc-800 bg-black/40 px-5 py-4">
-                    <div className="flex items-center gap-3">
-                      <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
-                        <CheckIcon className="h-4 w-4" />
-                      </span>
-                      <p className="text-sm text-zinc-300">
-                        500+ CA Title 19 question bank · 100-question timed mock
-                        exams
-                      </p>
-                    </div>
-                    <span className="text-[10px] font-mono tracking-widest text-zinc-300">
-                      Table 19-A fallout mapped
+                  {/* Feature chip */}
+                  <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-2">
+                    <CheckIcon className="h-3.5 w-3.5 text-amber-400" />
+                    <span className="text-xs font-medium text-amber-400">
+                      500+ CA Title 19 Questions · Timed Mock Exams
                     </span>
                   </div>
                 </div>
@@ -314,16 +302,15 @@ function Syllabus() {
     <section id="syllabus" className="bg-black">
       <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-            The curriculum
+          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+            Course Overview
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Four modules. One license.{" "}
-            <span className="text-zinc-300">Built around CA Title 19.</span>
+            Four Core Modules. One Complete License.
           </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-300 leading-relaxed">
-            Each module covers a section of the state exam. The law, the chemistry,
-            and the field operations you'll be tested on.
+          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
+            Targeted prep covering California pyrotechnic law, explosive
+            chemistry, and real-world field operations.
           </p>
         </div>
 
@@ -345,7 +332,7 @@ function Syllabus() {
                     {track.items.map((item) => (
                       <li
                         key={item}
-                        className="flex items-start gap-3 text-sm sm:text-[15px] text-zinc-300"
+                        className="flex items-start gap-3 text-sm sm:text-[15px] text-zinc-400"
                       >
                         <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
                           <CheckIcon className="h-3 w-3" />
@@ -369,15 +356,15 @@ function Bento() {
     <section id="features" className="bg-zinc-950/50 border-y border-zinc-900">
       <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-            {"What\u2019s in the course"}
+          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+            Course Overview
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Study materials for the whole exam.
+            Master Every Section of the Exam.
           </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-300 leading-relaxed">
-            Practice bank, workbooks, and walkthrough videos — written and filmed
-            from the actual OSFM exam outline.
+          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
+            Access targeted question banks, interactive workbooks, and HD video
+            walkthroughs built directly from current OSFM guidelines.
           </p>
         </div>
 
@@ -395,13 +382,13 @@ function Bento() {
                     500+ question practice bank
                   </h3>
                   <ul className="mt-4 space-y-3">
-                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-300">
+                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-400">
                       <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
                         <CheckIcon className="h-3 w-3" />
                       </span>
                       <span>Timed exam simulations mirroring official OSFM cycles.</span>
                     </li>
-                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-300">
+                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-400">
                       <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
                         <CheckIcon className="h-3 w-3" />
                       </span>
@@ -420,7 +407,7 @@ function Bento() {
                       key={s.k}
                       className="rounded-lg border border-zinc-800 bg-black/40 p-4"
                     >
-                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-300">
+                      <p className="text-[10px] font-semibold uppercase tracking-wider text-zinc-400">
                         {s.k}
                       </p>
                       <p className="mt-1 text-xl sm:text-2xl font-extrabold text-amber-400 tabular-nums">
@@ -446,11 +433,11 @@ function Bento() {
               <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
                 Module workbooks (PDF)
               </h3>
-              <p className="mt-3 text-sm text-zinc-300 leading-relaxed">
+              <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
                 Printable reference study guides mapped directly to the active state syllabus.
               </p>
             </div>
-            <p className="relative mt-6 text-xs font-mono uppercase tracking-wider text-zinc-300">
+            <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
               4 PDFs · 180+ pages
             </p>
           </article>
@@ -468,11 +455,11 @@ function Bento() {
               <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
                 60+ HD walkthrough videos
               </h3>
-              <p className="mt-3 text-sm text-zinc-300 leading-relaxed">
+              <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
                 Field breakdowns of fall-out radius math, mortar rigging, and state paperwork.
               </p>
             </div>
-            <p className="relative mt-6 text-xs font-mono uppercase tracking-wider text-zinc-300">
+            <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
               60+ videos · HD
             </p>
           </article>
@@ -487,13 +474,13 @@ function Pricing() {
     <section id="pricing" className="bg-black">
       <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl">
-          <p className="text-[11px] font-semibold uppercase tracking-wider text-amber-400">
+          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
             Pricing
           </p>
           <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
             Choose your plan.
           </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-300 leading-relaxed">
+          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
             Start studying today with our self-paced course. A live class is
             coming soon, and team licensing is available for display companies.
           </p>
@@ -525,9 +512,9 @@ function Pricing() {
                       <span className="text-4xl sm:text-5xl font-extrabold text-white tabular-nums tracking-tight">
                         {tier.price}
                       </span>
-                      <span className="text-sm text-zinc-300 uppercase tracking-wider font-semibold">{tier.cadence}</span>
+                      <span className="text-sm text-zinc-400 uppercase tracking-wider font-semibold">{tier.cadence}</span>
                     </div>
-                    <p className="mt-4 text-sm text-zinc-300 leading-relaxed">
+                    <p className="mt-4 text-sm text-zinc-400 leading-relaxed">
                       {tier.description}
                     </p>
                   </div>
@@ -536,7 +523,7 @@ function Pricing() {
                     {tier.features.map((f) => (
                       <li
                         key={f}
-                        className="flex items-start gap-3 text-sm text-zinc-300"
+                        className="flex items-start gap-3 text-sm text-zinc-400"
                       >
                         <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
                           <CheckIcon className="h-3 w-3" />
@@ -567,28 +554,6 @@ function Pricing() {
   );
 }
 
-function Footer() {
-  return (
-    <footer className="border-t border-zinc-900 bg-black">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-16 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2.5">
-          <Image
-            alt="Pyro Prep Academy"
-            className="h-6 w-auto"
-            height={188}
-            sizes="140px"
-            src="/logo.webp"
-            width={440}
-          />
-        </Link>
-        <p className="text-[11px] font-mono font-semibold uppercase tracking-wider text-zinc-300 text-center sm:text-right">
-          Not affiliated with OSFM or Pearson VUE · For training purposes only
-        </p>
-      </div>
-    </footer>
-  );
-}
-
 export default function HomePage() {
   return (
     <main className="min-h-screen flex-1 bg-black text-zinc-100">
@@ -596,7 +561,6 @@ export default function HomePage() {
       <Syllabus />
       <Bento />
       <Pricing />
-      <Footer />
     </main>
   );
 }

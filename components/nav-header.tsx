@@ -56,7 +56,7 @@ export default function NavHeader() {
                 {/* Study Modules */}
                 <Link
                   href="/quiz"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
+                  className="text-sm font-medium text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Study Modules
                 </Link>
@@ -64,7 +64,7 @@ export default function NavHeader() {
                 {/* Fallout Calculator */}
                 <Link
                   href="/dashboard#calculator"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
+                  className="text-sm font-medium text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Fallout Calculator
                 </Link>
@@ -72,14 +72,14 @@ export default function NavHeader() {
                 {/* Dashboard link */}
                 <Link
                   href="/dashboard"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
+                  className="text-sm font-medium text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Dashboard
                 </Link>
 
                 {/* Premium indicator */}
                 {isPremium && (
-                  <span className="inline-flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-amber-400">
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-amber-400">
                     ★ Premium
                   </span>
                 )}
@@ -88,7 +88,7 @@ export default function NavHeader() {
                 <button
                   type="button"
                   onClick={signOut}
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-white transition-colors"
+                  className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
                 >
                   Sign Out
                 </button>
@@ -97,13 +97,13 @@ export default function NavHeader() {
               <>
                 <Link
                   href="/login"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
+                  className="text-sm font-medium text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Sign In
                 </Link>
                 <Link
                   href="/signup"
-                  className="inline-flex items-center gap-1 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white text-xs font-semibold uppercase tracking-wider px-3 py-1.5 transition-all shadow-[0_0_16px_rgba(234,88,12,0.25)]"
+                  className="inline-flex items-center gap-1 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white text-sm font-semibold px-3 py-1.5 transition-all shadow-[0_0_16px_rgba(234,88,12,0.25)]"
                 >
                   Get Started
                 </Link>
@@ -119,18 +119,18 @@ export default function NavHeader() {
               <div className="w-4 h-4 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
             ) : user ? (
               <>
-                <Link href="/quiz" className="block text-xs font-mono uppercase tracking-wider text-zinc-300">Study Modules</Link>
-                <Link href="/dashboard#calculator" className="block text-xs font-mono uppercase tracking-wider text-zinc-300">Fallout Calculator</Link>
-                <Link href="/dashboard" className="block text-xs font-mono uppercase tracking-wider text-zinc-300">Dashboard</Link>
+                <Link href="/quiz" className="block text-sm font-medium text-zinc-300">Study Modules</Link>
+                <Link href="/dashboard#calculator" className="block text-sm font-medium text-zinc-300">Fallout Calculator</Link>
+                <Link href="/dashboard" className="block text-sm font-medium text-zinc-300">Dashboard</Link>
                 {isPremium && (
-                  <span className="inline-flex items-center gap-1 text-[10px] font-mono uppercase tracking-wider text-amber-400">★ Premium</span>
+                  <span className="inline-flex items-center gap-1 text-xs font-semibold text-amber-400">★ Premium</span>
                 )}
-                <button type="button" onClick={signOut} className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-white">Sign Out</button>
+                <button type="button" onClick={signOut} className="text-sm font-medium text-zinc-300 hover:text-white">Sign Out</button>
               </>
             ) : (
               <>
-                <Link href="/login" className="block text-xs font-mono uppercase tracking-wider text-zinc-300">Sign In</Link>
-                <Link href="/signup" className="inline-flex items-center gap-1 rounded-md bg-gradient-to-r from-red-600 to-orange-500 text-white text-xs font-semibold uppercase tracking-wider px-3 py-2">Get Started</Link>
+                <Link href="/login" className="block text-sm font-medium text-zinc-300">Sign In</Link>
+                <Link href="/signup" className="inline-flex items-center gap-1 rounded-md bg-gradient-to-r from-red-600 to-orange-500 text-white text-sm font-semibold px-3 py-2">Get Started</Link>
               </>
             )}
           </div>

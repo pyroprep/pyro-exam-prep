@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "playwright-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    },
+    "lighthouse-mcp": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "lighthouse-mcp-server"]
+    },
+    "web-search": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"]
+    }
+  }
+}
