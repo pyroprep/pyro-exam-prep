@@ -70,7 +70,8 @@ const PRICING = [
     name: "Live Class",
     price: "Coming Soon",
     cadence: "",
-    description: "Instructor-led sessions will be offered in the future. Join the self-study course to prepare now.",
+    description:
+      "Instructor-led sessions will be offered in the future. Join the self-study course to prepare now.",
     features: [
       "Everything in Self-Study",
       "Weekly live sessions",
@@ -177,55 +178,60 @@ function MediaLayoutIcon({ className = "h-5 w-5" }: { className?: string }) {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-black">
+    <section className="relative overflow-hidden bg-zinc-950">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(234,88,12,0.12),transparent_55%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/15 via-zinc-950 to-zinc-950"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:72px_72px] opacity-[0.03]"
       />
 
-      <div className="relative py-12 lg:py-20">
+      <div className="relative py-20 lg:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            {/* LEFT COLUMN — hero copy */}
+          <div className="grid grid-cols-1 items-center gap-8 lg:grid-cols-12 lg:gap-12">
             <div className="lg:col-span-7">
-              {/* Top badge */}
-              <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3.5 py-1.5 text-[11px] font-semibold tracking-wider text-amber-400">
+              <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-amber-400">
                 <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
                 Next Live Class Opens March 14
               </span>
 
-              {/* Headline — left-aligned, sentence case */}
-              <h1 className="mt-6 max-w-3xl text-left text-4xl font-extrabold tracking-tight leading-[1.05] text-white sm:text-5xl lg:text-6xl">
-                Pass the <span className="text-amber-400">California</span>{" "}
-                Pyrotechnic Operator Exam.
+              <h1 className="mt-6 max-w-3xl text-left text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+                <span className="bg-gradient-to-br from-white via-zinc-100 to-zinc-400 bg-clip-text text-transparent">
+                  Pass the
+                </span>{" "}
+                <span className="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent font-extrabold">
+                  CA
+                </span>{" "}
+                <span className="bg-gradient-to-br from-white via-zinc-100 to-zinc-400 bg-clip-text text-transparent">
+                  Pyrotechnic Operator Exam.
+                </span>
               </h1>
 
-              {/* Paragraph — left-aligned */}
               <p className="mt-6 max-w-2xl text-left text-base leading-relaxed text-zinc-400 sm:text-lg">
                 Master CA Title 19 regulations with 500+ practice questions,
                 realistic timed mock exams, and instant answer explanations for
                 Class B and Class C candidates.
               </p>
 
-              {/* Dual CTAs — left-aligned */}
               <div className="mt-8 flex flex-col justify-start gap-3 sm:flex-row sm:gap-4">
                 <Link
                   href="/pricing"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-3 font-bold text-zinc-950 shadow-md shadow-orange-500/20 transition-all hover:from-amber-400 hover:to-orange-500"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-3.5 font-bold text-zinc-950 shadow-lg shadow-orange-500/20 transition-all duration-200 hover:from-amber-400 hover:to-orange-500 hover:shadow-orange-500/35 active:scale-[0.98]"
                 >
                   Enroll now
                   <ArrowRightIcon className="h-4 w-4" />
                 </Link>
                 <a
                   href="#syllabus"
-                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-700/50 bg-zinc-800/80 px-6 py-3 font-medium text-zinc-100 transition-all hover:bg-zinc-700"
+                  className="inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-700/80 bg-zinc-900/80 px-6 py-3.5 font-medium text-zinc-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-zinc-800 active:scale-[0.98]"
                 >
                   See syllabus
                 </a>
               </div>
 
-              {/* 3-column stat bar */}
-              <div className="mt-12 grid grid-cols-1 gap-8 border-t border-zinc-900 pt-8 sm:grid-cols-3">
+              <div className="mt-12 grid grid-cols-1 gap-8 border-t border-white/10 pt-8 sm:grid-cols-3">
                 {HERO_STATS.map((s) => (
                   <div key={s.label} className="flex flex-col gap-1 text-left">
                     <p className="text-3xl font-extrabold tracking-tight text-amber-400 tabular-nums sm:text-4xl">
@@ -237,29 +243,26 @@ function Hero() {
               </div>
             </div>
 
-            {/* RIGHT COLUMN — License Blueprint / Platform preview card */}
             <div className="lg:col-span-5">
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/90 shadow-2xl shadow-amber-500/10 backdrop-blur-sm">
-                {/* Glassmorphism header bar */}
+              <div className="overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 shadow-2xl shadow-amber-500/5 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5">
                 <div className="flex items-center justify-between gap-4 border-b border-white/10 bg-white/5 px-4 py-3 sm:px-5">
                   <div className="flex items-center gap-2">
                     <span className="h-3 w-3 rounded-full bg-red-500" />
                     <span className="h-3 w-3 rounded-full bg-yellow-500" />
                     <span className="h-3 w-3 rounded-full bg-green-500" />
                   </div>
-                  <span className="inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[10px] font-semibold tracking-wider text-amber-400">
+                  <span className="inline-flex items-center rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-[10px] font-semibold tracking-wider text-amber-400">
                     PLATFORM PREVIEW
                   </span>
                 </div>
 
-                {/* Card body */}
                 <div className="p-6 sm:p-8">
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                    <div className="rounded-xl border border-white/10 bg-zinc-950/60 p-5">
-                      <span className="inline-flex items-center rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-amber-400">
+                    <div className="rounded-2xl border border-white/10 bg-zinc-950/40 p-5">
+                      <span className="inline-flex items-center rounded-full border border-amber-500/20 bg-amber-500/10 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-amber-400">
                         Class B
                       </span>
-                      <p className="mt-3 text-sm font-semibold text-white">
+                      <p className="mt-3 text-sm font-semibold text-zinc-100">
                         1.3G Display
                       </p>
                       <p className="mt-2 text-sm leading-relaxed text-zinc-400">
@@ -267,11 +270,11 @@ function Hero() {
                         operations.
                       </p>
                     </div>
-                    <div className="rounded-xl border border-white/10 bg-zinc-950/60 p-5">
-                      <span className="inline-flex items-center rounded-full border border-zinc-500/30 bg-zinc-500/10 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-zinc-300">
+                    <div className="rounded-2xl border border-white/10 bg-zinc-950/40 p-5">
+                      <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-semibold tracking-wider text-zinc-300">
                         Class C
                       </span>
-                      <p className="mt-3 text-sm font-semibold text-white">
+                      <p className="mt-3 text-sm font-semibold text-zinc-100">
                         1.4G Commercial
                       </p>
                       <p className="mt-2 text-sm leading-relaxed text-zinc-400">
@@ -280,8 +283,7 @@ function Hero() {
                     </div>
                   </div>
 
-                  {/* Feature chip */}
-                  <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-4 py-2">
+                  <div className="mt-4 inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-4 py-2">
                     <CheckIcon className="h-3.5 w-3.5 text-amber-400" />
                     <span className="text-xs font-medium text-amber-400">
                       500+ CA Title 19 Questions · Timed Mock Exams
@@ -299,52 +301,62 @@ function Hero() {
 
 function Syllabus() {
   return (
-    <section id="syllabus" className="bg-black">
-      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-            Course Overview
-          </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Four Core Modules. One Complete License.
-          </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
-            Targeted prep covering California pyrotechnic law, explosive
-            chemistry, and real-world field operations.
-          </p>
-        </div>
+    <section id="syllabus" className="relative overflow-hidden bg-zinc-950">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-zinc-950 to-zinc-950"
+      />
+      <div className="relative py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+              Course Overview
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              Four Core Modules. One Complete License.
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-zinc-400 sm:text-lg">
+              Targeted prep covering California pyrotechnic law, explosive
+              chemistry, and real-world field operations.
+            </p>
+          </div>
 
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-5">
-          {TRACKS.map((track) => (
-            <article
-              key={track.number}
-              className="surface-card group relative rounded-xl p-7 sm:p-8 hover:border-amber-400/30 transition-colors"
-            >
-              <div className="flex items-start gap-5">
-                <span className="shrink-0 text-5xl sm:text-6xl font-extrabold leading-none text-amber-400/30 group-hover:text-amber-400/60 transition-colors tabular-nums">
-                  {track.number}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                    {track.title}
-                  </h3>
-                  <ul className="mt-5 space-y-2.5">
-                    {track.items.map((item) => (
-                      <li
-                        key={item}
-                        className="flex items-start gap-3 text-sm sm:text-[15px] text-zinc-400"
-                      >
-                        <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
-                          <CheckIcon className="h-3 w-3" />
-                        </span>
-                        <span>{item}</span>
-                      </li>
-                    ))}
-                  </ul>
+          <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-2">
+            {TRACKS.map((track) => (
+              <article
+                key={track.number}
+                className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 p-7 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 sm:p-8"
+              >
+                <div
+                  aria-hidden="true"
+                  className="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-amber-500/5 blur-2xl"
+                />
+                <div className="flex items-start gap-5">
+                  <span className="shrink-0 bg-gradient-to-br from-amber-400 to-orange-500 bg-clip-text text-5xl font-extrabold leading-none text-transparent transition-colors group-hover:from-amber-300 group-hover:to-orange-400 sm:text-6xl tabular-nums">
+                    {track.number}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <h3 className="text-xl font-bold tracking-tight text-white sm:text-2xl">
+                      {track.title}
+                    </h3>
+                    <ul className="mt-5 space-y-2.5">
+                      {track.items.map((item) => (
+                        <li
+                          key={item}
+                          className="flex items-start gap-3 text-sm text-zinc-400 sm:text-[15px]"
+                        >
+                          <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
+                            <CheckIcon className="h-3 w-3" />
+                          </span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
+              </article>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -353,50 +365,58 @@ function Syllabus() {
 
 function Bento() {
   return (
-    <section id="features" className="bg-zinc-950/50 border-y border-zinc-900">
-      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-            Course Overview
-          </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Master Every Section of the Exam.
-          </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
-            Access targeted question banks, interactive workbooks, and HD video
-            walkthroughs built directly from current OSFM guidelines.
-          </p>
-        </div>
+    <section id="features" className="relative overflow-hidden bg-zinc-950">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/10 via-zinc-950 to-zinc-950"
+      />
+      <div className="relative py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+              Course Overview
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              Master Every Section of the Exam.
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-zinc-400 sm:text-lg">
+              Access targeted question banks, interactive workbooks, and HD
+              video walkthroughs built directly from current OSFM guidelines.
+            </p>
+          </div>
 
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
-          {/* Large 2/3 card — 500+ Question Practice Bank */}
-          <div className="md:col-span-2 md:row-span-2 p-[1px] bg-gradient-to-br from-red-600 via-orange-500 to-transparent rounded-xl">
-            <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[320px] h-full">
-              <div>
-                <div className="relative">
-                  <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
+          <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-3">
+            <article className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 md:col-span-2 md:row-span-2 sm:p-8 min-h-[320px]">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -right-16 -top-16 h-44 w-44 rounded-full bg-amber-500/5 blur-2xl"
+              />
+              <div className="relative flex h-full flex-col justify-between">
+                <div>
+                  <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
                     <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
                     Practice bank
                   </span>
-                  <h3 className="mt-5 text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-orange-500">
+                  <h3 className="mt-5 bg-gradient-to-r from-white via-zinc-100 to-zinc-400 bg-clip-text text-2xl font-bold text-transparent sm:text-3xl lg:text-4xl">
                     500+ question practice bank
                   </h3>
                   <ul className="mt-4 space-y-3">
-                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-400">
-                      <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
+                    <li className="flex items-start gap-3 text-sm text-zinc-400 sm:text-base">
+                      <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
                         <CheckIcon className="h-3 w-3" />
                       </span>
                       <span>Timed exam simulations mirroring official OSFM cycles.</span>
                     </li>
-                    <li className="flex items-start gap-3 text-sm sm:text-base text-zinc-400">
-                      <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
+                    <li className="flex items-start gap-3 text-sm text-zinc-400 sm:text-base">
+                      <span className="mt-0.5 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
                         <CheckIcon className="h-3 w-3" />
                       </span>
                       <span>Realistic Title 19 questions with immediate code rationales.</span>
                     </li>
                   </ul>
                 </div>
-                <div className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-3">
+
+                <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
                   {[
                     { k: "Questions", v: "500+" },
                     { k: "Modules", v: "4" },
@@ -405,12 +425,12 @@ function Bento() {
                   ].map((s) => (
                     <div
                       key={s.k}
-                      className="rounded-lg border border-zinc-800 bg-black/40 p-4"
+                      className="rounded-2xl border border-white/10 bg-zinc-950/40 p-4"
                     >
                       <p className="text-[10px] font-semibold uppercase tracking-wider text-zinc-400">
                         {s.k}
                       </p>
-                      <p className="mt-1 text-xl sm:text-2xl font-extrabold text-amber-400 tabular-nums">
+                      <p className="mt-1 text-xl font-extrabold tracking-tight text-amber-400 tabular-nums sm:text-2xl">
                         {s.v}
                       </p>
                     </div>
@@ -418,51 +438,55 @@ function Bento() {
                 </div>
               </div>
             </article>
+
+            <article className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 min-h-[200px]">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -bottom-16 -right-16 h-44 w-44 rounded-full bg-amber-500/5 blur-2xl"
+              />
+              <div className="relative flex h-full flex-col justify-between">
+                <div>
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
+                    <DownloadIcon className="h-5 w-5" />
+                  </span>
+                  <h3 className="mt-5 text-xl font-bold tracking-tight text-white sm:text-2xl">
+                    Module workbooks (PDF)
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+                    Printable reference study guides mapped directly to the
+                    active state syllabus.
+                  </p>
+                </div>
+                <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                  4 PDFs · 180+ pages
+                </p>
+              </div>
+            </article>
+
+            <article className="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900/60 p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 min-h-[200px]">
+              <div
+                aria-hidden="true"
+                className="pointer-events-none absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-amber-500/5 blur-2xl"
+              />
+              <div className="relative flex h-full flex-col justify-between">
+                <div>
+                  <span className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
+                    <MediaLayoutIcon className="h-5 w-5" />
+                  </span>
+                  <h3 className="mt-5 text-xl font-bold tracking-tight text-white sm:text-2xl">
+                    60+ HD walkthrough videos
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-zinc-400">
+                    Field breakdowns of fall-out radius math, mortar rigging,
+                    and state paperwork.
+                  </p>
+                </div>
+                <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                  60+ videos · HD
+                </p>
+              </div>
+            </article>
           </div>
-
-          {/* Top right card — Module Workbooks (PDF) */}
-          <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[200px]">
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute -bottom-16 -right-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
-            />
-            <div className="relative">
-              <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-amber-400/10 text-amber-400">
-                <DownloadIcon className="h-5 w-5" />
-              </span>
-              <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
-                Module workbooks (PDF)
-              </h3>
-              <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
-                Printable reference study guides mapped directly to the active state syllabus.
-              </p>
-            </div>
-            <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
-              4 PDFs · 180+ pages
-            </p>
-          </article>
-
-          {/* Bottom right card — 60+ HD Walkthrough Videos */}
-          <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[200px]">
-            <div
-              aria-hidden="true"
-              className="pointer-events-none absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
-            />
-            <div className="relative">
-              <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-amber-400/10 text-amber-400">
-                <MediaLayoutIcon className="h-5 w-5" />
-              </span>
-              <h3 className="mt-5 text-xl sm:text-2xl font-bold text-white">
-                60+ HD walkthrough videos
-              </h3>
-              <p className="mt-3 text-sm text-zinc-400 leading-relaxed">
-                Field breakdowns of fall-out radius math, mortar rigging, and state paperwork.
-              </p>
-            </div>
-            <p className="relative mt-6 text-xs font-semibold uppercase tracking-wider text-zinc-400">
-              60+ videos · HD
-            </p>
-          </article>
         </div>
       </div>
     </section>
@@ -471,83 +495,96 @@ function Bento() {
 
 function Pricing() {
   return (
-    <section id="pricing" className="bg-black">
-      <div className="section-space mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl">
-          <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
-            Pricing
-          </p>
-          <h2 className="mt-3 text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight">
-            Choose your plan.
-          </h2>
-          <p className="mt-5 text-base sm:text-lg text-zinc-400 leading-relaxed">
-            Start studying today with our self-paced course. A live class is
-            coming soon, and team licensing is available for display companies.
-          </p>
-        </div>
+    <section id="pricing" className="relative overflow-hidden bg-zinc-950">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-amber-500/15 via-zinc-950 to-zinc-950"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:72px_72px] opacity-[0.03]"
+      />
 
-        <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5 items-stretch">
-          {PRICING.map((tier) => {
-            const isHighlighted = tier.highlighted;
-            return (
-              <article
-                key={tier.name}
-                className={`relative rounded-xl p-[1.5px] ${
-                  isHighlighted
-                    ? "bg-gradient-to-b from-orange-500 to-red-600"
-                    : "bg-zinc-800"
-                }`}
-              >
-                <div className={`h-full w-full rounded-2xl p-6 sm:p-8 flex flex-col ${isHighlighted ? "bg-zinc-900/80 border border-zinc-800 hover:border-zinc-700 transition-all" : "bg-zinc-900/80 border border-zinc-800 hover:border-zinc-700 transition-all"}`}>
+      <div className="relative py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <p className="text-xs font-semibold uppercase tracking-wider text-amber-400">
+              Pricing
+            </p>
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              Choose your plan.
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-zinc-400 sm:text-lg">
+              Start studying today with our self-paced course. A live class is
+              coming soon, and team licensing is available for display
+              companies.
+            </p>
+          </div>
+
+          <div className="mt-14 grid grid-cols-1 gap-5 md:grid-cols-3 items-stretch">
+            {PRICING.map((tier) => {
+              const isHighlighted = tier.highlighted;
+              return (
+                <article
+                  key={tier.name}
+                  className={`relative overflow-hidden rounded-2xl border bg-zinc-900/60 p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 sm:p-8 ${
+                    isHighlighted ? "border-amber-500/30 ring-1 ring-amber-500/20" : "border-white/10"
+                  }`}
+                >
                   {isHighlighted && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-amber-400 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-zinc-950 shadow-[0_0_18px_rgba(234,88,12,0.4)]">
+                    <span className="absolute left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 inline-flex items-center gap-1.5 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-amber-400 shadow-[0_0_18px_rgba(234,88,12,0.2)]">
                       Most popular
                     </span>
                   )}
-                  <div>
-                    <h3 className="text-lg font-semibold text-white tracking-tight">
-                      {tier.name}
-                    </h3>
-                    <div className="mt-5 flex items-baseline gap-2">
-                      <span className="text-4xl sm:text-5xl font-extrabold text-white tabular-nums tracking-tight">
-                        {tier.price}
-                      </span>
-                      <span className="text-sm text-zinc-400 uppercase tracking-wider font-semibold">{tier.cadence}</span>
-                    </div>
-                    <p className="mt-4 text-sm text-zinc-400 leading-relaxed">
-                      {tier.description}
-                    </p>
-                  </div>
 
-                  <ul className="mt-7 space-y-3 flex-1">
-                    {tier.features.map((f) => (
-                      <li
-                        key={f}
-                        className="flex items-start gap-3 text-sm text-zinc-400"
-                      >
-                        <span className="mt-0.5 inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
-                          <CheckIcon className="h-3 w-3" />
+                  <div className="flex h-full flex-col">
+                    <div>
+                      <h3 className="text-lg font-semibold tracking-tight text-white">
+                        {tier.name}
+                      </h3>
+                      <div className="mt-5 flex items-baseline gap-2">
+                        <span className="text-4xl font-extrabold tracking-tight text-zinc-100 tabular-nums sm:text-5xl">
+                          {tier.price}
                         </span>
-                        <span>{f}</span>
-                      </li>
-                    ))}
-                  </ul>
+                        <span className="text-sm font-semibold uppercase tracking-wider text-zinc-400">
+                          {tier.cadence}
+                        </span>
+                      </div>
+                      <p className="mt-4 text-sm leading-relaxed text-zinc-400">
+                        {tier.description}
+                      </p>
+                    </div>
 
-                  <a
-                    href="#"
-                    className={`mt-8 mb-2 inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-semibold uppercase tracking-wider transition-all ${
-                      isHighlighted
-                        ? "bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white shadow-[0_0_22px_rgba(234,88,12,0.30)]"
-                        : "border border-zinc-800 bg-zinc-900/60 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white"
-                    }`}
-                  >
-                    {tier.cta}
-                    <ArrowRightIcon className="h-4 w-4" />
-                  </a>
-                </div>
-              </article>
-            );
-          })}
+                    <ul className="mt-7 space-y-3 flex-1">
+                      {tier.features.map((f) => (
+                        <li
+                          key={f}
+                          className="flex items-start gap-3 text-sm text-zinc-400"
+                        >
+                          <span className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-xl border border-amber-500/20 bg-amber-500/10 text-amber-400">
+                            <CheckIcon className="h-3 w-3" />
+                          </span>
+                          <span>{f}</span>
+                        </li>
+                      ))}
+                    </ul>
+
+                    <a
+                      href="#"
+                      className={`mt-8 mb-2 inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3.5 text-sm font-semibold uppercase tracking-wider transition-all duration-200 active:scale-[0.98] ${
+                        isHighlighted
+                          ? "bg-gradient-to-r from-amber-500 to-orange-600 text-zinc-950 shadow-lg shadow-orange-500/20 hover:from-amber-400 hover:to-orange-500 hover:shadow-orange-500/35"
+                          : "border border-zinc-700/80 bg-zinc-900/80 text-zinc-200 hover:bg-zinc-800 hover:text-white"
+                      }`}
+                    >
+                      {tier.cta}
+                      <ArrowRightIcon className="h-4 w-4" />
+                    </a>
+                  </div>
+                </article>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>
@@ -556,7 +593,7 @@ function Pricing() {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen flex-1 bg-black text-zinc-100">
+    <main className="min-h-screen flex-1 bg-zinc-950 text-zinc-100">
       <Hero />
       <Syllabus />
       <Bento />
