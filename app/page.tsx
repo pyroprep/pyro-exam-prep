@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HERO_STATS = [
   { value: "94%", label: "First-Attempt Pass Rate" },
-  { value: "1,200+", label: "Operators Certified" },
+  { value: "100+", label: "Operators Prepared" },
   { value: "500+", label: "Title 19 Practice Questions" },
 ];
 
@@ -194,7 +194,7 @@ function Hero() {
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-amber-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-amber-400">
                 <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
-                Next Live Class Opens March 14
+                Self-Paced License Prep Course
               </span>
 
               <h1 className="mt-6 max-w-3xl text-left text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
@@ -212,7 +212,7 @@ function Hero() {
               <p className="mt-6 max-w-2xl text-left text-base leading-relaxed text-zinc-400 sm:text-lg">
                 Master CA Title 19 regulations with 500+ practice questions,
                 realistic timed mock exams, and instant answer explanations for
-                Class B and Class C candidates.
+                Class B and Class C candidates in our prep course.
               </p>
 
               <div className="mt-8 flex flex-col justify-start gap-3 sm:flex-row sm:gap-4">
@@ -313,11 +313,12 @@ function Syllabus() {
               Course Overview
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Four Core Modules. One Complete License.
+              Four Core Modules. One Complete Prep Course.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-zinc-400 sm:text-lg">
               Targeted prep covering California pyrotechnic law, explosive
-              chemistry, and real-world field operations.
+              chemistry, and real-world field operations for exam preparation,
+              not licensing issuance.
             </p>
           </div>
 
@@ -512,12 +513,12 @@ function Pricing() {
               Pricing
             </p>
             <h2 className="mt-3 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-5xl">
-              Choose your plan.
+              Choose your prep plan.
             </h2>
             <p className="mt-5 text-base leading-relaxed text-zinc-400 sm:text-lg">
-              Start studying today with our self-paced course. A live class is
-              coming soon, and team licensing is available for display
-              companies.
+              Start studying today with our self-paced prep course. Team
+              training is available for display companies, and all materials
+              are designed for exam prep rather than licensing issuance.
             </p>
           </div>
 

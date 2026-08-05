@@ -11,11 +11,11 @@ export default function FAQPage() {
           {[
             {
               q: "Who is Pyro Prep Academy for?",
-              a: "Our platform is designed for candidates preparing for the California Class B Pyrotechnic Operator license exam.",
+              a: "Our platform is designed as a California Class B Pyrotechnic Operator license prep course for candidates studying for the exam.",
             },
             {
               q: "Is this an official OSFM course?",
-              a: "No. We are an independent educational platform and are not affiliated with OSFM or CAL FIRE. Always refer to Title 19 and official OSFM guidance.",
+              a: "No. We are an independent educational prep course and are not affiliated with OSFM or CAL FIRE. Always refer to Title 19 and official OSFM guidance.",
             },
             {
               q: "How does the 100-question mock exam work?",

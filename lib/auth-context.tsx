@@ -35,13 +35,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refresh = useCallback(async () => {
     const supabase = await createSupabaseClient();
-    let cancelled = false;
 
     // 1. Get the session user
     const {
       data: { user: currentUser },
     } = await supabase.auth.getUser();
-    if (cancelled) return;
     setUser(currentUser);
 
     // 2. Fetch the profile from the `profiles` table
@@ -52,14 +50,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         .eq("id", currentUser.id)
         .single();
 
-      if (!cancelled) {
-        setProfile(profileData as UserProfile | null);
-      }
+      setProfile(profileData as UserProfile | null);
     } else {
       setProfile(null);
     }
 
-    if (!cancelled) setLoading(false);
+    setLoading(false);
   }, []);
 
   const signOut = useCallback(async () => {

@@ -48,7 +48,7 @@ const PLANS = [
     period: "One-Time Payment (Lifetime Access)",
     tag: "Recommended - Pass Guarantee",
     description:
-      "Complete institutional prep course for California Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator Licenses.",
+      "Complete institutional prep course for California Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator exam prep.",
     features: [
       "Complete 500+ Title 19 Question Bank (Study Drills & 100-Q Timed Mock Exams)",
       "All 10 Audio-Narrated Video Curriculum Modules",

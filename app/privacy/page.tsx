@@ -9,7 +9,7 @@ export default function PrivacyPage() {
         </h1>
         <div className="space-y-6 text-sm text-zinc-400 leading-relaxed">
           <p>
-            Pyro Prep Academy ("we", "our", or "us") is committed to protecting your privacy.
+            Pyro Prep Academy (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy.
             This Privacy Policy explains how we collect, use, and safeguard your information when you use our platform.
           </p>
           <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-6">

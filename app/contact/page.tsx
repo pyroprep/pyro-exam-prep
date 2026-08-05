@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 export default function ContactPage() {
+  const supportPhone = process.env.NEXT_PUBLIC_SUPPORT_PHONE_NUMBER ?? "+18059565453";
+
   return (
     <main className="min-h-screen bg-zinc-950">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -9,7 +11,7 @@ export default function ContactPage() {
         </h1>
         <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-8">
           <p className="text-sm text-zinc-400 mb-4">
-            For technical support, billing questions, or general inquiries, please reach out to our team:
+            For technical support, billing questions, or general inquiries about our exam prep course, please reach out to our team:
           </p>
           <div className="space-y-3">
             <div>
@@ -18,9 +20,17 @@ export default function ContactPage() {
                 support@pyroprep.academy
               </a>
             </div>
+            {supportPhone && (
+              <div>
+                <p className="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-1">Call or Text</p>
+                <a href={`tel:${supportPhone}`} className="text-sm text-amber-400 hover:text-amber-300 transition-colors">
+                  {supportPhone}
+                </a>
+              </div>
+            )}
             <div>
               <p className="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-1">Response Time</p>
-              <p className="text-sm text-zinc-300">We typically respond within 24–48 hours.</p>
+              <p className="text-sm text-zinc-300">We typically respond within 24-48 hours.</p>
             </div>
           </div>
         </div>

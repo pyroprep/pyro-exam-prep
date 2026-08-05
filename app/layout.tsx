@@ -15,11 +15,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
   description:
-    "Master CA Title 19 regulations and pass your Class B Pyrotechnic Operator license exam with interactive practice tests and video modules.",
+    "Master CA Title 19 regulations with our California Pyrotechnic Operator license prep course, featuring interactive practice tests and video modules.",
   openGraph: {
     title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
     description:
-      "Master CA Title 19 regulations and pass your Class B Pyrotechnic Operator license exam with interactive practice tests and video modules.",
+      "Master CA Title 19 regulations with our California Pyrotechnic Operator license prep course, featuring interactive practice tests and video modules.",
     url: "https://pyroprep.academy",
     siteName: "Pyro Prep Academy",
     type: "website",

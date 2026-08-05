@@ -15,6 +15,7 @@ const eslintConfig = defineConfig([
     // Utility scripts (Node.js, use require())
     "*.js",
     "scripts/*.js",
+    "scripts/dev/**/*.js",
     "archive/**",
   ]),
 ]);

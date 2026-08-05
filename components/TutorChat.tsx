@@ -1,11 +1,9 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
+import type { SupportChatMessage } from "@/lib/support-notifications";
 
-interface Message {
-  role: "user" | "assistant";
-  content: string;
-}
+const HUMAN_SUPPORT_THRESHOLD = 6;
 
 const QUICK_PROMPTS = [
   "What is the fallout distance for a 6-inch shell?",
@@ -15,10 +13,13 @@ const QUICK_PROMPTS = [
 
 export default function TutorChat() {
   const [open, setOpen] = useState(false);
-  const [messages, setMessages] = useState<Message[]>([]);
+  const [messages, setMessages] = useState<SupportChatMessage[]>([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [supportRequesting, setSupportRequesting] = useState(false);
+  const [supportStatus, setSupportStatus] = useState<string | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
+  const showHumanSupport = messages.length >= HUMAN_SUPPORT_THRESHOLD;
 
   // Auto-scroll to the latest message
   useEffect(() => {
@@ -29,7 +30,7 @@ export default function TutorChat() {
     async (content: string) => {
       if (!content.trim() || loading) return;
 
-      const userMsg: Message = { role: "user", content: content.trim() };
+      const userMsg: SupportChatMessage = { role: "user", content: content.trim() };
       // Keep only the last 20 messages to prevent unbounded growth
       const trimmed = [...messages.slice(-19), userMsg];
       setMessages(trimmed);
@@ -73,6 +74,35 @@ export default function TutorChat() {
       sendMessage(input);
     }
   };
+
+  const requestHumanSupport = useCallback(() => {
+    if (supportRequesting) return;
+
+    setSupportRequesting(true);
+    setSupportStatus(null);
+
+    void (async () => {
+      try {
+        const res = await fetch("/api/support/escalate", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ messages }),
+        });
+
+        const data = (await res.json()) as { ok?: boolean; error?: string };
+
+        if (!res.ok) {
+          throw new Error(data.error ?? "Unable to route to support.");
+        }
+
+        setSupportStatus("Sent to live support on your phone.");
+      } catch {
+        setSupportStatus("Support routing failed. Please contact us directly.");
+      } finally {
+        setSupportRequesting(false);
+      }
+    })();
+  }, [messages, supportRequesting]);
 
   return (
     <>
@@ -158,6 +188,27 @@ export default function TutorChat() {
                     <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" style={{ animationDelay: "0.4s" }} />
                   </div>
                 </div>
+              </div>
+            )}
+
+            {showHumanSupport && (
+              <div className="rounded-lg border border-amber-500/20 bg-amber-500/10 px-3 py-3">
+                <p className="text-xs leading-relaxed text-amber-200">
+                  Need a human? Send this conversation to support after a few replies.
+                </p>
+                <button
+                  type="button"
+                  onClick={requestHumanSupport}
+                  className="mt-3 inline-flex items-center justify-center rounded-lg border border-amber-500/30 bg-zinc-950 px-3 py-2 text-xs font-semibold text-amber-300 transition-colors hover:border-amber-400 hover:text-amber-200 disabled:cursor-not-allowed disabled:opacity-60"
+                  disabled={supportRequesting}
+                >
+                  {supportRequesting ? "Sending..." : "Contact live human support"}
+                </button>
+                {supportStatus && (
+                  <p className="mt-2 text-[11px] leading-relaxed text-amber-100">
+                    {supportStatus}
+                  </p>
+                )}
               </div>
             )}
 

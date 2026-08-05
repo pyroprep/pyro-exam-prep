@@ -1,26 +1,27 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function CertificatePage() {
-  const [pct, setPct] = useState<number | null>(null);
-  const [studentName, setStudentName] = useState("Candidate");
+  const [pct] = useState<number | null>(() => {
+    if (typeof window === "undefined") {
+      return null;
+    }
 
-  useEffect(() => {
     try {
-      let raw = sessionStorage.getItem("quizResults");
-      if (!raw) raw = localStorage.getItem("pyroprep_last_results");
-      if (!raw) return;
+      const raw =
+        sessionStorage.getItem("quizResults") ?? localStorage.getItem("pyroprep_last_results");
+      if (!raw) return null;
       const parsed = JSON.parse(raw);
       if (parsed?.totalQuestions > 0) {
-        const score = Math.round((parsed.totalCorrect / parsed.totalQuestions) * 100);
-        setPct(score);
+        return Math.round((parsed.totalCorrect / parsed.totalQuestions) * 100);
       }
+      return null;
     } catch {
-      // ignore
+      return null;
     }
-  }, []);
+  });
 
   if (pct === null) {
     return (
@@ -62,7 +63,7 @@ export default function CertificatePage() {
               <p className="text-sm text-zinc-400 font-mono uppercase tracking-wider">
                 This certifies that
               </p>
-              <p className="text-xl sm:text-2xl font-bold text-zinc-100">{studentName}</p>
+              <p className="text-xl sm:text-2xl font-bold text-zinc-100">Candidate</p>
               <p className="text-sm text-zinc-400 font-mono uppercase tracking-wider">
                 has successfully demonstrated readiness for the California Class B Pyrotechnic Operator exam
               </p>

@@ -9,7 +9,7 @@ export default function TermsPage() {
         </h1>
         <div className="space-y-6 text-sm text-zinc-400 leading-relaxed">
           <p>
-            By accessing or using Pyro Prep Academy ("the Service"), you agree to be bound by these Terms of Service.
+            By accessing or using Pyro Prep Academy (&quot;the Service&quot;), you agree to be bound by these Terms of Service.
             If you do not agree to these terms, please do not use the Service.
           </p>
           <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-6">

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useAuth } from "@/lib/auth-context";
 
 export default function GuaranteeClaimPage() {
-  const { user, profile, loading: authLoading } = useAuth();
+  const { user, loading: authLoading } = useAuth();
   const [examDate, setExamDate] = useState("");
   const [examScore, setExamScore] = useState("");
   const [details, setDetails] = useState("");

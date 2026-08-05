@@ -21,8 +21,8 @@ export default function Footer() {
               Pyro Prep Academy
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-zinc-400">
-              California&apos;s premier exam preparation platform for Class B
-              (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator
+              California&apos;s premier exam prep course for Class B (1.3G
+              Display) & Class C (1.4G Commercial) Pyrotechnic Operator
               candidates. 500+ CA Title 19 practice questions with 100-question
               timed mock exams — $249 one-time lifetime access.
             </p>
@@ -106,10 +106,10 @@ export default function Footer() {
               Office of the State Fire Marshal (OSFM), CAL FIRE, Pearson VUE,
               or any governmental agency. All study materials, practice
               questions, and reference tools are provided for educational
-              purposes only and do not constitute official regulatory guidance.
-              Candidates should always refer to the current California Code of
-              Regulations, Title 19, and official OSFM publications for
-              authoritative requirements.
+              purposes only and do not constitute licensing or official
+              regulatory guidance. Candidates should always refer to the
+              current California Code of Regulations, Title 19, and official
+              OSFM publications for authoritative requirements.
             </p>
           </div>
 
