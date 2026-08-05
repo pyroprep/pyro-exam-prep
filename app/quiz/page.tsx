@@ -148,7 +148,7 @@ interface AnswerRecord {
 }
 
 function QuizContent() {
-  const { user, loading: authLoading } = useAuth();
+  const { user, loading: authLoading, profile } = useAuth();
   const router = useRouter();
   const searchParams = useSearchParams();
   const mode = searchParams.get("mode") as "study" | "exam" | null;
@@ -167,13 +167,16 @@ function QuizContent() {
   const isExam = mode === "exam";
   const isStudy = mode === "study";
   const TOTAL_TIME = 7200;
+  const isPremium = profile?.is_premium ?? false;
 
-  // ── Redirect if unauthenticated ──────────────────────────────────────
+  // ── Redirect if unauthenticated or unpaid ──────────────────────────
   useEffect(() => {
     if (!authLoading && !user) {
       router.push("/login?redirect=/quiz");
+    } else if (!authLoading && user && !isPremium) {
+      router.push("/pricing");
     }
-  }, [authLoading, user, router]);
+  }, [authLoading, user, isPremium, router]);
 
   // ── Fetch module questions for study mode ────────────────────────────
   const fetchStudyQuestions = useCallback(async (moduleName: ModuleName) => {
@@ -408,6 +411,31 @@ function QuizContent() {
           <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
             Authenticating...
           </p>
+        </div>
+      </main>
+    );
+  }
+
+  // ── Render: Payment required ────────────────────────────────────────
+  if (!isPremium) {
+    return (
+      <main className="min-h-screen bg-zinc-950 flex items-center justify-center px-4">
+        <div className="max-w-md text-center">
+          <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-8">
+            <p className="text-3xl mb-4">🔒</p>
+            <h1 className="text-xl font-bold text-zinc-100 mb-2">
+              Premium Access Required
+            </h1>
+            <p className="text-sm text-zinc-400 mb-6">
+              Please select a plan to unlock the full course and practice exams.
+            </p>
+            <Link
+              href="/pricing"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
+            >
+              View Pricing Plans
+            </Link>
+          </div>
         </div>
       </main>
     );

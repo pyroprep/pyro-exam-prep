@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import NavHeader from "@/components/nav-header";
+import Footer from "@/components/Footer";
+import TutorChat from "@/components/TutorChat";
 
 export const metadata: Metadata = {
   title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
@@ -32,6 +34,8 @@ export default function RootLayout({
         <AuthProvider>
           <NavHeader />
           {children}
+          <Footer />
+          <TutorChat />
         </AuthProvider>
       </body>
     </html>

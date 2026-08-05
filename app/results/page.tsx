@@ -356,21 +356,34 @@ export default function ResultsPage() {
           )}
         </div>
 
-        {/* Action buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/dashboard"
-            className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-700 bg-zinc-900/60 hover:border-zinc-600 hover:bg-zinc-900 text-zinc-200 font-semibold uppercase tracking-wider text-sm px-8 py-3 transition-all"
-          >
-            ← Dashboard
-          </Link>
-          <Link
-            href={isExam ? "/quiz?mode=exam" : "/quiz?mode=study"}
-            className="inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white font-semibold uppercase tracking-wider text-sm px-8 py-3 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
-          >
-            {isExam ? "Retake Exam" : "Practice Again"}
-          </Link>
-        </div>
+         {/* Certificate button for high scores */}
+         {pct >= 80 && (
+           <div className="mb-8 flex justify-center">
+             <Link
+               href="/certificate"
+               className="inline-flex items-center justify-center gap-2 rounded-xl border-2 border-amber-500 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 font-bold uppercase tracking-wider text-sm px-8 py-4 transition-all shadow-[0_0_24px_rgba(245,158,11,0.3)]"
+             >
+               <span className="text-xl">🏅</span>
+               View & Print Your Exam Readiness Certificate
+             </Link>
+           </div>
+         )}
+
+         {/* Action buttons */}
+         <div className="flex flex-col sm:flex-row gap-4 justify-center">
+           <Link
+             href="/dashboard"
+             className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-700 bg-zinc-900/60 hover:border-zinc-600 hover:bg-zinc-900 text-zinc-200 font-semibold uppercase tracking-wider text-sm px-8 py-3 transition-all"
+           >
+             ← Dashboard
+           </Link>
+           <Link
+             href={isExam ? "/quiz?mode=exam" : "/quiz?mode=study"}
+             className="inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white font-semibold uppercase tracking-wider text-sm px-8 py-3 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
+           >
+             {isExam ? "Retake Exam" : "Practice Again"}
+           </Link>
+         </div>
       </div>
     </main>
   );

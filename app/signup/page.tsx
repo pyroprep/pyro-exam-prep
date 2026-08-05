@@ -53,8 +53,8 @@ export default function SignupPage() {
       );
     }
 
-    // 3. Redirect to dashboard
-    router.push("/dashboard");
+    // 3. Redirect to pricing (not dashboard) until payment is completed
+    router.push("/pricing");
     router.refresh();
   }
 

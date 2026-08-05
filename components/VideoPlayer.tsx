@@ -14,10 +14,10 @@ export default function VideoPlayer({ src, title }: VideoPlayerProps) {
         </p>
       )}
       <video
-        className="h-full w-full rounded-xl"
+        className="h-full w-full rounded-xl border border-zinc-800"
         controls
         playsInline
-        preload="metadata"
+        preload="auto"
         title={title}
         aria-label={title ?? "Video player"}
       >

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { useAuth } from "@/lib/auth-context";
 import { createSupabaseClient } from "@/lib/supabase";
@@ -10,6 +11,7 @@ import {
 } from "@/lib/quiz-types";
 import VideoPlayer from "@/components/VideoPlayer";
 import TutorChat from "@/components/TutorChat";
+import FalloutCalculator from "@/components/FalloutCalculator";
 
 // ─── Circular Progress Ring ──────────────────────────────────────────────────
 function CircularProgressRing({
@@ -140,6 +142,7 @@ interface ModuleStats {
 }
 
 export default function DashboardPage() {
+  const router = useRouter();
   const { profile, loading: authLoading, user } = useAuth();
   const [totalQuestions, setTotalQuestions] = useState(0);
   const [totalCorrect, setTotalCorrect] = useState(0);
@@ -150,6 +153,18 @@ export default function DashboardPage() {
   const [dataLoading, setDataLoading] = useState(true);
 
   const isPremium = profile?.is_premium ?? false;
+
+  // ── Paywall: redirect unpaid users to /pricing ──────────────────────
+  useEffect(() => {
+    if (authLoading) return;
+    if (!user) {
+      router.push("/login?redirect=/dashboard");
+      return;
+    }
+    if (!isPremium) {
+      router.push("/pricing");
+    }
+  }, [authLoading, user, isPremium, router]);
 
   // Fetch aggregate stats from Supabase on mount
   useEffect(() => {
@@ -227,33 +242,111 @@ export default function DashboardPage() {
     );
   }
 
+  // If unpaid, do not render dashboard content (redirect handles navigation)
+  if (!isPremium || !user) {
+    return (
+      <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
+        <div className="flex flex-col items-center gap-4">
+          <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
+          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+            Redirecting to pricing...
+          </p>
+        </div>
+      </main>
+    );
+  }
+
   return (
     <main className="min-h-screen bg-zinc-950">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        {/* Header greeting */}
-        <div className="mb-10">
+        {/* ── TOP HERO ──────────────────────────────────────────────── */}
+        <div className="rounded-2xl border border-zinc-800 bg-gradient-to-b from-zinc-900/80 to-zinc-900/20 p-6 sm:p-10 mb-10">
           <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 tracking-tight">
-            Welcome{user?.email ? `, ${user.email.split("@")[0]}` : " Back"}
+            Welcome to Pyro Prep Academy
           </h1>
-          <p className="text-zinc-500 mt-1 text-sm font-mono uppercase tracking-wider">
-            Your Pyrotechnic Operator exam command center.
+          <p className="text-zinc-400 mt-2 text-sm max-w-2xl">
+            Your command center for the California Pyrotechnic Operator exam. Pick a track
+            below to begin or continue where you left off.
           </p>
-          {isPremium && (
-            <p className="text-amber-400 mt-2 text-xs font-mono uppercase tracking-wider">
-              ★ Premium access enabled — all tracks unlocked.
-            </p>
-          )}
+          <div className="mt-6 flex flex-col sm:flex-row gap-3">
+            <Link
+              href="/quiz?mode=exam"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all shadow-[0_0_20px_rgba(234,88,12,0.25)]"
+            >
+              🚀 Start Practice Exam
+            </Link>
+            <Link
+              href="/quiz?mode=study"
+              className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-700 bg-zinc-900/60 hover:border-zinc-600 hover:bg-zinc-900 text-zinc-200 font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all"
+            >
+              Continue Study Mode
+            </Link>
+            <a
+              href="#calculator"
+              className="inline-flex items-center justify-center gap-2 rounded-md border border-amber-500/30 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 font-semibold uppercase tracking-wider text-sm px-6 py-3 transition-all"
+            >
+              🧮 Table 19-A Calculator
+            </a>
+          </div>
         </div>
 
-        {/* ── Orientation Video ─────────────────────────────────────── */}
-        <div className="mb-10 max-w-2xl w-full mx-auto">
-          <VideoPlayer
-            src="/videos/video_1.mp4"
-            title="Orientation"
-          />
+        {/* ── ONBOARDING + VIDEO (side-by-side on lg) ─────────────── */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
+          {/* Onboarding checklist */}
+          <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-6">
+            <h2 className="text-xs font-semibold uppercase tracking-widest text-zinc-300 mb-4">
+              Getting Started
+            </h2>
+            <ol className="space-y-4">
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full border border-zinc-700 text-[10px] font-bold text-zinc-300">
+                  1
+                </span>
+                <div>
+                  <p className="text-sm text-zinc-200 font-medium">🎥 Watch 90-sec Orientation Video</p>
+                  <p className="text-xs text-zinc-500 mt-1">Learn how to navigate the course and use study mode.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full border border-zinc-700 text-[10px] font-bold text-zinc-300">
+                  2
+                </span>
+                <div>
+                  <p className="text-sm text-zinc-200 font-medium">📚 Complete Module 1: CA Fireworks Law & Title 19</p>
+                  <p className="text-xs text-zinc-500 mt-1">Master the foundational statutes and regulations.</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="mt-0.5 inline-flex h-6 w-6 items-center justify-center rounded-full border border-zinc-700 text-[10px] font-bold text-zinc-300">
+                  3
+                </span>
+                <div>
+                  <p className="text-sm text-zinc-200 font-medium">🧮 Practice with Table 19-A Fallout Calculator</p>
+                  <p className="text-xs text-zinc-500 mt-1">Build calculation speed and accuracy under pressure.</p>
+                </div>
+              </li>
+            </ol>
+            <div className="mt-6">
+              <Link
+                href="/quiz?mode=study"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-700 bg-zinc-900/60 hover:border-zinc-600 hover:bg-zinc-900 text-zinc-200 font-semibold uppercase tracking-wider text-xs px-5 py-2.5 transition-all"
+              >
+                Start First Module
+              </Link>
+            </div>
+          </div>
+
+          {/* Nested video section */}
+          <div className="max-w-xl mx-auto w-full">
+            <VideoPlayer
+              src="/videos/video_1.mp4"
+              title="Orientation"
+            />
+          </div>
         </div>
 
         {/* ── Summary Cards ─────────────────────────────────────────── */}
+        {isPremium && (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
           <SummaryCard
             label="Overall Mastery"
@@ -271,6 +364,7 @@ export default function DashboardPage() {
             accent={isPremium ? "emerald" : "amber"}
           />
         </div>
+        )}
 
         {/* ── Module Progress Grid ──────────────────────────────────── */}
         <div className="mb-10">
@@ -292,14 +386,19 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* ── Mastery Ring (visual) ─────────────────────────────────── */}
-        <div className="flex justify-center mb-10">
-          <CircularProgressRing
-            percentage={masteryPct}
-            label="OVERALL MASTERY"
-            size={140}
-          />
-        </div>
+         {/* ── Mastery Ring (visual) ─────────────────────────────────── */}
+         <div className="flex justify-center mb-10">
+           <CircularProgressRing
+             percentage={masteryPct}
+             label="OVERALL MASTERY"
+             size={140}
+           />
+         </div>
+
+         {/* ── Fallout Calculator ────────────────────────────────────── */}
+         <section id="calculator" className="mb-10 scroll-mt-24">
+           <FalloutCalculator />
+         </section>
 
         {/* ── Action Buttons ────────────────────────────────────────── */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

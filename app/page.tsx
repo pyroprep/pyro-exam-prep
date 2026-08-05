@@ -7,6 +7,13 @@ const METRICS = [
   { value: "4", label: "Comprehensive modules" },
 ];
 
+const TRUST_BADGES = [
+  { label: "100+ Title 19 Practice Questions" },
+  { label: "10 Audio-Narrated Video Modules" },
+  { label: "Interactive Table 19-A Fallout Calculator" },
+  { label: "100% Pass Guarantee" },
+];
+
 const TRACKS = [
   {
     number: "01",
@@ -184,150 +191,45 @@ function Hero() {
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(234,88,12,0.10),transparent_55%)]"
       />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-24 sm:pt-20 sm:pb-28 lg:pt-24 lg:pb-32">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-10 items-center">
-          <div className="lg:col-span-7">
-            <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-              SELF-PACED · IMMEDIATE ACCESS
-            </span>
+      <div className="relative py-20 lg:py-28">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
+            Updated for CA Title 19 & OSFM Standards
+          </span>
 
-            <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white uppercase">
-              Earn your{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
-                CA Pyrotechnic
-              </span>{" "}
-              Operator license.
-            </h1>
+          <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white uppercase">
+            Master the California Title 19 Pyrotechnic Exam
+          </h1>
 
-            <p className="body-strong mt-6 max-w-xl text-base sm:text-lg leading-relaxed">
-              Practice questions, explanations, and study tools built directly
-              from CA Title 19 regulations. Study at your own pace with immediate
-              access to the course materials.
-            </p>
+          <p className="body-strong mt-6 mx-auto max-w-3xl text-base sm:text-lg leading-relaxed text-zinc-300">
+            The complete interactive study platform for CA Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator Licenses.
+          </p>
 
-            <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <a
-                href="#pricing"
-                className="inline-flex items-center justify-center gap-2 rounded-md bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-700 hover:to-orange-600 text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all shadow-[0_0_24px_rgba(234,88,12,0.30)]"
-              >
-                Enroll Self-Study
-                <ArrowRightIcon className="h-4 w-4" />
-              </a>
-              <a
-                href="#syllabus"
-                className="inline-flex items-center justify-center gap-2 rounded-md border border-zinc-800 bg-zinc-900/40 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white font-semibold uppercase tracking-wider text-sm sm:text-base px-6 py-3.5 transition-all"
-              >
-                See Syllabus
-              </a>
-            </div>
-
-            <dl className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 border-t border-zinc-900 pt-8">
-              {METRICS.map((m, i) => (
-                <div
-                  key={m.label}
-                  className={`flex flex-col gap-1 ${
-                    i > 0 ? "sm:pl-6 sm:border-l sm:border-zinc-900" : ""
-                  }`}
-                >
-                  <dt className="text-2xl sm:text-3xl font-extrabold text-amber-400 tabular-nums tracking-tight">
-                    {m.value}
-                  </dt>
-                  <dd className="text-xs sm:text-sm text-zinc-400 leading-snug">
-                    {m.label}
-                  </dd>
-                </div>
-              ))}
-            </dl>
+          <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+            <a
+              href="#pricing"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-zinc-950 font-bold px-8 py-4 shadow-lg shadow-orange-500/20 transition-all scale-105"
+            >
+              Start Free Practice Test
+              <ArrowRightIcon className="h-4 w-4" />
+            </a>
+            <a
+              href="#syllabus"
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/40 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white font-bold uppercase tracking-wider text-sm sm:text-base px-8 py-4 transition-all"
+            >
+              Get Full Access
+            </a>
           </div>
 
-          <div className="lg:col-span-5">
-            <div className="surface-card relative rounded-2xl p-6 sm:p-8">
-              <div className="flex items-center justify-between border-b border-zinc-800 pb-5 gap-3 flex-wrap">
-                <div className="flex items-center gap-2">
-                  <span className="h-2 w-2 rounded-full bg-red-500" />
-                  <span className="h-2 w-2 rounded-full bg-amber-400" />
-                  <span className="h-2 w-2 rounded-full bg-emerald-500" />
-                </div>
-                <div className="flex items-center gap-3">
-                  <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-500">
-                    License blueprint
-                  </span>
-                  <span className="inline-flex items-center gap-1 rounded-full border border-amber-400/40 bg-amber-400/10 px-2 py-0.5 text-[10px] font-bold text-amber-400">
-                    94% pass
-                  </span>
-                </div>
+          <dl className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-4 border-t border-zinc-900 pt-8">
+            {TRUST_BADGES.map((m) => (
+              <div key={m.label} className="flex flex-col gap-1">
+                <dt className="text-sm font-bold text-amber-400 tracking-tight">
+                  {m.label}
+                </dt>
               </div>
-
-              <div className="mt-6 space-y-5">
-                <div>
-                  <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-500">
-                    Operator license
-                  </p>
-                  <p className="mt-1 text-lg sm:text-xl font-bold text-white">
-                    California Pyrotechnic Operator
-                  </p>
-                  <p className="text-sm text-zinc-400">Class B&#39;s — outdoor display</p>
-                </div>
-
-                <div className="grid grid-cols-3 gap-3 pt-2">
-                  {[
-                    { k: "Issued", v: "OSFM" },
-                    { k: "Term", v: "Annual" },
-                    { k: "Exam", v: "Pearson VUE" },
-                  ].map((row) => (
-                    <div
-                      key={row.k}
-                      className="rounded-lg border border-zinc-800 bg-black/40 p-3"
-                    >
-                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">
-                        {row.k}
-                      </p>
-                      <p className="mt-1 text-sm font-semibold text-white">
-                        {row.v}
-                      </p>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="space-y-2.5 pt-2">
-                  {[
-                    "Self-Paced · Immediate Access",
-                    "Module workbooks (PDF)",
-                    "500+ practice questions",
-                    "Video walkthroughs",
-                  ].map((line, idx) => (
-                    <div key={line} className="flex items-center gap-3 text-sm">
-                      <span className="font-mono text-[10px] text-zinc-600 w-5">
-                        {String(idx + 1).padStart(2, "0")}
-                      </span>
-                      <span className="h-1.5 w-1.5 rounded-full bg-amber-400" />
-                      <span className="text-zinc-200">{line}</span>
-                    </div>
-                  ))}
-                </div>
-
-                <div className="mt-6 flex items-center justify-between border-t border-zinc-800 pt-5">
-                  <div>
-                    <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-500">
-                      Holder
-                    </p>
-                    <p className="mt-1 text-sm font-semibold text-white">
-                      Class B operator
-                    </p>
-                  </div>
-                  <div className="text-right">
-                    <p className="text-[10px] font-mono uppercase tracking-[0.2em] text-zinc-500">
-                      Status
-                    </p>
-                    <p className="mt-1 inline-flex items-center gap-1.5 text-sm font-semibold text-amber-400">
-                      <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
-                      Pre-licensed
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            ))}
+          </dl>
         </div>
       </div>
     </section>
@@ -409,7 +311,7 @@ function Bento() {
         <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-5">
           {/* Large 2/3 card — 500+ Question Practice Bank */}
           <div className="md:col-span-2 md:row-span-2 p-[1px] bg-gradient-to-br from-red-600 via-orange-500 to-transparent rounded-xl">
-            <article className="surface-card relative overflow-hidden rounded-xl p-8 sm:p-10 flex flex-col justify-between min-h-[320px] h-full">
+            <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[320px] h-full">
               <div>
                 <div className="relative">
                   <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-amber-400">
@@ -459,7 +361,7 @@ function Bento() {
           </div>
 
           {/* Top right card — Module Workbooks (PDF) */}
-          <article className="surface-card relative overflow-hidden rounded-xl p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
+          <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[200px]">
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -bottom-16 -right-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
@@ -481,7 +383,7 @@ function Bento() {
           </article>
 
           {/* Bottom right card — 60+ HD Walkthrough Videos */}
-          <article className="surface-card relative overflow-hidden rounded-xl p-7 sm:p-8 flex flex-col justify-between min-h-[200px]">
+          <article className="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 hover:border-zinc-700 transition-all flex flex-col justify-between min-h-[200px]">
             <div
               aria-hidden="true"
               className="pointer-events-none absolute -bottom-16 -left-16 h-44 w-44 rounded-full bg-amber-400/5 blur-2xl"
@@ -536,7 +438,7 @@ function Pricing() {
                     : "bg-zinc-800"
                 }`}
               >
-                <div className={`h-full w-full rounded-[11px] p-7 sm:p-8 flex flex-col ${isHighlighted ? "surface-card-accent" : "surface-card"}`}>
+                <div className={`h-full w-full rounded-2xl p-6 sm:p-8 flex flex-col ${isHighlighted ? "bg-zinc-900/80 border border-zinc-800 hover:border-zinc-700 transition-all" : "bg-zinc-900/80 border border-zinc-800 hover:border-zinc-700 transition-all"}`}>
                   {isHighlighted && (
                     <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 rounded-full bg-amber-400 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-zinc-950 shadow-[0_0_18px_rgba(234,88,12,0.4)]">
                       Most popular
