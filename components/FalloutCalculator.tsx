@@ -57,7 +57,7 @@ export default function FalloutCalculator() {
       <h3 className="text-lg font-bold text-zinc-100 mb-2">
         Table 19-A Fallout Calculator
       </h3>
-      <p className="text-xs text-zinc-500 font-mono uppercase tracking-wider mb-6">
+      <p className="text-xs text-zinc-400 font-mono uppercase tracking-wider mb-6">
         Calculate minimum safe fallout distances for pyrotechnic displays
       </p>
 
@@ -73,7 +73,7 @@ export default function FalloutCalculator() {
             placeholder="e.g., 4"
             step="0.5"
             min="0"
-            className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-amber-500/50"
+            className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-amber-500/50"
           />
         </div>
 
@@ -88,7 +88,7 @@ export default function FalloutCalculator() {
             placeholder="e.g., 300"
             step="10"
             min="0"
-            className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-amber-500/50"
+            className="w-full rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-amber-500/50"
           />
         </div>
       </div>
@@ -119,7 +119,7 @@ export default function FalloutCalculator() {
               <p className="text-xs text-zinc-400">
                 Display Category: <span className="text-amber-300">{result.category}</span>
               </p>
-              <p className="text-xs text-zinc-500 mt-2">
+              <p className="text-xs text-zinc-400 mt-2">
                 This is a simplified calculation. Always refer to official CAL FIRE/OSFM
                 guidelines and manufacturer specifications for actual display planning.
               </p>

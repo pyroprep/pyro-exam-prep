@@ -9,7 +9,7 @@ export default function VideoPlayer({ src, title }: VideoPlayerProps) {
   return (
     <div className="rounded-xl border border-zinc-800 w-full aspect-video bg-black">
       {title && (
-        <p className="px-4 pt-3 text-[10px] font-mono uppercase tracking-wider text-zinc-500">
+        <p className="px-4 pt-3 text-[10px] font-mono uppercase tracking-wider text-zinc-400">
           {title}
         </p>
       )}
@@ -17,7 +17,7 @@ export default function VideoPlayer({ src, title }: VideoPlayerProps) {
         className="h-full w-full rounded-xl border border-zinc-800"
         controls
         playsInline
-        preload="auto"
+        preload="metadata"
         title={title}
         aria-label={title ?? "Video player"}
       >

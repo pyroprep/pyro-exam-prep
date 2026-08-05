@@ -13,13 +13,13 @@ export default function ContactPage() {
           </p>
           <div className="space-y-3">
             <div>
-              <p className="text-xs font-mono uppercase tracking-wider text-zinc-500 mb-1">Email</p>
+              <p className="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-1">Email</p>
               <a href="mailto:support@pyroprep.academy" className="text-sm text-amber-400 hover:text-amber-300 transition-colors">
                 support@pyroprep.academy
               </a>
             </div>
             <div>
-              <p className="text-xs font-mono uppercase tracking-wider text-zinc-500 mb-1">Response Time</p>
+              <p className="text-xs font-mono uppercase tracking-wider text-zinc-400 mb-1">Response Time</p>
               <p className="text-sm text-zinc-300">We typically respond within 24–48 hours.</p>
             </div>
           </div>

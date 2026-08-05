@@ -104,7 +104,7 @@ export default function TutorChat() {
             </span>
             <div>
               <p className="text-sm font-semibold text-zinc-100">Pyro AI Tutor</p>
-              <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">
+              <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">
                 Title 19 Exam Expert
               </p>
             </div>
@@ -114,7 +114,7 @@ export default function TutorChat() {
           <div className="flex-1 max-h-[400px] overflow-y-auto px-4 py-3 space-y-3">
             {messages.length === 0 && (
               <div className="text-center py-6">
-                <p className="text-xs text-zinc-500 font-mono uppercase tracking-wider mb-3">
+                <p className="text-xs text-zinc-400 font-mono uppercase tracking-wider mb-3">
                   Ask me anything about Title 19
                 </p>
                 <div className="flex flex-wrap gap-2 justify-center">
@@ -174,7 +174,7 @@ export default function TutorChat() {
                 onKeyDown={handleKeyDown}
                 placeholder="Ask a Title 19 question..."
                 disabled={loading}
-                className="flex-1 rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 focus:outline-none focus:border-amber-500/50 disabled:opacity-50"
+                className="flex-1 rounded-lg border border-zinc-800 bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:border-amber-500/50 disabled:opacity-50"
               />
               <button
                 type="button"

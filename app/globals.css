@@ -38,7 +38,6 @@ h2,
 h3,
 h4 {
   font-family: var(--font-display), sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
   line-height: 0.95;
 }

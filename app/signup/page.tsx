@@ -18,7 +18,7 @@ export default function SignupPage() {
     setError(null);
     setLoading(true);
 
-    const supabase = createSupabaseClient();
+    const supabase = await createSupabaseClient();
 
     // 1. Create the user in Supabase Auth
     const { error: signUpError } = await supabase.auth.signUp({

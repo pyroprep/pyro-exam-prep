@@ -21,11 +21,12 @@ export default function NavHeader() {
               <Image
                 alt="Pyro Prep Academy"
                 className="h-20 w-auto object-contain"
-                height={82}
+                fetchPriority="high"
+                height={188}
                 priority
-                sizes="(max-width: 768px) 150px, 360px"
-                src="/logo.png"
-                width={360}
+                sizes="190px"
+                src="/logo.webp"
+                width={440}
               />
             </Link>
           </div>
@@ -55,7 +56,7 @@ export default function NavHeader() {
                 {/* Study Modules */}
                 <Link
                   href="/quiz"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-zinc-200 transition-colors"
+                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Study Modules
                 </Link>
@@ -63,7 +64,7 @@ export default function NavHeader() {
                 {/* Fallout Calculator */}
                 <Link
                   href="/dashboard#calculator"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-zinc-200 transition-colors"
+                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Fallout Calculator
                 </Link>
@@ -71,7 +72,7 @@ export default function NavHeader() {
                 {/* Dashboard link */}
                 <Link
                   href="/dashboard"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-zinc-200 transition-colors"
+                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Dashboard
                 </Link>
@@ -96,7 +97,7 @@ export default function NavHeader() {
               <>
                 <Link
                   href="/login"
-                  className="text-xs font-mono uppercase tracking-wider text-zinc-400 hover:text-zinc-200 transition-colors"
+                  className="text-xs font-mono uppercase tracking-wider text-zinc-300 hover:text-zinc-100 transition-colors"
                 >
                   Sign In
                 </Link>

@@ -40,7 +40,7 @@ function ModuleScoreBar({
         <span className="text-xs font-mono uppercase tracking-wider text-zinc-400">
           {name}
         </span>
-        <span className="text-xs font-mono tabular-nums text-zinc-500">
+        <span className="text-xs font-mono tabular-nums text-zinc-400">
           {score}/{total} ({pct}%)
         </span>
       </div>
@@ -76,7 +76,7 @@ function MissedQuestionCard({
         className="w-full text-left px-5 py-4 flex items-start justify-between gap-4 hover:bg-zinc-900/50 transition-colors"
       >
         <div className="min-w-0 flex-1">
-          <p className="text-xs font-mono text-zinc-500 uppercase tracking-wider mb-1">
+          <p className="text-xs font-mono text-zinc-400 uppercase tracking-wider mb-1">
             {question.moduleName}
           </p>
           <p className="text-sm text-zinc-200 leading-relaxed line-clamp-2">
@@ -92,7 +92,7 @@ function MissedQuestionCard({
         <div className="px-5 pb-5 border-t border-zinc-800 pt-4 space-y-4">
           {/* User's wrong answer */}
           <div>
-            <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 mb-1">
+            <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-400 mb-1">
               Your Answer
             </p>
             <p className="text-sm text-red-400">
@@ -102,7 +102,7 @@ function MissedQuestionCard({
 
           {/* Correct answer */}
           <div>
-            <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-500 mb-1">
+            <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-400 mb-1">
               Correct Answer
             </p>
             <p className="text-sm text-emerald-400">
@@ -160,7 +160,7 @@ export default function ResultsPage() {
       <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+          <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
             Loading results...
           </p>
         </div>
@@ -234,7 +234,7 @@ export default function ResultsPage() {
           <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 uppercase tracking-tight">
             {isExam ? "Exam Results" : "Practice Results"}
           </h1>
-          <p className="text-zinc-500 mt-1 text-sm font-mono uppercase tracking-wider">
+          <p className="text-zinc-400 mt-1 text-sm font-mono uppercase tracking-wider">
             Detailed performance breakdown
           </p>
         </div>
@@ -298,10 +298,10 @@ export default function ResultsPage() {
                   ? "Passed — 70%+ achieved"
                   : "Needs Review — below 70%"}
               </p>
-              <p className="text-sm font-mono text-zinc-500 mt-1">
+              <p className="text-sm font-mono text-zinc-400 mt-1">
                 {totalCorrect} correct out of {totalQuestions} questions
               </p>
-              <p className="text-[10px] font-mono text-zinc-600 uppercase tracking-widest mt-2">
+              <p className="text-[10px] font-mono text-zinc-400 uppercase tracking-widest mt-2">
                 {isExam
                   ? "CA OSFM passing threshold: 70%"
                   : "Study session — no pass/fail"}
@@ -325,7 +325,7 @@ export default function ResultsPage() {
               />
             ))}
             {Object.keys(moduleStats).length === 0 && (
-              <p className="text-xs text-zinc-500 font-mono uppercase tracking-wider">
+              <p className="text-xs text-zinc-400 font-mono uppercase tracking-wider">
                 No module data available.
               </p>
             )}

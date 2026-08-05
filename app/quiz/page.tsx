@@ -13,7 +13,6 @@ import {
   type ModuleName,
 } from "@/lib/quiz-types";
 import VideoPlayer from "@/components/VideoPlayer";
-import TutorChat from "@/components/TutorChat";
 
 // ─── Helper: convert ALL-CAPS text to Sentence case ─────────────────────────
 const formatSentenceCase = (text: string) => {
@@ -40,7 +39,7 @@ function CountdownTimer({
 
   return (
     <div className="w-full">
-      <div className="flex items-center justify-between mb-2 font-mono text-xs uppercase tracking-widest text-zinc-500">
+      <div className="flex items-center justify-between mb-2 font-mono text-xs uppercase tracking-widest text-zinc-400">
         <span>Time Remaining</span>
         <span
           className={isUrgent ? "text-red-500 animate-pulse" : "text-zinc-400"}
@@ -90,7 +89,7 @@ function QuizSkeleton() {
     <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
       <div className="flex flex-col items-center gap-4">
         <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-        <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+        <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
           Loading questions...
         </p>
       </div>
@@ -110,7 +109,7 @@ function ModuleSelector({
         <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 uppercase tracking-tight text-center mb-2">
           Practice by Module
         </h1>
-        <p className="text-zinc-500 text-sm font-mono uppercase tracking-wider text-center mb-8">
+        <p className="text-zinc-400 text-sm font-mono uppercase tracking-wider text-center mb-8">
           Select a module to begin a 25-question study session.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -128,7 +127,7 @@ function ModuleSelector({
         <div className="mt-6 text-center">
           <Link
             href="/dashboard"
-            className="text-xs text-zinc-500 hover:text-zinc-300 underline underline-offset-2 font-mono uppercase tracking-wider transition-colors"
+            className="text-xs text-zinc-400 hover:text-zinc-300 underline underline-offset-2 font-mono uppercase tracking-wider transition-colors"
           >
             ← Back to Dashboard
           </Link>
@@ -183,7 +182,7 @@ function QuizContent() {
     setPhase("loading");
     setError(null);
     try {
-      const supabase = createSupabaseClient();
+      const supabase = await createSupabaseClient();
       const { data, error: sbError } = await supabase
         .from("questions")
         .select("*")
@@ -217,7 +216,7 @@ function QuizContent() {
     setPhase("loading");
     setError(null);
     try {
-      const supabase = createSupabaseClient();
+      const supabase = await createSupabaseClient();
 
       // Fetch 25 from each module for a balanced 100-question exam
       const allQuestions: SupabaseQuestion[] = [];
@@ -408,7 +407,7 @@ function QuizContent() {
       <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+          <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
             Authenticating...
           </p>
         </div>
@@ -487,7 +486,7 @@ function QuizContent() {
             <p className="text-5xl sm:text-6xl font-bold bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
               {pct}%
             </p>
-            <p className="text-sm font-mono text-zinc-500 uppercase tracking-wider mt-2">
+            <p className="text-sm font-mono text-zinc-400 uppercase tracking-wider mt-2">
               {correctCount} / {questions.length} correct
             </p>
             {isExam && (
@@ -755,7 +754,7 @@ export default function QuizPage() {
         <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
           <div className="flex flex-col items-center gap-4">
             <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-            <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+            <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
               Loading...
             </p>
           </div>
@@ -763,7 +762,6 @@ export default function QuizPage() {
       }
     >
       <QuizContent />
-      <TutorChat />
     </Suspense>
   );
 }

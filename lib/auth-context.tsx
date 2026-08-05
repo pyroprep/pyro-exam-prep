@@ -34,7 +34,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
 
   const refresh = useCallback(async () => {
-    const supabase = createSupabaseClient();
+    const supabase = await createSupabaseClient();
     let cancelled = false;
 
     // 1. Get the session user
@@ -63,33 +63,41 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const signOut = useCallback(async () => {
-    const supabase = createSupabaseClient();
+    const supabase = await createSupabaseClient();
     await supabase.auth.signOut();
     setUser(null);
     setProfile(null);
   }, []);
 
   useEffect(() => {
-    const supabase = createSupabaseClient();
     let cancelled = false;
+    let unsubscribe: (() => void) | undefined;
 
-    // Initial fetch — synchronizes Supabase auth state on mount
-    refresh().then(() => {
-      if (cancelled) {
-        setLoading(true);
-      }
-    });
+    // Async setup — the Supabase client is code-split and loaded on demand
+    // so it does not block the main thread during initial page load.
+    (async () => {
+      const supabase = await createSupabaseClient();
+      if (cancelled) return;
 
-    // Listen for auth state changes
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange(() => {
-      refresh();
-    });
+      // Initial fetch — synchronizes Supabase auth state on mount
+      refresh().then(() => {
+        if (cancelled) {
+          setLoading(true);
+        }
+      });
+
+      // Listen for auth state changes
+      const {
+        data: { subscription },
+      } = supabase.auth.onAuthStateChange(() => {
+        refresh();
+      });
+      unsubscribe = () => subscription.unsubscribe();
+    })();
 
     return () => {
       cancelled = true;
-      subscription.unsubscribe();
+      unsubscribe?.();
     };
   }, [refresh]);
 

@@ -48,7 +48,7 @@ export default function CertificatePage() {
       <div className="w-full max-w-2xl">
         <div className="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-8 sm:p-10">
           <div className="text-center mb-8">
-            <p className="text-xs font-mono uppercase tracking-widest text-zinc-500 mb-2">
+            <p className="text-xs font-mono uppercase tracking-widest text-zinc-400 mb-2">
               Exam Readiness Certificate
             </p>
             <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 uppercase tracking-tight">
@@ -71,7 +71,7 @@ export default function CertificatePage() {
                 <div className="rounded-lg border border-zinc-800 bg-zinc-900/40 p-5">
                   <div className="flex items-center justify-between gap-4">
                     <div className="text-left">
-                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">
+                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">
                         Exam Score
                       </p>
                       <p className={`text-3xl font-bold ${eligible ? "text-amber-400" : "text-orange-400"}`}>
@@ -79,7 +79,7 @@ export default function CertificatePage() {
                       </p>
                     </div>
                     <div className="text-right">
-                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-500">
+                      <p className="text-[10px] font-mono uppercase tracking-wider text-zinc-400">
                         Status
                       </p>
                       <p className={`text-sm font-semibold uppercase tracking-wider ${eligible ? "text-emerald-400" : passed ? "text-amber-400" : "text-red-400"}`}>

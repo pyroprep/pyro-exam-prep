@@ -2,8 +2,28 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { useAuth } from "@/lib/auth-context";
-import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
+
+// Code-split the PayPal SDK: it is only needed when the checkout renders,
+// so load it client-side on demand instead of in the initial page bundle.
+const PayPalScriptProvider = dynamic(
+  () =>
+    import("@paypal/react-paypal-js").then((mod) => mod.PayPalScriptProvider),
+  {
+    ssr: false,
+    loading: () => (
+      <div className="w-full rounded-lg border border-zinc-800 bg-zinc-900/60 py-4 text-center text-[10px] font-mono uppercase tracking-wider text-zinc-400">
+        Loading secure checkout…
+      </div>
+    ),
+  },
+);
+
+const PayPalButtons = dynamic(
+  () => import("@paypal/react-paypal-js").then((mod) => mod.PayPalButtons),
+  { ssr: false },
+);
 
 const PLANS = [
   {

@@ -3,7 +3,7 @@ import "./globals.css";
 import { AuthProvider } from "@/lib/auth-context";
 import NavHeader from "@/components/nav-header";
 import Footer from "@/components/Footer";
-import TutorChat from "@/components/TutorChat";
+import TutorChatLazy from "@/components/tutor-chat-lazy";
 
 export const metadata: Metadata = {
   title: "Pyro Prep Academy | California Pyrotechnic Operator Exam Prep",
@@ -35,7 +35,7 @@ export default function RootLayout({
           <NavHeader />
           {children}
           <Footer />
-          <TutorChat />
+          <TutorChatLazy />
         </AuthProvider>
       </body>
     </html>

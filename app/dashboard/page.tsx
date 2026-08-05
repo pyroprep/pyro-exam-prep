@@ -10,7 +10,6 @@ import {
   type SupabaseQuestion,
 } from "@/lib/quiz-types";
 import VideoPlayer from "@/components/VideoPlayer";
-import TutorChat from "@/components/TutorChat";
 import FalloutCalculator from "@/components/FalloutCalculator";
 
 // ─── Circular Progress Ring ──────────────────────────────────────────────────
@@ -94,7 +93,7 @@ function ModuleScoreBadge({
         <h4 className="text-xs font-semibold uppercase tracking-wider text-zinc-200">
           {name}
         </h4>
-        <span className="text-xs font-mono text-zinc-500 tabular-nums">
+        <span className="text-xs font-mono text-zinc-400 tabular-nums">
           {score}/{total}
         </span>
       </div>
@@ -104,7 +103,7 @@ function ModuleScoreBadge({
           style={{ width: `${pct}%` }}
         />
       </div>
-      <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
+      <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-400">
         {pct}% mastery
       </p>
     </div>
@@ -125,7 +124,7 @@ function SummaryCard({
     accent === "emerald" ? "text-emerald-400" : "text-amber-400";
   return (
     <div className="rounded-xl border border-zinc-800 bg-zinc-900/40 p-5">
-      <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
+      <p className="text-[10px] font-mono uppercase tracking-widest text-zinc-400">
         {label}
       </p>
       <p className={`mt-2 text-2xl font-bold tabular-nums ${accentClass}`}>
@@ -171,7 +170,7 @@ export default function DashboardPage() {
     if (authLoading || !user) return;
 
     async function fetchStats() {
-      const supabase = createSupabaseClient();
+      const supabase = await createSupabaseClient();
 
       const { data, error } = await supabase
         .from("questions")
@@ -234,7 +233,7 @@ export default function DashboardPage() {
       <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+          <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
             Loading dashboard...
           </p>
         </div>
@@ -248,7 +247,7 @@ export default function DashboardPage() {
       <main className="min-h-screen bg-zinc-950 flex items-center justify-center">
         <div className="flex flex-col items-center gap-4">
           <div className="w-6 h-6 rounded-full border-2 border-zinc-700 border-t-orange-500 animate-spin" />
-          <p className="text-xs text-zinc-600 font-mono uppercase tracking-widest">
+          <p className="text-xs text-zinc-400 font-mono uppercase tracking-widest">
             Redirecting to pricing...
           </p>
         </div>
@@ -304,7 +303,7 @@ export default function DashboardPage() {
                 </span>
                 <div>
                   <p className="text-sm text-zinc-200 font-medium">🎥 Watch 90-sec Orientation Video</p>
-                  <p className="text-xs text-zinc-500 mt-1">Learn how to navigate the course and use study mode.</p>
+                  <p className="text-xs text-zinc-400 mt-1">Learn how to navigate the course and use study mode.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -313,7 +312,7 @@ export default function DashboardPage() {
                 </span>
                 <div>
                   <p className="text-sm text-zinc-200 font-medium">📚 Complete Module 1: CA Fireworks Law & Title 19</p>
-                  <p className="text-xs text-zinc-500 mt-1">Master the foundational statutes and regulations.</p>
+                  <p className="text-xs text-zinc-400 mt-1">Master the foundational statutes and regulations.</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -322,7 +321,7 @@ export default function DashboardPage() {
                 </span>
                 <div>
                   <p className="text-sm text-zinc-200 font-medium">🧮 Practice with Table 19-A Fallout Calculator</p>
-                  <p className="text-xs text-zinc-500 mt-1">Build calculation speed and accuracy under pressure.</p>
+                  <p className="text-xs text-zinc-400 mt-1">Build calculation speed and accuracy under pressure.</p>
                 </div>
               </li>
             </ol>
@@ -444,7 +443,6 @@ export default function DashboardPage() {
           </Link>
         </div>
       </div>
-      <TutorChat />
     </main>
   );
 }
