@@ -71,6 +71,13 @@ p {
   background: linear-gradient(180deg, rgba(41, 23, 10, 0.5), rgba(24, 24, 27, 0.75));
 }
 
+/* Bold industrial display typeface for the hero headline.
+   Uses a widely available system font stack (no network dependency). */
+.font-industrial {
+  font-family: "Arial Black", "Franklin Gothic Bold", Impact, "Segoe UI", sans-serif;
+  letter-spacing: 0.02em;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 4px;

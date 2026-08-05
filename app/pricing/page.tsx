@@ -7,32 +7,40 @@ import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
 const PLANS = [
   {
-    id: "basic",
-    name: "Basic Commercial",
-    price: "Free",
-    description: "Essential prep for the Basic Commercial pyrotechnic operator exam.",
+    id: "demo",
+    name: "Free Evaluation Demo",
+    price: "$0",
+    period: "",
+    tag: "",
+    description:
+      "Sample prep experience to test the platform before unlocking full institutional access.",
     features: [
-      "Full Basic Commercial question bank",
-      "Progress tracking & readiness scoring",
-      "Mobile-optimized practice interface",
+      "10 Title 19 Sample Questions",
+      "Course Orientation Video access",
+      "Basic score preview",
     ],
-    cta: "Current Plan",
+    cta: "Try Free Demo",
+    ctaHref: "/quiz?demo=true",
     highlighted: false,
   },
   {
     id: "premium",
-    name: "Premium Unlock",
-    price: "$19.99",
-    period: "one-time",
-    description: "Unlock all license tracks — Special Effects & Theatrical included.",
+    name: "Full Academy Course & Exam Prep",
+    price: "$249",
+    period: "One-Time Payment (Lifetime Access)",
+    tag: "Recommended - Pass Guarantee",
+    description:
+      "Complete institutional prep course for California Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator Licenses.",
     features: [
-      "Everything in Basic Commercial",
-      "Special Effects question bank",
-      "Theatrical Effects question bank",
-      "Priority updates & new content",
-      "Lifetime access (no subscription)",
+      "Complete 500+ Title 19 Question Bank (Study Drills & 100-Q Timed Mock Exams)",
+      "All 10 Audio-Narrated Video Curriculum Modules",
+      'Unlimited 24/7 AI Title 19 Tutor Access ("Pyro AI")',
+      "Interactive Table 19-A Fallout Calculator Tool",
+      "Downloadable CA Title 19 Exam Readiness Certificate",
+      "100% Pass Guarantee (Full refund if you fail your OSFM exam)",
     ],
     cta: "Upgrade Now",
+    ctaHref: "",
     highlighted: true,
   },
 ];
@@ -72,10 +80,10 @@ export default function PricingPage() {
   }
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-black px-4">
+    <main className="flex min-h-screen items-center justify-center bg-black px-4 py-16">
       <div className="w-full max-w-4xl">
         {/* Header */}
-        <div className="mb-10 text-center">
+        <div className="mb-12 text-center">
           <Link href="/dashboard" className="inline-flex items-center gap-2 mb-4">
             <span className="w-3 h-3 rounded-full bg-orange-500" />
             <span className="text-xl font-bold text-zinc-100 tracking-tight">
@@ -85,13 +93,13 @@ export default function PricingPage() {
           <h1 className="text-2xl sm:text-3xl font-bold text-zinc-100 tracking-tight mt-4">
             Unlock Premium Tracks
           </h1>
-          <p className="text-zinc-400 mt-2 text-sm font-mono uppercase tracking-wider">
+          <p className="text-zinc-400 mt-2 text-sm tracking-wide">
             Choose the plan that fits your exam prep needs.
           </p>
         </div>
 
         {/* Plan Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto items-stretch">
           {PLANS.map((plan) => (
             <div
               key={plan.id}
@@ -101,9 +109,9 @@ export default function PricingPage() {
                   : "border-zinc-800 bg-zinc-900/40"
               }`}
             >
-              {plan.highlighted && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 px-3 py-0.5 rounded-full bg-orange-700 text-[10px] font-mono uppercase tracking-wider text-white">
-                  Recommended
+              {plan.tag && (
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 whitespace-nowrap px-3 py-0.5 rounded-full bg-gradient-to-r from-amber-500 to-orange-600 text-[10px] font-bold uppercase tracking-wider text-zinc-950 shadow-[0_0_16px_rgba(234,88,12,0.35)]">
+                  {plan.tag}
                 </span>
               )}
 
@@ -111,17 +119,17 @@ export default function PricingPage() {
                 <h2 className="text-sm font-semibold uppercase tracking-wider text-zinc-200">
                   {plan.name}
                 </h2>
-                <div className="mt-3 flex items-baseline gap-1">
-                  <span className="text-3xl font-bold text-zinc-100">
+                <div className="mt-3">
+                  <span className="text-4xl font-bold text-zinc-100 tabular-nums">
                     {plan.price}
                   </span>
                   {plan.period && (
-                    <span className="text-xs text-zinc-400 font-mono uppercase tracking-wider">
-                      / {plan.period}
+                    <span className="mt-1.5 block text-[10px] text-amber-400/90 font-mono uppercase tracking-wider">
+                      {plan.period}
                     </span>
                   )}
                 </div>
-                <p className="mt-2 text-xs text-zinc-400 leading-relaxed">
+                <p className="mt-3 text-xs text-zinc-400 leading-relaxed">
                   {plan.description}
                 </p>
               </div>
@@ -152,14 +160,13 @@ export default function PricingPage() {
                 ))}
               </ul>
 
-              {plan.id === "basic" ? (
-                <button
-                  type="button"
-                  disabled
-                  className="w-full rounded-lg text-xs font-semibold uppercase tracking-wider py-3 border border-zinc-700 text-zinc-500 cursor-not-allowed"
+              {plan.id === "demo" ? (
+                <Link
+                  href={plan.ctaHref || "/quiz?demo=true"}
+                  className="w-full rounded-lg text-xs font-semibold uppercase tracking-wider py-3 border border-zinc-700 text-zinc-200 hover:bg-zinc-800 hover:text-white transition-all text-center"
                 >
                   {plan.cta}
-                </button>
+                </Link>
               ) : success ? (
                 <div className="w-full rounded-lg text-xs font-semibold uppercase tracking-wider py-3 bg-green-600 text-white text-center">
                   ✓ Premium Activated!
@@ -191,15 +198,28 @@ export default function PricingPage() {
           ))}
         </div>
 
-        {/* Back link */}
-        <p className="mt-10 text-center">
+        {/* Back link — styled button */}
+        <div className="mt-12 text-center">
           <Link
             href="/dashboard"
-            className="text-xs text-zinc-400 hover:text-zinc-200 underline underline-offset-2 font-mono uppercase tracking-wider transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-2.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white hover:border-zinc-700 transition-all text-sm font-medium"
           >
-            ← Back to Dashboard
+            <svg
+              className="h-4 w-4"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+            Back to Dashboard
           </Link>
-        </p>
+        </div>
       </div>
     </main>
   );

@@ -41,9 +41,10 @@ export async function POST(request: Request) {
             custom_id: userId,
             amount: {
               currency_code: "USD",
-              value: "19.99",
+              value: "249.00",
             },
-            description: "Pyro Prep Academy Premium Unlock — Lifetime Access",
+            description:
+              "Pyro Prep Academy — Full Academy Course & Exam Prep (One-Time Payment, Lifetime Access)",
           },
         ],
       }),

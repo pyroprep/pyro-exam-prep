@@ -11,7 +11,7 @@ export default function Footer() {
               Pyro Prep Academy
             </h3>
             <p className="text-xs text-zinc-500 leading-relaxed">
-              California's premier exam preparation platform for Class B Pyrotechnic Operator candidates.
+              California's premier exam preparation platform for Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator candidates. 500+ CA Title 19 practice questions with 100-question timed mock exams — $249 one-time lifetime access.
             </p>
           </div>
 

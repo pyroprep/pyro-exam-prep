@@ -7,11 +7,10 @@ const METRICS = [
   { value: "4", label: "Comprehensive modules" },
 ];
 
-const TRUST_BADGES = [
-  { label: "100+ Title 19 Practice Questions" },
-  { label: "10 Audio-Narrated Video Modules" },
-  { label: "Interactive Table 19-A Fallout Calculator" },
-  { label: "100% Pass Guarantee" },
+const HERO_STATS = [
+  { value: "94%", label: "First-attempt pass rate" },
+  { value: "1,200+", label: "Operators certified" },
+  { value: "15 yr", label: "Lead instructor experience" },
 ];
 
 const TRACKS = [
@@ -60,14 +59,14 @@ const TRACKS = [
 const PRICING = [
   {
     name: "Self-Study",
-    price: "$349",
-    cadence: "one-time",
+    price: "$249",
+    cadence: "one-time · lifetime access",
     description: "Study at your own pace with immediate access to all course materials.",
     features: [
       "Full 4-module curriculum",
-      "500+ question practice bank",
+      "500+ CA Title 19 question bank",
+      "100-question timed mock exams",
       "Module workbooks (PDF)",
-      "2 mock final exams",
       "Video walkthroughs",
       "Study on your own schedule",
     ],
@@ -188,48 +187,115 @@ function Hero() {
     <section className="relative overflow-hidden bg-black">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(234,88,12,0.10),transparent_55%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(234,88,12,0.12),transparent_55%)]"
       />
 
       <div className="relative py-20 lg:py-28">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-          <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
-            Updated for CA Title 19 & OSFM Standards
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          {/* Top badge */}
+          <span className="inline-flex items-center gap-2 rounded-full border border-amber-400/30 bg-amber-400/10 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-wider text-amber-400">
+            <span className="h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+            Next Live Class Opens March 14
           </span>
 
-          <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight text-white uppercase">
-            Master the California Title 19 Pyrotechnic Exam
+          {/* Headline — left-aligned, industrial display typeface */}
+          <h1 className="font-industrial mt-6 max-w-3xl text-left text-4xl font-black leading-[1.02] text-white sm:text-5xl lg:text-6xl xl:text-7xl">
+            Earn Your <span className="text-amber-400">CA</span> Pyrotechnic
+            Operator License.
           </h1>
 
-          <p className="body-strong mt-6 mx-auto max-w-3xl text-base sm:text-lg leading-relaxed text-zinc-300">
-            The complete interactive study platform for CA Class B (1.3G Display) & Class C (1.4G Commercial) Pyrotechnic Operator Licenses.
+          {/* Paragraph — left-aligned */}
+          <p className="mt-6 max-w-2xl text-left text-base leading-relaxed text-zinc-300 sm:text-lg">
+            Practice questions, detailed explanations, and study tools built
+            directly from CA Title 19 regulations. Live classes are taught by a
+            licensed California operator with 15 years on display crews.
           </p>
 
-          <div className="mt-8 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
-            <a
-              href="#pricing"
-              className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-400 hover:to-orange-500 text-zinc-950 font-bold px-8 py-4 shadow-lg shadow-orange-500/20 transition-all scale-105"
+          {/* Dual CTAs — left-aligned */}
+          <div className="mt-8 flex flex-col justify-start gap-3 sm:flex-row sm:gap-4">
+            <Link
+              href="/pricing"
+              className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 px-6 py-3 font-bold text-zinc-950 shadow-md shadow-orange-500/20 transition-all hover:from-amber-400 hover:to-orange-500"
             >
-              Start Free Practice Test
+              Enroll now
               <ArrowRightIcon className="h-4 w-4" />
-            </a>
+            </Link>
             <a
               href="#syllabus"
-              className="inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-800 bg-zinc-900/40 hover:border-zinc-700 hover:bg-zinc-900 text-zinc-200 hover:text-white font-bold uppercase tracking-wider text-sm sm:text-base px-8 py-4 transition-all"
+              className="inline-flex items-center justify-center gap-2 rounded-xl border border-zinc-700/50 bg-zinc-800/80 px-6 py-3 font-medium text-zinc-100 transition-all hover:bg-zinc-700"
             >
-              Get Full Access
+              See syllabus
             </a>
           </div>
 
-          <dl className="mt-10 grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-4 border-t border-zinc-900 pt-8">
-            {TRUST_BADGES.map((m) => (
-              <div key={m.label} className="flex flex-col gap-1">
-                <dt className="text-sm font-bold text-amber-400 tracking-tight">
-                  {m.label}
-                </dt>
+          {/* 3-column stat bar */}
+          <div className="mt-12 grid grid-cols-1 gap-8 border-t border-zinc-900 pt-8 sm:grid-cols-3">
+            {HERO_STATS.map((s) => (
+              <div key={s.label} className="flex flex-col gap-1 text-left">
+                <p className="text-3xl font-extrabold tracking-tight text-amber-400 tabular-nums sm:text-4xl">
+                  {s.value}
+                </p>
+                <p className="text-sm text-zinc-400">{s.label}</p>
               </div>
             ))}
-          </dl>
+          </div>
+
+          {/* Browser / Blueprint card */}
+          <div className="mt-12 overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/60 shadow-2xl shadow-orange-500/5 backdrop-blur-sm">
+            {/* Browser chrome bar */}
+            <div className="flex items-center justify-between gap-4 border-b border-zinc-800 bg-zinc-950/60 px-4 py-3 sm:px-5">
+              <div className="flex items-center gap-2">
+                <span className="h-3 w-3 rounded-full bg-red-500" />
+                <span className="h-3 w-3 rounded-full bg-yellow-500" />
+                <span className="h-3 w-3 rounded-full bg-green-500" />
+              </div>
+              <span className="text-[11px] font-semibold uppercase tracking-widest text-zinc-400 font-mono sm:text-xs">
+                License Blueprint
+              </span>
+              <span className="inline-flex items-center gap-1.5 rounded-md border border-zinc-700 bg-zinc-900 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-zinc-300 font-mono">
+                <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                Safe Area
+              </span>
+            </div>
+
+            {/* Blueprint body */}
+            <div className="relative bg-[linear-gradient(rgba(249,115,22,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.05)_1px,transparent_1px)] bg-[size:24px_24px] p-6 sm:p-8">
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="rounded-lg border border-dashed border-amber-400/40 bg-black/40 p-5">
+                  <p className="text-[10px] font-mono uppercase tracking-widest text-amber-400">
+                    Class B · 1.3G Display
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+                    Large aerial displays & consumer-grade 1.3G fireworks
+                    operations.
+                  </p>
+                </div>
+                <div className="rounded-lg border border-dashed border-amber-400/40 bg-black/40 p-5">
+                  <p className="text-[10px] font-mono uppercase tracking-widest text-amber-400">
+                    Class C · 1.4G Commercial
+                  </p>
+                  <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+                    Commercial pyrotechnics & 1.4G professional use.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-zinc-800 bg-black/40 px-5 py-4">
+                <div className="flex items-center gap-3">
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-amber-400/40 text-amber-400">
+                    <CheckIcon className="h-4 w-4" />
+                  </span>
+                  <p className="text-sm text-zinc-300">
+                    500+ CA Title 19 question bank · 100-question timed mock
+                    exams
+                  </p>
+                </div>
+                <span className="text-[10px] font-mono uppercase tracking-widest text-zinc-500">
+                  Table 19-A fallout mapped
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
