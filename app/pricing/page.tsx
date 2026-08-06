@@ -129,8 +129,8 @@ export default function PricingPage() {
           {PLANS.map((plan) => (
             <article
               key={plan.id}
-              className={`relative overflow-hidden rounded-2xl border bg-zinc-900/60 p-8 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 ${
-                plan.highlighted ? "border-amber-500/30 ring-1 ring-amber-500/20" : "border-white/10"
+              className={`relative overflow-hidden rounded-2xl border bg-zinc-900/60 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-amber-500/40 hover:shadow-xl hover:shadow-amber-500/5 ${
+                plan.highlighted ? "border-amber-500/30 ring-1 ring-amber-500/20 pt-12 p-8" : "border-white/10 p-8"
               }`}
             >
               {plan.tag && (
